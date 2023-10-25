@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Voices of the War - Documentation</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Voices of War</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row g-5 py-5">
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                        <h4>Table of Contents</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="documentation.html#intro">Introduction
+                                    <ul>
+                                        <li><a href="documentation.html#overview">Overview</a></li>
+                                        <li><a href="documentation.html#historical-bg">Historical Background</a></li>
+                                        <li><a href="documentation.html#research-questions">Research Questions and
+                                                Goals</a></li>
+                                    </ul>
+                                </a></li>
+                            <li><a href="documentation.html#methodology">Methodology
+                                    <ul>
+                                        <li>Manuscripts Description and Transcription
+                                            <ol>
+                                                <li>Manuscripts</li>
+                                                <li>Transcription</li>
+                                                <ol>
+                                                    <li>Turkish Texts</li>
+                                                    <li>Russian Texts</li>
+                                                    <li>Italian Texts</li>
+                                                </ol>
+                                            </ol>
+                                        </li>
+                                        <li>TEI Encoding
+                                            <ol>
+                                                <li>TEI Header</li>
+                                                <li>Main Texts</li>
+                                                <li>Translations Encoding</li>
+                                            </ol>
+                                        </li>
+                                        <li>RDF Creation</li>
+                                    </ul>
+                                </a></li>
+                            <li><a href="#">Bibliography</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <article class="blog-post" id="intro">
+                    <h2 class="display-5 link-body-emphasis mb-1">Introduction</h2>
+                    <hr>
+                    <div id="overview">
+                        <h2>Overview</h2>
+                        <!-- <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p> -->
+
+                        <p>The beginning of World War I was marked by a complex web of treaties and alliances between
+                            the
+                            world's major powers. It started in 1914 with the assassination of Archduke Franz Ferdinand
+                            of
+                            Austria-Hungary, which led to a series of events that eventually led to the declaration of
+                            war.
+                            On July 28, 1914, Austria-Hungary declared war on Serbia, setting off a chain reaction of
+                            events
+                            that quickly escalated into a full-scale global conflict. The war was fought between the
+                            Central
+                            Powers (led by Germany, Austria-Hungary, and the Ottoman Empire) and the Allied Powers (led
+                            by
+                            France, the United Kingdom, and Russia).</p>
+                        <p>Our collection contains scans of five postcards, five letters, and the five pages of the
+                            diary.
+                            These documents were written in 1914-18 in Turkey, Italy, Austria, Ukraine, and Russia. With
+                            these letters, the user could see different periods of the war and different places. Letters
+                            in
+                            Italian are the most numerous in our collection thanks to the work of people who gathered
+                            documents from World War I in Europeana. From Turkey, we have 1 letter provided by the
+                            Uludağ
+                            University History Department and 1 another one from Çanakkale Kızılay Ağadere Museum.
+                            Speaking
+                            about the manuscripts in the Russian language, we collected three of them – two from
+                            Europeana
+                            Transcribathon platform, and another from Russian State Public Historical Library.</p>
+                        <p>
+                            We will attempt to analyse our letters with the approach defined as Distant Reading, with
+                            the aid of the Gis to find and contextualise all the letters in a predefined space, we will
+                            apply a sentiment analysis to find the emotions that make up our data and establish a
+                            conceptual model.
+                        </p>
+                    </div>
+                    <div id="historical-bg">
+                        <h2>Historical Background</h2>
+                        <p>As mentioned in the introduction, after the assassination of the Archduke Francis Ferdinand
+                            on July 28, 1914, Austria-Hungary declared war on Serbia, setting off a chain reaction of
+                            events that quickly escalated into a full-scale global conflict. The war was fought between
+                            the Central Powers (led by Germany, Austria-Hungary, and the Ottoman Empire) and the Allied
+                            Powers (led by France, the United Kingdom, and Russia). Turkey joined the war on the side of
+                            the Central Powers in 1914, for expansion, because it was under German influence, for
+                            religious ties since the Central Powers included several Muslim states and The Ottoman
+                            Empire saw itself as the protector of the Muslim world and also to counter Russia’s
+                            expansion. Russia joined the war in 1914 on the side of the Allies because of a strategic
+                            alliance since Germany declared war on France which obliged Russia to enter the conflict,
+                            for fear of the German expansion, to counter the danger brought by the Austro-Hungarian
+                            empire to the Slavic territories and for prestige and territorial expansion. Initially,
+                            Italy was part of the Triple Alliance with Germany and Austria-Hungary, but ultimately
+                            decided to remain neutral at the outbreak of war. In 1915, Italy switched sides and joined
+                            the Allied Powers after secret negotiations promised them territorial gains in exchange for
+                            their involvement in the war.</p>
+                        <p>
+                            After a brief summary of the beginning of the conflict we will speak in general on the
+                            context and the biography of each of our heroes, with the information we were able to gather
+                            from the letters, from the metadata we found in Europeana and from our personal research.
+                        </p>
+                        <p>Hasan Ethem Efendi and Mehmet Dursun were born in the Ottoman Empire whose decision to join
+                            the war was mainly influenced by the Empire’s declining power and status and with its desire
+                            to re-establish itself as a major power, in 1914 they signed a secret treaty with Germany
+                            which committed the Empire to join the war if Germany went to war with Russia. The conflict
+                            was a disaster for the Empire since its army was ill-equipped and ill-prepared for the new
+                            type of warfare that was being fought, at the end of the war its territories were reduced,
+                            its economy was in ruins and its government was in disarray; this excruciating defeat caused
+                            the downfall of the Empire and the rise of modern Turkey.
+                        </p>
+                        <p>
+                            The Ottoman empire was a Sunni state and it is very evident in the content of our letters,
+                            Hasan Ethem Efendi was a martyr teacher and his letter is filled with religious content,
+                            there is even a prayer inside his letter which shows the importance that religion played in
+                            the empire, as mentioned before the Empire saw itself as the guardians of Islamic faith and
+                            culture and used religion to justify their rule and to maintain social order. The empire was
+                            also a multi-ethnic and multi religious state and adopted a policy of religious tolerance in
+                            order to maintain social stability.
+                        </p>
+                        <p>
+                            We have a bit more information on Mehmet Dursun who was a Lieutenant at the battle of
+                            Çanakkale where he lost his arm due to an enemy artillery shell. The battle is one of the
+                            important victories for the Ottoman Empire as it shaped its future years awakening the basis
+                            for the Turkish War of independence and the declaration of the Republic of Turkey with
+                            Mustafa Kemal Atatürk a commander at Gallipoli and the future founder and president of the
+                            Republic.
+                        </p>
+                        <p>
+                            Janis Farts and Ivan Vasilievich Kucherenko were born in the Russian Empire that joined the
+                            war as part of the Allied Powers along with France, Britain and later the USA, the empire
+                            had many political and economic interests and also had the military capabilities to endure a
+                            conflict. The Russian empire was initially reluctant to join the war in 1914 as it was
+                            undergoing a period of political and economic turmoil as the country was devastated by high
+                            levels of poverty and inflation which only got worse with the beginning of the war, the
+                            government was seen as corrupt and inefficient, and the workers demanded more rights and
+                            representations. The morale of the people was really high at the beginning as we can see in
+                            the letter of Perekop Ivan Kucherenko a Senior non-commissioned Intelligence officer from
+                            Ukraine where the people were enthusiastic about the mobilisation to get the Germans out of
+                            their land; most of the people were peasants who were sold the lie of an easy victory. The
+                            Russian military faced many setbacks on the battlefield which spread much disillusionment
+                            with the leadership of the Army and the Government. Janis Farts was one of the soldiers from
+                            Latvia, a teacher before the war, who was wounded in Galicia and taken as a war prisoner by
+                            the Austro Hungarians in Austria and was able to return home after the end of the war.
+                        </p>
+                        <p>
+                            All of these factors contributed to the political turmoil in Russia setting the stage for
+                            the Russian Revolution of 1917 and bringing the end of the Tsardom and the beginning of the
+                            Soviet Union.
+                        </p>
+                        <p>
+                            Umberto Lombardo Radice and Michele Villa were born in the Kingdom of Italy, the Kingdom was
+                            part of the Triple Alliance with Germany and Austria Hungary but when the war broke out it
+                            decided to remain neutral as it was obliged to support its allies only for defensive
+                            reasons. The Kingdom, though, was interested in gaining the territories that were considered
+                            rightfully Italian: The South Tyrol and Trieste which were under Austrian Rule. It also saw
+                            the war as an opportunity to improve its military capabilities and to gain prestige on the
+                            world stage. In 1915 Italy signed the Treaty of London switching sides in exchange for
+                            territorial concessions of the aforementioned regions. After a brief spike in morale the war
+                            slightly shifted towards the Austrian side as the Italian military was plagued by poor
+                            logistics and poorly equipped troops. This affected the whole country which underwent a
+                            great recession. One of the main reasons for the initial defeats on the Austrian Front was
+                            due to Poor leadership as many officers were not prepared to lead and direct the troops, in
+                            the High command there was the idea that to have a successful attack you just needed to send
+                            more men until the point was captured. Michele Villa was one of the soldiers sent to the
+                            Trentino front talks in his letter about how this whole conflict seemed unjust and it sent
+                            for no reason men to die, on the Mountains of Trentino is where he will be sent to death.
+                            Umberto Lombardo Radice who joined the war at its declaration and fought at the Carsic
+                            Border, shows another side of the war, the officer side where the whole conflict seemed like
+                            a grand adventure. In the end all of these factors and the inefficiencies of the Italian
+                            Military made it difficult for Italy to play a decisive role in the conflict, this changed
+                            with a change in the High Ranks of the Italian Army which brought the Victory on the Isonzo
+                            Front and the defeat of the Austro-Hungarian Empire.
+                        </p>
+                    </div>
+                    <div id="research-questions">
+                        <h2>Research Question and Goals</h2>
+                        <p><strong>Questions:</strong></p>
+                        <ul>
+                            <li>How did the war impact the lives of individuals, as reflected in their letters and
+                                personal experiences?</li>
+                            <li> What narratives were used in different countries that participated in the war to
+                                describe the conflict?</li>
+                            <li>What sentiments were presented in the documents? How were these sentiments spread among
+                                the participants?</li>
+                            <li>How did the topic of the war develop over time?</li>
+                        </ul>
+                        <p><strong>Goals:</strong></p>
+                        <ul>
+                            <li>Digitize and present the manuscripts on a website to preserve and make them accessible
+                                to a wider audience.</li>
+                            <li>
+                                Develop a conceptual model that integrates information from the texts, metadata, and
+                                personal research to gain a comprehensive understanding of the authors of the
+                                manuscripts and the historical context in which they wrote.
+                            </li>
+                            <li>Utilise digital tools and techniques, such as distant reading, geographic information
+                                systems (GIS) for spatial humanities, sentiment analysis, and topic modelling, to
+                                analyse the letters and gain insights into the emotions, themes, and topics expressed by
+                                the authors.</li>
+                            <li> Provide a representation and interpretation of the results obtained from the digital
+                                exploration, shedding light on the individual experiences during the war and their
+                                connections to broader historical events.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="blog-post py-5" id="methodology">
+                    <h2 class="display-5 link-body-emphasis mb-1">Methodology</h2>
+                    <hr>
+                    <div id="manuscripts">
+                        <h2>Manuscripts Description and Transcription</h2>
+                        <p>First step to digitise our texts was their transcription. It helped us in creating searchable
+                            text databases and facilitated the extraction of metadata, which is essential for organising
+                            digital scholarly editions. Also, it aims one of the main goals of the digital scholarly
+                            editing – exchanging data about cultural heritage. We have transcribed and translated all of
+                            the letters into Italian, Russian, and Turkish, so that they are accessible to a wider
+                            audience than original texts.</p>
+                        <p>The transcription process involved careful consideration of the historical context and the
+                            language conventions of the time. Our aim was to maintain the integrity and authenticity of
+                            the original text while ensuring its readability for contemporary readers. We desired to
+                            preserve the unique linguistic features, dialects, and stylistic elements present in the
+                            original text, because these elements provide crucial insights into the historical period
+                            and the cultural context of the document.
+                        </p>
+                        <p>We focused primarily on accurately representing the text's words, sentences, and overall
+                            structure to provide a clear and accessible rendition of the content. Also, we used original
+                            punctuation and formatting to preserve emotional context. </p>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <h2>Blockquotes</h2>
+                    <p>This is an example blockquote in action:</p>
+                    <blockquote class="blockquote">
+                        <p>Quoted text goes here.</p>
+                    </blockquote>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3>Example lists</h3>
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
+                        other highly
+                        repetitive body text used throughout. This is an example unordered list:</p>
+                    <ul>
+                        <li>First list item</li>
+                        <li>Second list item with a longer description</li>
+                        <li>Third list item to close it out</li>
+                    </ul>
+                    <p>And this is an ordered list:</p>
+                    <ol>
+                        <li>First list item</li>
+                        <li>Second list item with a longer description</li>
+                        <li>Third list item to close it out</li>
+                    </ol>
+                    <p>And this is a definition list:</p>
+                    <dl>
+                        <dt>HyperText Markup Language (HTML)</dt>
+                        <dd>The language used to describe and define the content of a Web page</dd>
+                        <dt>Cascading Style Sheets (CSS)</dt>
+                        <dd>Used to describe the appearance of Web content</dd>
+                        <dt>JavaScript (JS)</dt>
+                        <dd>The programming language used to build advanced Web sites and applications</dd>
+                    </dl>
+                    <h2>Inline HTML elements</h2>
+                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer
+                            Network</a>.
+                    </p>
+                    <ul>
+                        <li><strong>To bold text</strong>, use <code
+                                class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+                        <li><em>To italicize text</em>, use <code
+                                class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.
+                        </li>
+                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code
+                                class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
+                                class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.
+                        </li>
+                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code
+                                class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+                        <li><del>Deleted</del> text should use <code
+                                class="language-plaintext highlighter-rouge">&lt;del&gt;</code>
+                            and <ins>inserted</ins> text should use <code
+                                class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+                        <li>Superscript <sup>text</sup> uses <code
+                                class="language-plaintext highlighter-rouge">&lt;sup&gt;</code>
+                            and subscript <sub>text</sub> uses <code
+                                class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
+                        </li>
+                    </ul>
+                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+                    <h2>Heading</h2>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3>Sub-heading</h3>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <pre><code>Example code block</code></pre>
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
+                        other highly
+                        repetitive body text used throughout.</p>
+                    <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
+                    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <blockquote>
+                        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.
+                        </p>
+                    </blockquote>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3>Example table</h3>
+                    <p>And don't forget about tables in these posts:</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Upvotes</th>
+                                <th>Downvotes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Alice</td>
+                                <td>10</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Bob</td>
+                                <td>4</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Charlie</td>
+                                <td>7</td>
+                                <td>9</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Totals</td>
+                                <td>21</td>
+                                <td>23</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
+                        other highly
+                        repetitive body text used throughout.</p>
+                </article>
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+                    <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
+                        space and
+                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
+                        the
+                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <ul>
+                        <li>First list item</li>
+                        <li>Second list item with a longer description</li>
+                        <li>Third list item to close it out</li>
+                    </ul>
+                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
+                        other highly
+                        repetitive body text used throughout.</p>
+                </article>
+
+                <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+                    <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
+                </nav>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+                href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p class="mb-0">
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

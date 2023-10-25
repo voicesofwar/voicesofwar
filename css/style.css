@@ -127,14 +127,15 @@
 	}
 
 		header.special:before, header.special:after {
-/*			border-bottom: solid 1.5px;
+			border-bottom: solid 1.5px;
 			border-top: solid 1.5px;
-*/			content: '';
+			content: '';
 			height: 7px;
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
 			width: 43%;
+			
 		}
 
 		header.special:before {
@@ -147,27 +148,19 @@
 
 		header.special h2 {
 			margin-bottom: 0;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-weight: 900;
+
 		}
 
-		header.special h2 + p {
+		header.special p {
 			margin-bottom: 0;
+			margin-left: 3rem;
+			margin-right: 3rem;
 			padding-top: 1.5em;
-		}
-
-		header.special .icon {
-			cursor: default;
-			height: 7em;
-			left: 0;
-			position: absolute;
 			text-align: center;
-			top: 1em;
-			width: 100%;
+			
 		}
-
-			header.special .icon:before {
-				font-size: 3.5em;
-				opacity: 0.35;
-			}
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -844,24 +837,22 @@
 
 				#banner .inner header h2 {
 					font-family: 'Yanone Kaffeesatz', sans-serif;
-					/*font-family: 'Exo 2', sans-serif;*/
-					/*border-bottom: solid 2px;*/
-					/*border-top: solid 2px;*/
-					font-size: 3.5em;
+					font-size: 5em;
 					font-weight: 700;
 					letter-spacing: 0.05em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: none;
+					background-color: #9b9c9c70;
 				}
 
 			#banner .inner p {
+				background-color: #9b9c9c70;
 				font-family: 'Source Sans Pro', sans-serif;
-				font-weight: 900;
-				font-size: 1.2em;
+				font-weight: 500;
+				font-size: 1.4em;
 				color: #eee;
-				letter-spacing: 0.05em;
 				line-height: 1.7em;
 				margin: 0;
 				/*text-transform: uppercase;*/
