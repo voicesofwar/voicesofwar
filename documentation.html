@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
     <style>
+        .iframe-with-border {
+            border: 1px solid #000;
+        }
+
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -158,8 +162,10 @@
                                         </ol>
                                     </li>
                                     <li><a href="documentation.html#rdf">RDF Creation</a></li>
+                                    <li><a href="documentation.html#sde-criteria">Sde Criteria</a></li>
                                 </ul>
                             </li>
+                            <li><a href="documentation.html#further-devs">Further Developments</a></li>
                             <li><a href="documentation.html#bibliography">Bibliography</a></li>
                         </ol>
                     </div>
@@ -696,6 +702,9 @@
                             that facsimile representation was not included, as no facsimile of the translations existed,
                             because the translations were rendered by ourselves. Also, within the tags, we specified the
                             language of the translation alongside other relevant metadata.</p>
+                        <iframe class="iframe-with-border " style="width:100%;height:600px;"
+                            src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=conceptual%20model%20for%20letters.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uz0HDAh8baW_u1I-LSLUCxk5Ts6UhP8T%26export%3Ddownload"></iframe>
+                        <p style="text-align: center; font-size:small"> The Conceptual Model</p>
                     </div>
                     <div id="rdf">
                         <br>
@@ -755,179 +764,67 @@
                             with other such materials, create rich and interconnected datasets, and foster the creation
                             of comprehensive and interdisciplinary research environments (history and philology for us).
                         </p>
-                        <iframe frameborder="3px" style="width:100%;height:600px;"
-                            src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=conceptual%20model%20for%20letters.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uz0HDAh8baW_u1I-LSLUCxk5Ts6UhP8T%26export%3Ddownload"></iframe>
-                    </div>
+                        <!-- <img src="img/rdf-grapher.png" alt=""> -->
 
+                    </div>
+                    <div id="sde-criteria">
+                        <br>
+                        <h2>SDE Criteria</h2>
+                        <p>Each criterion of the Criteria for Reviewing Scholarly Digital Editions of Patrick Sahle, has
+                            been respected.
+                        </p>
+                        <p>For the first criterion the bibliography, the title, the editors and the subject of the
+                            edition have been provided as well as the contact personal information of the project
+                            members.</p>
+                        <p>For the second criterion the texts are presented in a clear and completed format with the
+                            addition of images to show the facsimile of the transcribed documents to provide a further
+                            sense of completion to our work, allowing the user to view the document in its original
+                            format. With future development the project can help in real time users that want to study
+                            the conflict with a new way to look at correspondence in real time by using the map.</p>
+                        <p>For the third criterion: the tei model has been used, the documentation has been provided
+                            allowing even the user who has no knowledge on the subject to fully comprehend the whole
+                            work of the project, the target audience is both the general public and the specialised one.
+                        </p>
+                        <p>For the fourth criterion: the interface is easy to use and interpret providing the user with
+                            the ability to browse through the letters and to view the facsimile of the document and also
+                            to download the xml version of the text; many different perspectives are presented to allow
+                            the user to see the different conditions of the common men during this conflict. </p>
+                    </div>
                 </article>
-                <article id="bibliography">
+                <article id="further-devs">
+                    <h2 class="display-5 link-body-emphasis mb-1">Further Developments</h2>
+                    <hr>
+                    <p>Our project can be easily expanded in the future by adding new letters or documents to our roster
+                        of documents. The addition of a spatial analysis can enrich our map and add a new way to study
+                        the conflict by seeing in real time the position of the people and the places mentioned inside
+                        of our documents.</p>
+                </article>
+                <article id="bibliography" class="py-5">
                     <h2 class="display-5 link-body-emphasis mb-1">Bibliography</h2>
                     <hr>
-                </article>
-                <!-- 
-                <article class="blog-post">
-                    <h2>Blockquotes</h2>
-                    <p>This is an example blockquote in action:</p>
-                    <blockquote class="blockquote">
-                        <p>Quoted text goes here.</p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <h3>Example lists</h3>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly
-                        repetitive body text used throughout. This is an example unordered list:</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>And this is an ordered list:</p>
                     <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
+                        <li>Documentation of the Extensible Markup Language (XML) 1.0 (Fifth Edition)
+                            https://www.w3.org/TR/xml/</li>
+                        <li>The Text Encoding Initiative (TEI) https://tei-c.org/</li>
+                        <li>Practical training course of the Taylor Institution Library in creating Digital Editions
+                            https://editions.mml.ox.ac.uk/training/
+                        </li>
+                        <li>The RELAX NG specifications https://relaxng.org/
+                        </li>
+                        <li>Resource Description Framework https://www.w3.org/RDF/
+                        </li>
+                        <li>Daquino M., Giovanetti F., Tomasi F. (2019) Linked Data per le edizioni scientifiche
+                            digitali. l workflow di pubblicazione dell’edizione semantica del quaderno di appunti di
+                            Paolo Bufalini. Umanistica Digitale, 3(7). https://doi.org/10.6092/issn.2532-8816/9091
+                        </li>
+                        <li>Flanders, J., Jannidis, F. (2019). The Shape of Data in the Digital Humanities. Modeling
+                            Texts and Text-based Resources. Oxon:Routledge.</li>
+                        <li>FaBiO, the FRBR-aligned Bibliographic Ontology
+                            https://sparontologies.github.io/fabio/current/fabio.html
+                        </li>
+                        <li>CIDOC Conceptual Reference Model (CRM) https://www.cidoc-crm.org/</li>
                     </ol>
-                    <p>And this is a definition list:</p>
-                    <dl>
-                        <dt>HyperText Markup Language (HTML)</dt>
-                        <dd>The language used to describe and define the content of a Web page</dd>
-                        <dt>Cascading Style Sheets (CSS)</dt>
-                        <dd>Used to describe the appearance of Web content</dd>
-                        <dt>JavaScript (JS)</dt>
-                        <dd>The programming language used to build advanced Web sites and applications</dd>
-                    </dl>
-                    <h2>Inline HTML elements</h2>
-                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer
-                            Network</a>.
-                    </p>
-                    <ul>
-                        <li><strong>To bold text</strong>, use <code
-                                class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-                        <li><em>To italicize text</em>, use <code
-                                class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.
-                        </li>
-                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code
-                                class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
-                                class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.
-                        </li>
-                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code
-                                class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-                        <li><del>Deleted</del> text should use <code
-                                class="language-plaintext highlighter-rouge">&lt;del&gt;</code>
-                            and <ins>inserted</ins> text should use <code
-                                class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-                        <li>Superscript <sup>text</sup> uses <code
-                                class="language-plaintext highlighter-rouge">&lt;sup&gt;</code>
-                            and subscript <sub>text</sub> uses <code
-                                class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
-                        </li>
-                    </ul>
-                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-                    <h2>Heading</h2>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <h3>Sub-heading</h3>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <pre><code>Example code block</code></pre>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly
-                        repetitive body text used throughout.</p>
-                    <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
-                    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <blockquote>
-                        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.
-                        </p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <h3>Example table</h3>
-                    <p>And don't forget about tables in these posts:</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Upvotes</th>
-                                <th>Downvotes</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Alice</td>
-                                <td>10</td>
-                                <td>11</td>
-                            </tr>
-                            <tr>
-                                <td>Bob</td>
-                                <td>4</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>Charlie</td>
-                                <td>7</td>
-                                <td>9</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Totals</td>
-                                <td>21</td>
-                                <td>23</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly
-                        repetitive body text used throughout.</p>
                 </article>
-
-                <article class="blog-post">
-                    <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
-                    <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and
-                        show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep
-                        the
-                        demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly
-                        repetitive body text used throughout.</p>
-                </article>
-
-                <nav class="blog-pagination" aria-label="Pagination">
-                    <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-                    <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
-                </nav>
-            </div>
-        </div> -->
-
     </main>
 
     <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
