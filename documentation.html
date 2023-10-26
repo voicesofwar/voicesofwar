@@ -354,7 +354,8 @@
                         <p>First step to digitise our texts was their transcription. It helped us in creating searchable
                             text databases and facilitated the extraction of metadata, which is essential for organising
                             digital scholarly editions. Also, it aims one of the main goals of the digital scholarly
-                            editing – exchanging data about cultural heritage. We have transcribed and translated all of
+                            editing – exchanging data about cultural heritage[1]. We have transcribed and translated all
+                            of
                             the letters into Italian, Russian, and Turkish, so that they are accessible to a wider
                             audience than original texts.</p>
                         <p>The transcription process involved careful consideration of the historical context and the
@@ -493,9 +494,9 @@
                             <strong>&lt;profileDesc&gt;</strong> and <strong>&lt;xenoData&gt;</strong>. We
                             encoded not only the content but also the layout of the letters to provide the
                             metadata about them, like it always advice colleagues from the digital scholarly
-                            editing. Also, we selected some particular features connected with the domain of
+                            editing[2]. Also, we selected some particular features connected with the domain of
                             our research – comparing the phenomenon of the First World War expressed in
-                            letters.
+                            letters[3].
                         </p>
                         <p>Below we describe the importance of each module of the header.</p>
                         <p><a
@@ -714,7 +715,8 @@
                         <br>
                         <p>Encoded texts we saved in xml format, and the next step was the making of the RDF. Our goal
                             was to represent concepts and relations expressed in the letters in the machine-readable
-                            format with formalised vocabulary of the used ontologies. For this we collected all entities
+                            format with formalised vocabulary of the used ontologies[4]. For this we collected all
+                            entities
                             we marked in the encoding and described them in triples as subject – predicate – object. For
                             describing connections we also used our data model. </p>
                         <br>
@@ -728,7 +730,7 @@
                             and machines because it is human-readable.</p>
                         <p>We provide some examples of used ontologies, they are mostly domain ontologies like <a
                                 href="https://www.cidoc-crm.org/">CIDOC-CRM</a>
-                            or <a href="https://sparontologies.github.io/fabio/current/fabio.html">FaBiO</a>. You
+                            or <a href="https://sparontologies.github.io/fabio/current/fabio.html">FaBiO</a>[5]. You
                             can see the others in our RDF file.</p>
                         <ul>
                             <li><strong><a href="http://purl.org/spar/fabio/">@prefix fabio:</a></strong>
@@ -771,7 +773,15 @@
                             with other such materials, create rich and interconnected datasets, and foster the creation
                             of comprehensive and interdisciplinary research environments (history and philology for us).
                         </p>
+                        <!-- <script style="width:500px; overflow:auto"
+                            src="https://gist.github.com/ranacoskun/3b82a847c4660133932020eead5d4001.js"></script> -->
                         <!-- <img src="img/rdf-grapher.png" alt=""> -->
+                        <button type="button" class="btn btn-primary rounded-pill"><a style="color:white;"
+                                href="rdf/rdf.ttl.txt" download="rdf-ttl">Download RDF File</a>
+                            <img src="img/download.svg" style="width: 18px;"></button>
+                        <button type="button" class="btn btn-primary rounded-pill"><a style="color:white;"
+                                href="rdf/rdf-grapher.png" download="rdf-graph">Download RDF Visualization</a>
+                            <img src="img/download.svg" style="width: 18px;"></button>
 
                     </div>
                     <div id="sde-criteria">
@@ -830,6 +840,28 @@
                             https://sparontologies.github.io/fabio/current/fabio.html
                         </li>
                         <li>CIDOC Conceptual Reference Model (CRM) https://www.cidoc-crm.org/</li>
+                    </ol>
+                </article>
+                <article id="reference-list">
+                    <h2 class="display-5 link-body-emphasis mb-1">Reference List</h2>
+                    <hr>
+                    <ol>
+                        <li>Daquino M., Giovanetti F., Tomasi F. (2019) Linked Data per le edizioni scientifiche
+                            digitali. l workflow di pubblicazione dell’edizione semantica del quaderno di appunti di
+                            Paolo Bufalini. Umanistica Digitale, 3(7). https://doi.org/10.6092/issn.2532-8816/9091
+                        </li>
+                        <li>Burnard L. How modeling standards evolve. The case of TEI. Flanders, J., Jannidis, F.
+                            (2019). The Shape of Data in the Digital Humanities. Modeling Texts and Text-based
+                            Resources. Oxon:Routledge.</li>
+                        <li>Pierazzo E., How subjective is yur model? Flanders, J., Jannidis, F. (2019). The Shape of
+                            Data in the Digital Humanities. Modeling Texts and Text-based Resources. Oxon:Routledge.
+                        </li>
+                        <li>Daquino M., Giovanetti F., Tomasi F. (2019) Linked Data per le edizioni scientifiche
+                            digitali. l workflow di pubblicazione dell’edizione semantica del quaderno di appunti di
+                            Paolo Bufalini. Umanistica Digitale, 3(7). https://doi.org/10.6092/issn.2532-8816/9091</li>
+                        <li>Eide Ö., Smith Ore C., Ontologies and data modelling, Flanders, J., Jannidis, F. (2019). The
+                            Shape of Data in the Digital Humanities. Modelling Texts and Text-based Resources.
+                            Oxon:Routledge.</li>
                     </ol>
                 </article>
     </main>
