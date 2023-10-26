@@ -1,0 +1,439 @@
+@base <https://w3id.org/voicesofwar/> .
+
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix fabio: <http://purl.org/spar/fabio/> . 
+@prefix schema: <http://schema.org/> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix gn: <http://www.geonames.org/ontology/documentation.html> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> . 
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ntag: <http://ns.inria.fr/nicetag/2010/09/09/voc> . 
+@prefix ddesc: <https://w3id.org/arco/ontology/denotative-description> . 
+@prefix pext: <http://www.ontotext.com/proton/protonext> .
+@prefix cdesc: <https://w3id.org/arco/ontology/context-description> . 
+@prefix gvp: <http://vocab.getty.edu/ontology> . 
+@prefix place: <http://purl.org/ontology/places> . 
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore> . 
+@prefix being: <http://contextus.net/ontology/ontomedia/ext/common/being#> . 
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc> . 
+@prefix wlo: <http://purl.org/ontology/wo/> . 
+@prefix rdag2: <http://rdvocab.info/ElementsGr2> . 
+@prefix juso: <http://rdfs.co/juso/> . 
+
+
+
+# ============== ITEMS ==================,
+
+# === The Collection of Letters ===
+
+<Collection/VoicesofWar> a bibo:Collection ;
+    crm:P148_has_component <Letter/LettersUmbertoLombardoRadice1> ;
+    crm:P148_has_component <Letter/LettersUmbertoLombardoRadice2> ;
+    crm:P148_has_component <Letter/LettersUmbertoLombardoRadice3> ;
+    crm:P148_has_component <Letter/LettersMicheleVilla1> ;
+    crm:P148_has_component <Letter/LettersMicheleVilla2> ;
+    crm:P148_has_component <Letter/LettersMicheleVilla3> ;
+    crm:P148_has_component <Letter/LettersHasanEthem> ;
+    crm:P148_has_component <Letter/LettersMehmetDursun> ;
+    crm:P148_has_component <Letter/LettersJānisFārts1> ;
+    crm:P148_has_component <Letter/LettersJānisFārts2> ;
+    crm:P148_has_component <Letter/LettersIvanVasilievichKucherenko>.
+
+# === "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 1" - Letter 1 ===
+
+<Letter/LettersUmbertoLombardoRadice1> a fabio:Letter ;
+    dcterms:title "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 1"^^xsd:string ;
+    dcterms:creator <Person/UmbertoLombardoRadice> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "29.06.1915"^^xsd:date ;
+    ntag:sentTo <Person/GiuseppeLombardoRadice> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Carso> ;
+    schema:mentions <Place/MonteNero> ;
+    schema:mentions <Place/Trieste> ;
+    schema:mentions <Place/Gorizia> .
+
+<Place/Carso> rdf:type schema:Mountain ;
+    owl:sameAs wiki:Q31625006 . 
+
+<Place/MonteNero> rdf:type schema:Mountain ;
+    owl:sameAs wiki:Q3861782 . 
+
+<Place/Trieste> rdf:type place:City ;
+    owl:sameAs wiki:Q546 . 
+
+<Place/Gorizia> rdf:type place:City ;
+    owl:sameAs wiki:Q6596 . 
+
+<Person/UmbertoLombardoRadice> a foaf:Person ;
+    pext:hasBrother <Person/GiuseppeLombardoRadice> ;
+    pext:hasMother <Person/Mother_Umberto> ;
+    pext:hasSister <Person/Lucia> ;
+    schema:mentions <Person/Nino> ;
+    schema:mentions <Person/Gemma> ;
+    schema:mentions <Person/Paoluio> ;
+
+<Person/GiuseppeLombardoRadice> a foaf:Person . 
+<Person/Mother_Umberto> a foaf:Person . 
+<Person/Lucia> a foaf:Person . 
+<Person/Nino> a foaf:Person . 
+<Person/Gemma> a foaf:Person . 
+<Person/Paoluio> a foaf:Person .
+
+# === "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 2" - Letter 2 ===
+
+<Letter/LettersUmbertoLombardoRadice2> a fabio:Letter ;
+    dcterms:title "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 2"^^xsd:string ;
+    dcterms:creator <Person/UmbertoLombardoRadice> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "1.10.1916"^^xsd:date ;
+    ntag:sentTo <Person/GiuseppeLombardoRadice> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Catania> ;
+    schema:mentions <Place/Messina> ;
+    schema:mentions <Place/Eritrea> ;
+    schema:mentions <Place/Somalia> ;
+    schema:mentions <Place/MontegalloBattery> .
+
+<Place/Catania> rdf:type schema:Place ;
+    owl:sameAs wiki:Q1903 . 
+
+<Place/Messina> rdf:type schema:Place ;
+    owl:sameAs wiki:Q13666 . 
+
+<Place/Eritrea> rdf:type dbpedia-owl:Country ;
+    owl:sameAs wiki:Q986 . 
+
+<Place/Somalia> rdf:type dbpedia-owl:Country ;
+    owl:sameAs wiki:Q1045 . 
+
+<Place/MontegalloBattery> gn:locatedIn <Place/Messina> . 
+
+# === "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 3" - Letter 3 ===
+
+<Letter/LettersUmbertoLombardoRadice3> a fabio:Letter ;
+    dcterms:title "Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice - 3"^^xsd:string ;
+    dcterms:creator <Person/UmbertoLombardoRadice> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "13.06.1916"^^xsd:date ;
+    ntag:sentTo <Person/GiuseppeLombardoRadice> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Italy> .
+
+<Place/Italy> rdf:type dbpedia-owl:Country ;
+    owl:sameAs wiki:Q38 . 
+
+
+# === "Letters of Michele Villa sent to the Trentino Front - 1" - Letter 4 ===
+
+<Letter/LettersMicheleVilla1> a fabio:Letter ;
+    dcterms:title "Letters of Michele Villa sent to the Trentino Front - 1"^^xsd:string ;
+    dcterms:creator <Person/MicheleVilla> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "1.06.1916"^^xsd:date ;
+    ntag:sentTo <Person/CelesteBoscelli> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Padova> ;
+    schema:mentions <Place/Cittadella> .
+
+<Place/Padova> rdf:type schema:Place ;
+    owl:sameAs wiki:Q617 .
+
+<Place/Cittadella> gn:locatedIn <Place/Padova> ;
+    owl:sameAs wiki:Q6671 . 
+
+<Person/MicheleVilla> a foaf:Person ;
+    pext:hasMother <Person/Mother_MicheleVilla> ;
+    pext:hasSister <Person/CelesteBoscelli> ;
+    pext:hasSister <Person/DelfinaBorgarello> ;
+    schema:mentions <Person/LuigiBosetta> ;
+    schema:mentions <Person/Angelo> .
+
+<Person/Mother_MicheleVilla> a foaf:Person .
+<Person/CelesteBoscelli> a foaf:Person .
+<Person/DelfinaBorgarello> a foaf:Person .
+<Person/LuigiBosetta> a foaf:Person .
+<Person/Angelo> a foaf:Person .
+
+# === "Letters of Michele Villa sent to the Trentino Front - 2" - Letter 5 ===
+
+<Letter/LettersMicheleVilla2> a fabio:Letter ;
+    dcterms:title "Letters of Michele Villa sent to the Trentino Front - 2"^^xsd:string ;
+    dcterms:creator <Person/MicheleVilla> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "10.12.1915"^^xsd:date ;
+    ntag:sentTo <Person/DelfinaBorgarello> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Parma> ;
+    schema:mentions <Place/TorredelMarghero> .
+
+<Place/Parma> rdf:type schema:Place ;
+    owl:sameAs wiki:Q2683 .
+    
+<Place/TorredelMarghero> gn:locatedIn <Place/Parma> . 
+
+# === "Letters of Michele Villa sent to the Trentino Front - 3" - Letter 6 ===
+
+<Letter/LettersMicheleVilla3> a fabio:Letter ;
+    dcterms:title "Letters of Michele Villa sent to the Trentino Front - 3"^^xsd:string ;
+    dcterms:creator <Person/MicheleVilla> ;
+    dcterms:language <Language/Italian> ;
+    dcterms:created "9.06.1915"^^xsd:date ;
+    ntag:sentTo <Person/CelesteBoscelli> ;
+    ddesc:hasWritingSystem <Alphabet/Latin> ;
+    schema:mentions <Place/Trentino> . 
+
+<Place/Trentino> rdf:type schema:Place ;
+    owl:sameAs wiki:Q16289 ;
+    gn:locatedIn <Place/Italy> . 
+
+# === "Letters of the Martyr Teacher Hasan Ethem Efendi" - Letter 7 ===
+
+<Letter/LettersHasanEthem> a fabio:Letter ;
+    dcterms:language <Language/Turkish> ;
+    ddesc:hasWritingSystem <Alphabet/Arabic> ;
+    dcterms:title "Letters of the Martyr Teacher Hasan Ethem Efendi"^^xsd:string ;
+    dcterms:created "17/04/1915"^^xsd:date ;
+    dcterms:creator <Person/HasanEthemEfendi> ;
+    ntag:sentTo <Person/Mother_HasanEthem> ;
+    cdesc:isArchivedIn <Institution/UludagUniversity> ;
+    gvp:aat2409_takes_place_in <Place/DivrinMeadow>.
+
+<Language/Turkish> a schema:Language ;
+    owl:sameAs wiki:Q256 ;
+    skos:broader wiki:Q315 .
+
+<Alphabet/Arabic> a ddesc:WritingSystem ;
+    owl:sameAs wiki:Q8196 ;
+    skos:broader wiki:Q9779 . 
+
+<Person/Mother_HasanEthem> a foaf:Person ;
+    skos:broader wiki:Q7560 . 
+    
+<Person/HasanEthemEfendi> a prov:Creator ;
+    schema:mentions <Person/Kadir> ;
+    pext:hasBrother <Person/Şevket> ;
+    pext:hasBrother <Person/Hilmi> ;
+    pext:hasBrother <Person/Halit> ;
+    pext:hasMother  <Person/Mother_HasanEthem> .
+
+<Institution/UludagUniversity> a dbpedia-owl:Archive ;
+    gn:locatedIn <Place/Bursa> ;
+    owl:sameAs wiki:Q3247377 . 
+
+<Place/DivrinMeadow> a pext:Meadow ;
+    gn:locatedIn <Place/Niğde>.
+
+<Place/Niğde> a place:City ;
+    gn:locatedIn <Place/Turkey> ;
+    owl:sameAs wiki:Q3247377 . 
+
+<Place/Bursa> a place:City ;
+    gn:locatedIn <Place/Turkey> ;
+    owl:sameAs wiki:Q40738 . 
+
+<Place/Turkey> a dbpedia-owl:Country ;
+    owl:sameAs wiki:Q43 . 
+
+<Person/Kadir> a foaf:Person . 
+<Person/Şevket> a foaf:Person . 
+<Person/Hilmi> a foaf:Person . 
+<Person/Halit> a foaf:Person . 
+
+
+# === "Memoir Letters of Mehmet Dursun on the Battle of Canakkale" - Letter 8 ===
+
+<Letter/LettersMehmetDursun> a fabio:Letter ;
+    dcterms:language <Language/Turkish> ;
+    ddesc:hasWritingSystem <Alphabet/Arabic> ;
+    dcterms:creator <Person/MehmetDursun> ;
+    dcterms:title "Memoir Letters of Mehmet Dursun on the Battle of Canakkale"^^xsd:string ;
+    dcterms:created "1915"^^xsd:date ; 
+    dbpedia-owl:genre <Genre/Memoir>. 
+
+
+<Person/MehmetDursun> a foaf:Person ;
+    schema:mentions <Place/AkbaşHarbor> ;
+    schema:mentions <Place/ÇertikHill> ;
+    schema:mentions <Place/Maydos> ;
+    schema:mentions <Place/KilitbaharHospital> ;
+    schema:mentions <Place/Soğanlıdere> ;
+    schema:mentions <Place/VitaliPavilionOfficerRehabilitationCenter> ;
+    schema:mentions <Place/Üsküdar> ;
+    schema:mentions <Place/ZeynepKamilHospital> ;
+    schema:mentions <Place/Moda> ;
+    schema:mentions <Place/İstanbul> ;
+    pext:hasCommander <Person/ColonelŞükrüBey> ,
+                      <Person/İsmailHakkıBey> .
+
+<Place/Çanakkale> a place:City ;
+    owl:sameAs wiki:Q199712 ;
+    gn:locatedIn <Place/Turkey> .
+                  
+<Place/AkbaşHarbor> a pext:Harbor ;
+    owl:sameAs wiki:Q49372102 ;
+    gn:locatedIn <Place/Çanakkale> .
+
+<Place/ÇertikHill> a place:Hill ;
+    gn:locatedIn <Place/Çanakkale> .
+
+<Place/Maydos> a schema:Place ;
+    owl:sameAs wiki:Q1023153 ;
+    gn:locatedIn <Place/Çanakkale> .
+
+<Place/KilitbaharHospital> a dbpedia-owl:Hospital ;
+    gn:locatedIn <Place/Çanakkale> .
+   
+<Place/Soğanlıdere> a schema:Place ;
+    gn:locatedIn <Place/Çanakkale> .
+
+<Place/İstanbul> a place:City ;
+    owl:sameAs wiki:Q406 ;
+    gn:locatedIn <Place/Turkey> .
+
+<Place/VitaliPavilionOfficerRehabilitationCenter> a dbpedia-owl:Hospital ;
+    gn:locatedIn <Place/İstanbul> . 
+
+<Place/Üsküdar> a place:District ;
+    owl:sameAs wiki:Q326339 ;
+    gn:locatedIn <Place/İstanbul> .
+
+<Place/ZeynepKamilHospital> a dbpedia-owl:Hospital ;
+    owl:sameAs wiki:Q30281282 ;
+    gn:locatedIn <Place/İstanbul> . 
+
+<Place/Moda> a geosp:County ;
+    owl:sameAs wiki:Q2700998 ;
+    gn:locatedIn <Place/İstanbul> .
+
+<Genre/Memoir> a ebucore:Medium ;
+    owl:sameAs wiki:Q112983 . 
+
+<Person/ColonelŞükrüBey> a foaf:Person . 
+<Person/İsmailHakkıBey> a foaf:Person . 
+
+
+# === "Letters of Jānis Fārts a teacher sent to the Galician front - 1" - Letter 9 ===
+
+<Letter/LettersJānisFārts1> a fabio:Letter ;
+    dcterms:language <Language/Russian> ;
+    ddesc:hasWritingSystem <Alphabet/Cyrillic> ;
+    dcterms:title "Letters of Jānis Fārts a teacher sent to the Galician front - 1"^^xsd:string ;
+    dcterms:created "08/07/1915"^^xsd:date ; 
+    dcterms:creator <Person/JānisFārts> ;
+    ntag:sentTo <Person/Mother_JānisFārts> ; 
+    cdesc:isArchivedIn <Institution/Europeana>.
+
+<Language/Russian> a schema:Language ;
+    owl:sameAs wiki:Q7737 .
+
+<Alphabet/Cyrillic> a ddesc:WritingSystem ;
+    owl:sameAs wiki:Q8209 .
+
+<Person/JānisFārts> a foaf:Person . 
+
+<Institution/Europeana> a dbpedia-owl:Archive ;
+    owl:sameAs wiki:Q234110 . 
+
+# === "Letters of Jānis Fārts a teacher sent to the Galician front - 2" - Letter 10 ===
+
+<Letter/LettersJānisFārts2> a fabio:Letter ;
+    dcterms:language <Language/Russian> ;
+    ddesc:hasWritingSystem <Alphabet/Cyrillic> ;
+    dcterms:title "Letters of Jānis Fārts a teacher sent to the Galician front - 2"^^xsd:string ;
+    dcterms:creator <Person/JānisFārts> ;
+    ntag:sentTo <Person/Mother_JānisFārts> ;
+    dcterms:medium <Medium/Postcard> ;
+    cdesc:isArchivedIn <Institution/Europeana>.
+
+<Medium/Postcard> a ebucore:Medium ;
+    owl:sameAs wiki:Q192425 . 
+
+<Person/JānisFārts> a foaf:Person ;    
+    being:speaks <Language/Russian> ,
+                 <Language/Latvian> ;
+    pext:hasMother <Person/Mother_JānisFārts> ;
+    cwrc:hasUncle <Person/Jacob> ;
+    pext:hasBrother <Person/Georgiy> ;
+    pext:hasBrother <Person/Nikolay> ;
+    ntag:sentTo <Place/Prison> .
+
+<Language/Latvian> a schema:Language ;
+    owl:sameAs wiki:Q9078 .
+
+<Person/Jacob> a foaf:Person . 
+<Person/Georgiy> a foaf:Person . 
+<Person/Nikolay> a foaf:Person . 
+
+<Place/Prison> a dbpedia-owl:Prison ;
+    owl:sameAs wiki:Q40357 ;
+    gn:locatedIn <Place/Austria> .
+
+<Place/Austria> a dbpedia-owl:Country ; 
+    owl:sameAs wiki:Q40 .
+
+<Person/Mother> being:speaks <Language/Russian> ,
+                             <Language/Latvian> .
+
+
+# === "Letters of Ivan Vasilievich Kucherenko who joined the German Front on the First Mobilization" - Letter 11 ===
+
+<Letter/LettersIvanVasilievichKucherenko> a fabio:Letter ;
+    dcterms:language <Language/Russian> ;
+    ddesc:hasWritingSystem <Alphabet/Cyrillic> ;
+    dcterms:title "Letters of Ivan Vasilievich Kucherenko who joined the German Front on the First Mobilization"^^xsd:string ;
+    dcterms:creator <Person/IvanVasilievichKucherenko> ;
+    dcterms:medium <Medium/Memoir> ;
+    dcterms:publisher <Institution/BorisYeltsinPresidentialLibrary>.
+
+<Medium/Memoir> a ebucore:Medium ;
+    owl:sameAs wiki:Q112983 .
+    
+<Institution/BorisYeltsinPresidentialLibrary> a schema:Library ;
+    owl:sameAs wiki:Q4376778 . 
+
+<Person/IvanVasilievichKucherenko> a foaf:Person ;
+    cwrc:hasGrandFather <Person/Grandfather_Ivan> ;
+    pext:hasWife <Person/Wife_Ivan> ;
+    pext:hasDaughter <Person/Daughter_Ivan> ;
+    pext:hasMother <Person/Mother_Ivan> ;
+    pext:hasBrother <Person/Brother_Ivan> ;
+    schema:mentions <Place/Germany> ;
+    schema:mentions <Person/Mr.Aleshka> ;
+    schema:mentions <Person/NicholasII> ;
+    wlo:livesIn <Place/Village> ;
+    schema:mentions <Place/VillageChief> .
+
+<Person/Grandfather_Ivan> a foaf:Person .
+<Person/Wife_Ivan> a foaf:Person .
+<Person/Daughter_Ivan> a foaf:Person .
+<Person/Mother_Ivan> a foaf:Person .
+<Person/Brother_Ivan> a foaf:Person .
+
+<Place/Germany> a dbpedia-owl:Country ;
+    owl:sameAs wiki:Q183 .
+
+<Person/Mr.Aleshka> a foaf:Person ;
+    rdag2:titleOfThePerson <Title/MilitaryChief> .
+
+<Title/MilitaryChief> owl:sameAs wiki:Q707492 . 
+
+<Person/NicholasII> a foaf:Person ;
+    rdag2:titleOfThePerson <Title/EmperorofRussia> ;
+    owl:sameAs wiki:Q40787 ;
+    juso:country <Place/Russia> .
+
+<Place/Village> a dbpedia-owl:Village ;
+    owl:sameAs wiki:Q532 ;
+    gn:locatedIn <Place/Ukraine> .
+
+<Place/Ukraine> a dbpedia-owl:Country ;
+    owl:sameAs wiki:Q212 .
+
+<Place/VillageChief> a foaf:Person ;
+    wlo:livesIn <Place/Village> . 
