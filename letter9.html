@@ -6,82 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style2.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="shortcut icon" href="img/logo2.png" />
     <title>Michele-3</title>
+    <style>
+        .iframe-with-border {
+            border: 1px solid #000;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            Voices of War
-            <hr
-                style="width:600%;text-align:left;margin-left:0;height:0.5px;border-width:0;color:gray;background-color:gray">
-            <img src="img/logo.png" width="80" height="80" style="position:absolute; top:8px; left:250px">
-        </div>
-        <div class="toggle"></div>
-        <div class="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="letters.html">Letters</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+        <div class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Voices of War</strong>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="letters.html">Letters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="documentation.html">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section>
-        <div class="title">
-            <h1>Letters of Michele Villa sent to the Trentino Front - 3</h1>
-        </div>
-        <div class="contact">
-            <div class="contact-form">
-                <div class="form">
-                    <h2>Manuscripts</h2>
-                    <iframe src="https://albumizr.com/a/cssz" scrolling="yes" frameborder="100px" allowfullscreen
-                        width="700" height="650"></iframe>
+
+    <main>
+        <div class="container g-5 py-5">
+            <div class="title">
+                <h1>Letters of Michele Villa sent to the Trentino Front - 3</h1>
+            </div>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-4">
+                        <h2>Manuscripts</h2>
+                        <iframe src="https://albumizr.com/a/vx9R" scrolling=" yes" allowfullscreen width="400"
+                            height="650"></iframe>
+                    </div>
+                    <div class="col-8">
+                        <h2>Transcriptions and Translations</h2>
+                        <iframe src="../texts/ita/michele/michele3.txt" class="iframe-with-border" scrolling="auto"
+                            height="95%" width="100%">
+                        </iframe>
+                        <div>
+                            <button class="btn btn-primary rounded-pill" type="button" onclick='changeText33()'>Original
+                                Language</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText34()'>English</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText35()'>Russian</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText36()'>Turkish</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="contact-info">
-                <h2>Transcriptions and Translations</h2>
-                <iframe src="../texts/ita/michele/michele3.txt" id="myText" frameBorder="1" class="" scrolling="auto"
-                    height="95%" width="100%">
-                </iframe>
-                <button class="btn" onclick='changeText33()'>Original Language</button>
-                <button class="btn" onclick='changeText34()'>English</button>
-                <button class="btn" onclick='changeText35()'>Russian</button>
-                <button class="btn" onclick='changeText36()'>Turkish</button>
+            <div class="py-5 mx-5">
+                <h1> Analysis</h1>
+                <p>
+                    These letters from Michele show a truer side of the average man that was sent to the front, he uses
+                    a
+                    very basic grammar and makes frequent mistakes with accents, double letters and sometimes uses terms
+                    of
+                    his dialect. Punctuation is almost non present; there Is also a frequent use of specific formulas.
+                    Beside the frequent errors with the accents that are shown in the transcribed texts, there are many
+                    errors that should be analysed for a proper study and to facilitate the comprehension of the text
+                    for
+                    non-italian users.
+
+                </p>
+                <p>
+                    One term is used in the final letter Lazzaroni which is not a frequently used term in italian which
+                    indicates an evil person but also a lazy person.Michele also as is shown in the letters, tends to
+                    curve
+                    the letters while he is writing, this is a signal (beside the limitation of writing probably without
+                    a
+                    support) of a person who isn’t used to writing a lot, making the final letter even more powerful and
+                    heart-breaking as it shows a simple man forced to the front who only wished to return back home.
+                </p>
             </div>
-        </div>
-        <br><br><br>
-        <div class="title">
-            <h1> Analysis</h1>
-            <p>
-                These letters from Michele show a truer side of the average man that was sent to the front, he uses a
-                very basic grammar and makes frequent mistakes with accents, double letters and sometimes uses terms of
-                his dialect. Punctuation is almost non present; there Is also a frequent use of specific formulas.
-                Beside the frequent errors with the accents that are shown in the transcribed texts, there are many
-                errors that should be analysed for a proper study and to facilitate the comprehension of the text for
-                non-italian users.
-                <br>
-                One term is used in the final letter Lazzaroni which is not a frequently used term in italian which
-                indicates an evil person but also a lazy person.Michele also as is shown in the letters, tends to curve
-                the letters while he is writing, this is a signal (beside the limitation of writing probably without a
-                support) of a person who isn’t used to writing a lot, making the final letter even more powerful and
-                heart-breaking as it shows a simple man forced to the front who only wished to return back home.
-            </p>
-        </div>
-        <div class="contact">
-            <div class="cpntact-info">
-                <iframe src="https://albumizr.com/a/TwI6" scrolling="yes" frameborder="0" allowfullscreen width="600"
-                    height="270"></iframe>
-                <legend class="container">
-                    <legend class="child" style="background-color: rgb(250, 47, 236);">War-specific content</legend>
-                    <legend class="child" style="background-color: rgb(113, 19, 19);">Place names</legend>
-                    <legend class="child" style="background-color: rgb(0, 7, 139);">Errors</legend>
-                </legend>
-            </div>
-            <div class="contact-form">
-                <table style="align-self: center;">
-                    <tr>
+            <div class="row mx-5">
+                <table class="table table-light table-striped table-hover">
+                    <tr class="table-dark">
                         <th><span style="font-weight: 600;">Grammatical error</span></th>
                         <th><span style="font-weight: 600;">Correct version</span></th>
                         <th><span style="font-weight: 600;">English translation</span></th>
@@ -93,7 +110,7 @@
                     </tr>
                     <tr>
                         <td>Sarà più meglio</td>
-                        <td>Sarà più meglio</td>
+                        <td>Sarà meglio</td>
                         <td>It will be better</td>
                     </tr>
                     <tr>
@@ -118,29 +135,46 @@
                     </tr>
                 </table>
             </div>
+            <div class="py-5 mx-5">
+                <h2>Brief Analysis and Context of the War</h2>
+                <p>
+                    After the assassination of Francis Ferdinand Hasburg- Este Europe plunged into chaos. Old grudges,
+                    dreams to bring back empires and old alliances were climaxed in an instant. After the declaration of
+                    war
+                    of the Austro Hungaric towards Serbia, Germany declared war to Russia who mobilised the army. Soon
+                    all
+                    of Europe was brought into a fierce conflict that took so many men away from their homes. After a
+                    stalemate in central Europe against the axis the English decided to invade Gallipoli in Turkey for
+                    the
+                    precious resources that were present in the country, oil. Italy entered the war due to a
+                    nationalistic
+                    sentiment and old grudges against the Austrian empire who occupied some areas that were considered
+                    by
+                    the italians part of the Madre patria.
+                </p>
+            </div>
         </div>
-        <div>
-            <br>
-            <h1>Brief Analysis and Context of the War</h1>
-            <p>
-                After the assassination of Francis Ferdinand Hasburg- Este Europe plunged into chaos. Old grudges,
-                dreams to bring back empires and old alliances were climaxed in an instant. After the declaration of
-                war
-                of the Austro Hungaric towards Serbia, Germany declared war to Russia who mobilised the army. Soon
-                all
-                of Europe was brought into a fierce conflict that took so many men away from their homes. After a
-                stalemate in central Europe against the axis the English decided to invade Gallipoli in Turkey for
-                the
-                precious resources that were present in the country, oil. Italy entered the war due to a
-                nationalistic
-                sentiment and old grudges against the Austrian empire who occupied some areas that were considered
-                by
-                the italians part of the Madre patria.
-            </p>
+    </main>
+
+    <div class="site-footer">
+        <p class="copyright-text">&copy; DHDK - ALma Mater Bologna University</p>
+        <p class="copyright-text">This is a non-commercial project for scholarly purposes only.</p>
+        </p>
+        <div class="footer-links">
+            <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/DHDK.unibo/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a class="twitter" href="https://twitter.com/UniboDHDK"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/school/unibo/?originalSubdomain=it"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
         </div>
-        <br><br><br>
-    </section>
+    </div>
+
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

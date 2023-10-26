@@ -6,87 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style2.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="shortcut icon" href="img/logo2.png" />
     <title>Ivan</title>
+    <style>
+        .iframe-with-border {
+            border: 1px solid #000;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            Voices of War
-            <hr
-                style="width:600%;text-align:left;margin-left:0;height:0.5px;border-width:0;color:gray;background-color:gray">
-            <img src="img/logo.png" width="80" height="80" style="position:absolute; top:8px; left:250px">
-        </div>
-        <div class="toggle"></div>
-        <div class="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="letters.html">Letters</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+        <div class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Voices of War</strong>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="letters.html">Letters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="documentation.html">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section>
-        <div class="title">
-            <h1>Letters of Ivan Vasilievich Kucherenko who joined the German Front on the First Mobilization</h1>
-            <p>Army volunteer of the Russian Empire Before the war - peasant from Ukraine, had a big family
-                Senior non- commissioned intelligence officer</p>
-        </div>
-        <div class="contact">
-            <div class="contact-form">
-                <div class="form">
-                    <h2>Manuscripts</h2>
-                    <iframe src="https://albumizr.com/a/lgoT" scrolling="yes" frameborder="100px" allowfullscreen
-                        width="700" height="650"></iframe>
+    <main>
+        <div class="container g-5 py-5">
+            <div class="title">
+                <h1>Letters of Ivan Vasilievich Kucherenko who joined the German Front on the First Mobilization</h1>
+                <p>Army volunteer of the Russian Empire Before the war - peasant from Ukraine, had a big family
+                    Senior non- commissioned intelligence officer</p>
+            </div>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-4">
+                        <h2>Manuscripts</h2>
+                        <iframe src="https://albumizr.com/a/lgoT" scrolling="yes" allowfullscreen width="400"
+                            height="650"></iframe>
+                    </div>
+                    <div class="col-8">
+                        <h2>Transcriptions and Translations</h2>
+                        <iframe src="../texts/rus/ivan/ivan.txt" class="iframe-with-border" scrolling="auto"
+                            height="95%" width="100%">
+                        </iframe>
+                        <div>
+                            <button class="btn btn-primary rounded-pill" type="button" onclick='changeText37()'>Original
+                                Language</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText38()'>English</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText39()'>Italian</button>
+                            <button class="btn btn-outline-primary rounded-pill" type="button"
+                                onclick='changeText40()'>Turkish</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="contact-info">
-                <h2>Transcriptions and Translations</h2>
-                <iframe src="../texts/rus/ivan/ivan.txt" id="myText" frameBorder="1" class="" scrolling="auto"
-                    height="95%" width="100%">
-                </iframe>
-                <button class="btn" onclick='changeText37()'>Original Language</button>
-                <button class="btn" onclick='changeText38()'>English</button>
-                <button class="btn" onclick='changeText39()'>Italian</button>
-                <button class="btn" onclick='changeText40()'>Turkish</button>
+            <div class="py-5 mx-5">
+                <h1> Analysis</h1>
+                <p>
+                    After the collapse of the monarchy in 1917 in Russia, Soviet government conducted <a
+                        href="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D0%B4%D0%BE%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BE%D1%80%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F">the
+                        reform</a>
+                    of the language and grammar to make writing more simple for a wider audience. They wanted to educate
+                    people and
+                    make reading and writing much more reachable for workers and the peasants also. We found the
+                    information
+                    that after this reform, armed men were sent to the printing houses to remove the cancelled letters
+                    specifically to prevent even the technical possibility of printing according to the old standards.
+                    In observed texts we dealt with the old grammar rules and letters which do not exist in the
+                    contemporary
+                    Russian language (І, Ъ, Ѣ, etc.). The share of these words is quite significant.
+                </p>
+                <p>
+                    Also, we have found some words that are rarely used in contemporary language, but their
+                    share is not
+                    really meaningful.
+                </p>
             </div>
-        </div>
-        <br><br><br>
-        <div class="title">
-            <h1> Analysis</h1>
-            <p>
-                After the collapse of the monarchy in 1917 in Russia, Soviet government conducted <a
-                    href="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D0%B4%D0%BE%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BE%D1%80%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F">the
-                    reform</a>
-                of the language and grammar to make writing more simple for a wider audience. They wanted to educate
-                people and
-                make reading and writing much more reachable for workers and the peasants also. We found the information
-                that after this reform, armed men were sent to the printing houses to remove the cancelled letters
-                specifically to prevent even the technical possibility of printing according to the old standards.
-                In observed texts we dealt with the old grammar rules and letters which do not exist in the contemporary
-                Russian language (І, Ъ, Ѣ, etc.). The share of these words is quite significant.
-            </p>
-        </div>
-        <div class="contact">
-            <div class="contact-info">
-                <iframe src="https://albumizr.com/a/p10l" scrolling="yes" frameborder="100px" allowfullscreen
-                    width="500" height="600"></iframe>
-                <legend class="container">
-                    <legend class="child" style="background-color: red;">Place names</legend>
-                    <legend class="child" style="background-color: yellow;">Old words</legend>
-                    <legend class="child" style="background-color: rgb(67, 249, 255);">Errors</legend>
-                    <legend class="child" style="background-color: rgb(16, 110, 108);">Old Alphabet</legend>
-                    <legend class="child" style="background-color: rgb(196, 209, 209);">Metaphor</legend>
-                    <legend class="child" style="background-color:gold;">Idiomatic Phase</legend>
-
-                </legend>
-            </div>
-            <div class="contact-form">
-                <div class="form">
-                    <table style="align-self: center;">
-                        <tr>
+            <div class="row mx-5">
+                <div class="col-6">
+                    <table class="table table-light table-striped table-hover">
+                        <tr class="table-dark">
                             <th></th>
                             <th><span style="font-weight: 600;">Quantity</span></th>
                             <th><span style="font-weight: 600;">Share of words with old grammar(%)</span></th>
@@ -103,17 +115,10 @@
                             <td>17</td>
                         </tr>
                     </table>
-                    <br>
-                    <div>
-                        <p>
-                            Also, we have found some words that are rarely used in contemporary language, but their
-                            share is not
-                            really meaningful.
-                        </p>
-                    </div>
-                    <br>
-                    <table style="align-self: center;">
-                        <tr>
+                </div>
+                <div class="col-6">
+                    <table class="table table-light table-striped table-hover ">
+                        <tr class="table-dark">
                             <th></th>
                             <th><span style="font-weight: 600;">Quantity</span></th>
                             <th><span style="font-weight: 600;">Share of words with old grammar(%)</span></th>
@@ -131,135 +136,95 @@
                         </tr>
                     </table>
                 </div>
+
+                <div class="py-5">
+                    <h2>Examples of Old Vocabulary</h2>
+                    <table class="table table-light table-striped table-hover ">
+                        <tr class="table-dark">
+                            <th><span style="font-weight: 600;">Word in the letter</span></th>
+                            <th><span style="font-weight: 600;">Meaning in English</span></th>
+                            <th><span style="font-weight: 600;">Contemporary version(s)</span></th>
+                        </tr>
+                        <tr>
+                            <td>извiъстiй</td>
+                            <td>news</td>
+                            <td>новость</td>
+                        </tr>
+                        <tr>
+                            <td>унтер-офицер</td>
+                            <td>non-commissioned officer</td>
+                            <td>сержант</td>
+                        </tr>
+                        <tr>
+                            <td>дiъсятники</td>
+                            <td>foreman</td>
+                            <td>старшина</td>
+                        </tr>
+                        <tr>
+                            <td>окаяные</td>
+                            <td>cursed</td>
+                            <td>проклятые</td>
+                        </tr>
+                        <tr>
+                            <td>подводa</td>
+                            <td>horse-drawn cart</td>
+                            <td>повозка с лошадьми</td>
+                        </tr>
+                        <tr>
+                            <td>лампады</td>
+                            <td>lampada</td>
+                            <td>светильник</td>
+                        </tr>
+                        <tr>
+                            <td>тятя</td>
+                            <td>daddy</td>
+                            <td>папа</td>
+                        </tr>
+                        <tr>
+                            <td>отворилися</td>
+                            <td>open</td>
+                            <td>открылись</td>
+                        </tr>
+                        <tr>
+                            <td>Святыми Угодниками</td>
+                            <td>holy smokes</td>
+                            <td>святые</td>
+                        </tr>
+                </div>
+                <div>
+                    <p>Observing two people's writing style, we could compare their grammar level. For example, letters
+                        of
+                        Janis
+                        Farts are written almost without any errors (we have found two but it could be indications of
+                        authorial
+                        style). On the contrary, diary of the farmer <a href="letter10.html">Ivan Kucherenko</a>
+                        contains many errors, but
+                        considering that he
+                        is a farmer, he also presented good spelling. </p>
+                </div>
             </div>
         </div>
-        <br>
-        <div class="title">
-            <h1>Examples of Old Vocabulary</h1>
-        </div>
-        <table style="align-self: center;">
-            <tr>
-                <th><span style="font-weight: 600;">Word in the letter</span></th>
-                <th><span style="font-weight: 600;">Meaning in English</span></th>
-                <th><span style="font-weight: 600;">Contemporary version(s)</span></th>
-            </tr>
-            <tr>
-                <td>извiъстiй</td>
-                <td>news</td>
-                <td>новость</td>
-            </tr>
-            <tr>
-                <td>унтер-офицер</td>
-                <td>non-commissioned officer</td>
-                <td>сержант</td>
-            </tr>
-            <tr>
-                <td>дiъсятники</td>
-                <td>foreman</td>
-                <td>старшина</td>
-            </tr>
-            <tr>
-                <td>окаяные</td>
-                <td>cursed</td>
-                <td>проклятые</td>
-            </tr>
-            <tr>
-                <td>подводa</td>
-                <td>horse-drawn cart</td>
-                <td>повозка с лошадьми</td>
-            </tr>
-            <tr>
-                <td>лампады</td>
-                <td>lampada</td>
-                <td>светильник</td>
-            </tr>
-            <tr>
-                <td>тятя</td>
-                <td>daddy</td>
-                <td>папа</td>
-            </tr>
-            <tr>
-                <td>отворилися</td>
-                <td>open</td>
-                <td>открылись</td>
-            </tr>
-            <tr>
-                <td>Святыми Угодниками</td>
-                <td>holy smokes</td>
-                <td>святые</td>
-            </tr>
-        </table>
-        <p>Observing two people's writing style, we could compare their grammar level. For example, letters of <a
-                href="letter4.html">Jānis Fārts</a> are written almost without any errors (we have found two but it
-            could be indications of authorial
-            style). On the contrary, diary of the farmer Ivan Kucherenko
-            contains many errors, but
-            considering that he
-            is a farmer, he also presented good spelling. </p>
+    </main>
 
-        <table style="align-self: center;">
-            <tr>
-                <th></th>
-                <th><span style="font-weight: 600;">Quantity</span></th>
-                <th><span style="font-weight: 600;">Share of words with old grammar(%)</span></th>
-            </tr>
-            <tr>
-                <td><span style="font-weight: 600;">All words/Words with errors in letters of Janis Farts</span></td>
-                <td>140/2</td>
-                <td>1,4</td>
-            </tr>
-            <tr>
-                <td><span style="font-weight: 600;">All words / Words with errors in letters of Ivan Kucherenko </span>
-                </td>
-                <td>613/33</td>
-                <td>5</td>
-            </tr>
-        </table>
-        <p>
-            Furthermore, Ivan Kucherenko used some idiomatic expressions,
-            metaphors, allegories and personalization
-            which shows us quite a high level of literacy.
+    <!-- <div class="site-footer">
+        <p class="copyright-text">&copy; DHDK - ALma Mater Bologna University</p>
+        <p class="copyright-text">This is a non-commercial project for scholarly purposes only.</p>
         </p>
-        <table style="align-self: center;">
-            <tr>
-                <th><span style="font-weight: 600;">Expression in the letter</span></th>
-                <th><span style="font-weight: 600;">Direct meaning</span></th>
-                <th><span style="font-weight: 600;">Figurative meaning</span></th>
-            </tr>
-            <tr>
-                <td>разразится гроза</td>
-                <td>storm will burst</td>
-                <td>misfortune will happen</td>
-            </tr>
-            <tr>
-                <td>село обхватило какъ пожаромъ</td>
-                <td>the village was covered by fire</td>
-                <td>to allow too much</td>
-            </tr>
-            <tr>
-                <td>Пусти свинью за столъ то она и лапки положет на столъ</td>
-                <td>Let the pig sit at the table and it will put feet on it</td>
-                <td>to allow too much</td>
-            </tr>
-            <tr>
-                <td>утопить въ ложкiъ воды</td>
-                <td>to drown in spit</td>
-                <td>be brutal with</td>
-            </tr>
-            <tr>
-                <td>проклятiе нiслось</td>
-                <td>a damn was going</td>
-                <td>to curse</td>
-            </tr>
-            <tr>
-                <td>по отрубить нiъмного крылья</td>
-                <td>to chop off wings</td>
-                <td>to teach a lesson</td>
-            </tr>
-        </table>
-    </section>
+        <div class="footer-links">
+            <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/DHDK.unibo/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a class="twitter" href="https://twitter.com/UniboDHDK"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/school/unibo/?originalSubdomain=it"><i
+                            class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div> -->
 
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

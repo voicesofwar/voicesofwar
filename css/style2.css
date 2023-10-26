@@ -52,7 +52,7 @@ p {
   text-align: justify;
 }
 
-table, tr {
+/* table, tr {
   border: 1px solid black;
   font-size: 15px;
   padding: 5px;
@@ -72,7 +72,7 @@ td {
   font-size: 15px;
   padding: 5px;
   width: 250px;
-}
+} */
 
 section {
   display: flex;
