@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+<author xml:lang="it">Michele Villa</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Michele Villa to his sister from the trentin front during the first world war</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+Written in black ink on a postcard without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Michele Villa</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+
+-<person role="relative" age="adult" sex="F" xml:id="Celeste_Boscelli">
+
+<persName>Celeste Boscelli</persName>
+
+<note>Sister of the creator.</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="F" xml:id="Mother">
+
+    <persName>Mamma</persName>
+    
+    <note>Mother of the creator</note>
+    
+    </person>
+
+    
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+ 
+
+    <place xml:id="Trentino">
+        <placeName type="Country">Trentino</placeName>
+        <note>Italian Region</note>
+        <location>
+            <geo>46.066667, 11.116667
+            </geo>
+        </location>
+    </place>
+    
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Michele_Villa" tei:ref="#Creator">
+
+<rdfs:label xml:lang="it">Michele Villa</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Celeste_Boscelli" tei:ref="#Celeste_Boscelli">
+
+<rdfs:label xml:lang="it">Celeste Boscelli</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Mamma_Michele_Villa" tei:ref="#Mother">
+
+<rdfs:label xml:lang="it">Mamma</rdfs:label>
+
+</foaf:Person>
+
+
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Trentino" tei:ref="#Trentino">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Trentino</rdfs:label>
+
+</rdf:Description>
+
+
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Michele_3" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Michele_terza"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>9-6-1916</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+    <recipient>La signora <persName ref="Celeste_Boscelli">Boscelli Celeste</persName> via Antonio Stoppani N 7 Lambrate, Milano</recipient>
+    <address><persName ref="Creator">Michele villa</persName>, Soldato, Reg 112, Compagnia 11</address>
+    <persName ref="Celeste_Boscelli">Mia carissima Celeste</persName>
+</presentation>
+
+
+</salute>
+
+</opener>
+
+<p> 
+    
+    ti scrivo queste poche parole<br/> tanto per solevarmi (sollevarmi) delle mie grosi<br/> pasioni (grosse passioni) che tengo nel mio cuore<br/> Dicendo<br/> che ora mi trovo sul <placeName ref="Trentino">Trentino</placeName> rinchiuso in <br/>mezzo ai monti che vederli fanno paura <br/>cara <persName ref="Celeste_Boscelli">Celeste</persName> la paura che non mi vedete <br/>più il mio più dolore è per lasciare la<br/> mia cara famiglia tanto la cara <persName ref="Mother">mamma</persName> <br/>come le mie bambine e moglie sorelle e tutti <br/>questo è proprio un mondo infame condannare <br/>tante brave persone a pericolo di morte per la sodisf<br/>azione (soddisfazione)  a tutti i lazzaroni (dialect term used to indicate evil selfish people). 
+    
+    
+    
+    </p>
+
+
+<closer>
+
+    Io termino coi miei più<br/> fedeli saluti di tutto cuore commosso saluti tuo caro<br/> marito e figli Addio Addio mia cara <persName ref="Celeste_Boscelli">Celeste</persName> ricevi<br/> mille saluti e baci del tuo caro <persName ref="Creator">Michele</persName>.
+
+<signed>
+
+</signed>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cepheden Mektuplar</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_terza"/>
+                <opener>
+                    <dateline>
+                        <date>9-6-1916</date>
+                    </dateline>
+                    <salute>
+                    
+                    <presentation>
+                        <recipient>Bayan <persName ref="Celeste_Boscelli">Boscelli Celeste</persName> Antonio Stoppani N 7 Lambrate, Milano</recipient>
+                        <address><persName ref="Creator">Michele villa</persName>, Özel, Bölge 112, Kumpanya 11</address>
+                        <persName ref="Celeste_Boscelli">Canım Celeste’m</persName>
+                    </presentation>
+                    </salute>
+                    </opener>
+                    <p> 
+                        bu sözlerimi kalbimde sakladığım büyük tutkulardan kurtulmak için yazıyorum. Şimdi <placeName ref="Trentino">Trentino</placeName>’da dağların arasına sıkışmak ve onları izlemek beni korkutuyor canım <persName ref="Celeste_Boscelli">Celeste</persName>. Beni bir daha göremeyecek olmandan ve canım ailemi, <persName ref="Mother">annemi</persName> ve çocuklarımı karımı ve kız kardeşimi arkamda bırakmaktan duyduğum korku bana çok acı veriyor ve bu rezil dünya birkaç şeytani insanın mutluluğu için çok fazla iyi insanı tehlikeye mahkum ediyor.<br/>
+                        </p>
+                    <closer>
+                        Sözlerimi sevgili eşini ve oğullarını canıgönülden selamlayarak bitiriyorum Hoşçakal Hoşçakal canım <persName ref="Celeste_Boscelli">Celeste</persName> Sevgili <persName ref="Creator">Michele</persName>’nden çok selamlar ve öpücükler. <br/>
+                    <signed>
+                    </signed>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо с фронта</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_terza"/>
+                <opener>
+                    <dateline>
+                        <date>9-6-1916</date>
+                    </dateline>
+                    <salute>
+                        <presentation>
+                            <recipient>Госпоже<persName ref="Celeste_Boscelli">Челесте Бощелли</persName>
+                            улица Антонио Стоппани, 7, квартал Ламбрате, Милан</recipient>
+                            <address><persName ref="Creator">Микеле Вилла</persName>, солдат, 112-й полк, 11-я рота</address>
+                            <persName ref="Celeste_Boscelli">Моя дорогая Челесте</persName>,
+                        </presentation>
+                    </salute>
+                </opener>
+                <p> я пишу вам эти несколько слов<br/>
+                    чтобы оторвать меня от моих кипящих<br/> 
+                    страстей, что у меня сердце.<br/> 
+                    Сейчас я в <placeName ref="Trentino">Трентино</placeName> заперт<br/>
+                    среди гор, когда я смотрю на них, мне страшно,<br/>
+                    дорогая <persName ref="Celeste_Boscelli">Челесте</persName>, мне страшно, что вы больше не увидите меня<br/>
+                    и моя самая большая боль, что я оставил<br/>
+                    мою дорогую семью, мою дорогую <persName ref="Mother">маму</persName><br/>
+                    моих маленьких сестричек, детей жену и всех,<br/>
+                    печально, что в нашем мире хорошие люди приговорены<br/>
+                    к смерти для<br/>              
+                    удовлетворения для всех злодеев. 
+                </p>
+                <closer>
+                    Под конец мои самые <br/>
+                    верные приветствия от всего сердца, передай привет своему дорогому<br/>
+                    мужу и детям. Прощай, моя дорогая <persName ref="Celeste_Boscelli">Челесте</persName>,<br/>
+                    тысячи приветствий и поцелуев от вашего дорогого<persName ref="Creator">Микеле</persName>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters from the front</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_terza"/>
+                <opener>
+                    <dateline>
+                        <date>9-6-1916</date>
+                    </dateline>
+                    <salute>
+                    	<presentation>
+                        	<recipient>Mrs. <persName ref="Celeste_Boscelli">Boscelli Celeste</persName> Antonio Stoppani N 7 Lambrate, Milano</recipient>
+                        	<address><persName ref="Creator">Michele villa</persName>, Private, District 112, Company 11</address>
+                        	My dear <persName ref="Celeste_Boscelli">Celeste</persName>
+                    	</presentation>
+                    </salute>
+                </opener>
+                <p> 
+                	i write these few words to relieve me from my great passions that I keep in my heart. 
+                	Telling you that now I am on the  <placeName ref="Trentino">Trentino</placeName>’ closed in between the mountains that looking at them makes me scared 
+                	dear <persName ref="Celeste_Boscelli">Celeste</persName> the fear that you’ll never see me again is my greatest pain and to leave my dear family 
+                	my dear <persName ref="Mother">mom</persName> as well as my children wife and sister
+                	this is an infamous world that condemns so many good people to danger for the satisfaction of some evil people.<br/>
+                </p>
+                <closer>
+                    To conclude with my most faithful regards with all of my heard moved regards to your dear husband and sons 
+                    Goodbye Goodbye my dear <persName ref="Celeste_Boscelli">Celeste</persName> receive many regards and kisses from your dear<persName ref="Creator">Michele</persName>. <br/>
+                    <signed>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+</teiCorpus>

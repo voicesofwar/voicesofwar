@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+<author xml:lang="it">Umberto Lombardo Radice</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice written while he was at rest near the front</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+Written in black ink on white paper without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Umberto Lombardo Radice</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+
+-<person role="relative" age="adult" sex="M" xml:id="Giuseppe_Lombardo_Radice">
+
+<persName>Giuseppe Lombardo Radice</persName>
+
+<note>Brother of the creator.</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="M-F" xml:id="Cari">
+
+    <persName>Cari</persName>
+    
+    <note>Unspecified number of parents of the creator.</note>
+    
+    </person>
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+    <place xml:id="Italy">
+        <placeName type="Nation">Italia</placeName>
+        <note>Nation in Europe</note>
+        <location>
+            <geo>42.5, 12.5</geo>
+        </location>
+    </place>
+    
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Giuseppe_Lombardo_Radice" tei:ref="#Giuseppe_Lombardo_Radice">
+
+<rdfs:label xml:lang="it">Giuseppe Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Umberto_Lombardo_Radice" tei:ref="#creator">
+
+<rdfs:label xml:lang="it">Umberto Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Umberto_Lombardo_Radice" tei:ref="#cari">
+
+<rdfs:label xml:lang="it">Cari</rdfs:label>
+
+</foaf:Person>
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Italia" tei:ref="#Italia">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Italia</rdfs:label>
+
+</rdf:Description>
+
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Umberto_1" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Umberto_terzo"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>13-6-1916</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+
+</presentation>
+
+
+</salute>
+
+</opener>
+
+<p>
+    Arch. <persName ref="Giuseppe_Lombardo_Radice">G.L.R,</persName><persName ref="Creator">Umberto</persName>, Gi., 1916-2<lb/>
+    Barbano 13-6-1916 dal riposo
+    Miei <persName ref="Cari">carissimi</persName>, 
+    Cara si che posso e debbo scriver <lb/>
+    vi!Se non lo facessi ora, potreste <lb/> veramente chiamarmi ingrato ed <untranscribed>(??)</untranscribed>. Sto a riposo con i <lb/> nostri della brigata : sarà però un breve riposo, perché appena rico<lb/>stituiti ritorneremo sui monti ai <lb/> nuovi <untranscribed>(??)</untranscribed>.
+    I momenti terribili son passati <lb/> per l’Italia nostra, e posso dirmi <lb/> con orgoglio che gran parte vi <lb/> hanno avuto i granatieri. Io, modesto granello di sabbia nella <lb/> grande marea del nostro esercito, ho pieno il sentimento <lb/> di aver compito tutto quanto il <lb/> mio dovere, di aver offerto alla pa<lb/> tria tutto quello che potevo e dovevo.
+    I miei superiori sono contenti <lb/> di me, ma quello che più mi è <lb/> caro è che sono anche io soddisfat<lb/> to di me stesso, ed orgoglioso <lb/> fiero della proposta assai ricompensa <lb/> al valore. 
+    Nella stima poi di colleghi <lb/> ed inferiori sono salito tanto al<lb/>to che quasi mi vengono le ver-tigini della gloria. 
+    Basta miei cari, la posta <lb/> parte e non voglio che la <lb/> presente subisca ritardo e non <lb/> vi rechi le mie buone notizie <lb/> Io sono il solo che sia in guerra <lb/> dal 21 maggio senza inconvenienti <lb/> non vi pare abbastanza! 
+    
+    </p>
+
+
+<closer>
+
+Vi bacio <lb/> vostro <persName ref="Creator">Umberto</persName>. 
+    
+
+<signed>
+
+</signed>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Umberto Lombardo Radice'nin kardeşi Giuseppe Lombardo Radice'ye mektupları</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_terzo"/>
+                <opener>
+                    <dateline>
+                        <date>13-6-1916</date>
+                    </dateline>
+                    <salute>
+                        <presentation></presentation>
+                    </salute>
+                </opener>
+                <p>Mimar <persName ref="Giuseppe_Lombardo_Radice">G.L.R,</persName><persName ref="Creator">Umberto</persName>, Gi., 1916-2<lb/>
+                Barbano 13-6-1916 dinlenmeden
+
+                Canım <persName ref="Cari">sevdiklerim</persName>,
+
+                Canım, evet sana yazabilirim ve yazmalıyım! Eğer şimdi yazmazsam bana vefasız ve <untranscribed>(??)</untranscribed> diyebilirsin. Tüm tugayımızla birlikte dinleniyorum: ancak kısa bir dinlenme olacak, çünkü yeniden kurulur kurulmaz dağlara yeni <untranscribed>(??)</untranscribed> döneceğiz.<lb/>
+
+                İtalya’mız için korkunç anlar geçti, ve şunu gururla söyleyebilirim ki büyük bir kısm baş kahraman bombacıydı. Ben ki bu devasa ordunun bir kum tanesiyim, ülkeme verebileceğim ve ödevim olan hizmeti elimdeki tüm imkanlarla sunmanın tatmin edici duygusu içindeyim. <lb/>
+                Üslerim benim ile ilgili çok mutlu, ama benim için en güzeli kendimin kendimle gururlu olması, ki bu en kıymetli ödül. <lb/>
+
+                Meslektaşlarımın ve astlarımın itibarında o kadar yükseldim ki neredeyse zaferden başım dönüyor.<lb/>
+
+                Yeter canlarım, posta gidiyor ve hediyenin gecikmesini ve size iyi haberlerimin getirilmesinin önüne geçmek istemiyorum. 21 Mayıstan beri kaza yaşamdan savaşta olan bir tek benim, sizce de yetmez mi!<lb/> 
+                </p>
+                <closer>Öpüyorum <persName ref="Creator">Umberto</persName>'nuz. 
+                    <signed></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо Умберто Ломбардо Радиче его брату Джузеппе Ломбардо Радиче</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_terzo"/>
+                <opener>
+                    <dateline>
+                        <date>13-6-1916</date>
+                    </dateline>
+                </opener>
+                <p>Арх. <persName ref="Giuseppe_Lombardo_Radice">Г.Л.Р.,</persName><persName ref="Creator">Умберто</persName>, Г. 1916–2<lb/>
+                   Барбано, 6/13/1916 с отдыха<lb/>
+                   Да, <persName ref="Cari">дорогие</persName>, я могу и должен написать<lb/>
+                   вам! Если я не сделаю это сейчас, вы точно<lb/>
+                   назовете меня неблагодарным и <untranscribed>(??)</untranscribed>. Я отдыхаю со <lb/>
+                   своей бригадой: однако это будет короткий отдых, потому что как только мы восстановимся,<lb/>
+                   мы вернемся в горы <lb/> 
+                   – к новым <untranscribed>(??)</untranscribed>. Самое ужасное для нашей Италии позади,<lb/>
+                   и я могу сказать себе,<lb/> 
+                   с гордостью сказать, что во <lb/>
+                   многом гренадеры были главными действующими лицами. Я, скромная песчинка в<lb/>
+                   огромном море нашей армии, чувствую,<lb/>
+                   что сделал все, что<lb/>
+                   в моих силах, что я предложил стране<lb/>
+                   все, что мог и что должен.<lb/>
+                   Мои начальники тоже довольны<lb/>
+                   мной, но самое дорогое для меня - это то, что я<lb/>
+                   тоже доволен<lb/>
+                   собой и горжусь,<lb/>
+                   горжусь ценным предложением.<lb/>
+                   В глазах коллег<lb/> 
+                   и низших по званию я поднялся так высоко,<lb/>
+                   что у меня почти кружится голова от славы.<lb/>
+                   Ну, хватит, дорогие, почта <lb/>
+                   уходит, и я не хочу ее<lb/>
+                   задерживать и тем более не <lb/>
+                   отправить вам хорошие новости<lb/>
+                   (только я был на войне<lb/>
+                   с 21 мая без происшествий, <lb/>
+                   думаете, этого не остаточно?!)
+                </p>
+                <closer>Целую,<lb/>ваш<persName ref="Creator">Умберто</persName>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_terzo"/>
+                <opener>
+                    <dateline>
+                        <date>13-6-1916</date>
+                    </dateline>
+                </opener>
+                <p>
+                	Arch. <persName ref="Giuseppe_Lombardo_Radice">G.L.R,</persName><persName ref="Creator">Umberto</persName>, Gi., 1916-2<lb/>
+                	Barbano 13-6-1916 from rest
+
+                	My dear <persName ref="Cari">ones</persName>,
+                	If I didn't now, you could really call me ungrateful and <untranscribed>(??)</untranscribed>.
+                	I'm at rest with our whole brigade: however it will be a short rest, because as soon as we are reconstituted we will return to the mountains to the new <untranscribed>(??)</untranscribed>.<lb/>
+                	The terrible moments have passed for our Italy, and I can tell myself - with pride that a large part of it had the grenadiers as protagonists.<lb/> 
+                	I, a modest grain of sand in the great tide of our army, have the full feeling of having done everything my duty, of having offered the country everything I could and owed. <lb/>
+                	My superiors are happy - with me, but what is most dear to me - is that I too am satisfied with myself, and proud - proud of the highly rewarding proposal - to value.<lb/> 
+					In the esteem of colleagues - and inferiors - I have risen so high that I almost feel dizzy with glory.<lb/> 
+					Enough my dears, the mail – is leaving and I don't want the – present to be delayed and not to bring you my good news <lb/>  
+					(I am the only one who has been at war – since May 21st without incidents – do you think it is not enough!<lb/> 
+                </p>
+                <closer>Kisses - your <persName ref="Creator">Umberto</persName>. 
+                    <signed></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+</teiCorpus>

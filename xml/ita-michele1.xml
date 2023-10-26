@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+<author xml:lang="it">Michele Villa</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Michele Villa to his sister from the trentin front during the first world war</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+Written in blue ink on a postcard without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Michele Villa</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+
+-<person role="relative" age="adult" sex="F" xml:id="Celeste_Boscelli">
+
+<persName>Celeste Boscelli</persName>
+
+<note>Sister of the creator.</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="M" xml:id="Luigi_Bosetta">
+
+    <persName>Luigi Bosetta</persName>
+    
+    <note>Relative of the creator</note>
+    
+    </person>
+
+    -<person role="relative" age="adult" sex="M" xml:id="Angelo">
+
+        <persName>Angelo</persName>
+        
+        <note>Relative of the creator</note>
+        
+        </person>
+    
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+    <place xml:id="Cittadella">
+        <placeName type="Country">Cittadella</placeName>
+        <note>City in Padova</note>
+        <location>
+            <geo>45.648611, 11.783611</geo>
+        </location>
+    </place>
+
+    <place xml:id="Padova">
+        <placeName type="Country">Padova</placeName>
+        <note>State Capital</note>
+        <location>
+            <geo>45.406389, 11.877778
+            </geo>
+        </location>
+    </place>
+    
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Michele_Villa" tei:ref="#Creator">
+
+<rdfs:label xml:lang="it">Michele Villa</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Celeste_Boscelli" tei:ref="#Celeste_Boscelli">
+
+<rdfs:label xml:lang="it">Celeste Boscelli</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Luigi_Bosella" tei:ref="#Luigi_Bosella">
+
+<rdfs:label xml:lang="it">Luigi Bosella</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Angelo_Michele_Villa" tei:ref="#Angelo">
+
+<rdfs:label xml:lang="it">Angelo</rdfs:label>
+
+</foaf:Person>
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Cittadella" tei:ref="#Cittadella">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Cittadella</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Padova" tei:ref="#Padova">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Padova</rdfs:label>
+
+</rdf:Description>
+
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Michele_1" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Michele_prima"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>1-6-1916</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+    <recipient>La signora <persName ref="Celeste_Boscelli">Boscelli Celeste</persName> via Antonio Stoppani N 7 Lambrate, Milano</recipient>
+    <address><persName ref="Creator">Michele villa</persName>, Soldato, Reg 112, Compagnia 11</address>
+    <persName ref="Celeste_Boscelli">Carissima sorella Celeste</persName>
+</presentation>
+
+
+</salute>
+
+</opener>
+
+<p> 
+    io mi trovo in bona (buona) salute e cosi <lb/>
+    spero di te è (il) tuo caro marito <lb/>
+    e figli. o (ho) ricevuto la tua cara<lb/>
+    lettera il giorno 31 e io ti rispondo<lb/>
+    con le mie notizie dicendo che<lb/>
+    mi trovo vicino <placeName ref="Cittadella">Cittadella</placeName> provincia <lb/>
+    di <placeName ref="Padova">Padova</placeName> per andare sul fronte <lb/>
+    del trentino pero (però) non so la posizione <lb/>
+    dove andremo spero che sara piu <lb/>
+    meglio (sarà meglio)  da dove ero prima vicino <lb/>
+    e (è) molto pericoloso. Per ora ti <lb/>
+    Saluto di tutto cuore tanti saluti -<lb/>
+    a <persName ref="Luigi_Bosetta">Luigi Bosetta</persName> e <persName ref="Angelo">Angelo</persName>
+    
+    
+    </p>
+
+
+<closer>
+
+    Addi sinceri mille saluti e baci <lb/>
+    del tuo fratello <persName ref="Creator">Michele</persName> che tanto ti ricorda speriamo <lb/>
+    di rivederci presto ciao.
+    
+
+<signed>
+
+</signed>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cepheden Mektuplar</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_prima"/>
+                <opener>
+                    <dateline>
+                        <date>1-6-1916</date>
+                    </dateline>
+                    <salute>
+
+                    <presentation>
+                        <recipient>Bayan Boscelli Celeste via Antonio Stoppani n 7 Lambrate Milan</recipient>
+                        <address><persName ref="Creator">Michele villa</persName>, Özel, Bölge 112, Kumpanya 11</address>
+                        <persName ref="Celeste_Boscelli">Canım kardeşim Celeste</persName>
+                    </presentation>
+                    </salute>
+                    </opener>
+                    <p>     
+                        benim sağlığım yerinde, umarım senin, eşinin ve ailenin de yerindedir. Ayın 31’inde güzel mektubunu aldım ve pozisyonunu bilmemekle beraber Trentino cephesine gitmek üzere <placeName ref="Padova">Padova</placeName> şehrindeki <placeName ref="Cittadella">Cittadella</placeName> yakınlarında olduğum cevabını verdim, umarım daha önceki yerimden daha iyi olur, çok tehlikeliydi. Şimdilik seni canıgönülden selamlıyorum ve <persName ref="Luigi_Bosetta">Luigi Bosetta</persName> ve <persName ref="Angelo">Angelo</persName>’ya da selamlar.</p>
+                    <closer>
+                    Hoşçakal Görüşürüz çok öpüyor ve selamlıyorum seni hep hatırlayan kardeşin <persName ref="Creator">Michele</persName> umarım yakında görüşürüz.
+                    <signed>
+                    </signed>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо с фронта</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_prima"/>
+                <opener>
+                    <dateline>
+                        <date>1-6-1916</date>
+                    </dateline>
+                    <salute>
+
+                    <presentation>
+                       <recipient>Госпоже Селесте Босселли, улица Антонио Стоппани, 7, квартал Ламбрате, Милан</recipient>
+                       <address><persName ref="Creator">Микеле Вилла</persName>, Солдат, 112-й полк, 11-я рота</address>
+                       <persName ref="Celeste_Boscelli">Дорогая сестра Челесте,</persName>
+                    </presentation>
+                    </salute>
+                </opener>
+                <p> я здоров,<lb/>
+                    надеюсь, что и у тебя и твоего дорогого мужа<lb/>
+                    и семьи все хорошо. Я получил ваше драгоценное <lb/>
+                    письмо 31-го и я отвечаю,<lb/>
+                    чтобы передать мои новости:<lb/>
+                    я недалеко от <placeName ref="Cittadella">Читтаделлы</placeName> в провинции <lb/>
+                    <placeName ref="Padova">Падова</placeName>, чтобы пойти на фронт<lb/>
+                    в Трентино, но я не знаю, какая там обстановка,<lb/>
+                    надеюсь, что будет <lb/>
+                    лучше, чем там, где я был до этого,<lb/>
+                    это было очень опасно. А сейчас я<lb/>всем сердцем приветствую вас и приветствую<lb/>
+                    <persName ref="Luigi_Bosetta">Луиджи Босетта</persName> и <persName ref="Angelo">Анджело</persName>.
+                </p>
+                <closer>
+                    До свидания, искренне шлю вам тысячи поцелуев<lb/>
+                    от вашего брата<persName ref="Creator">Микеле</persName>, который всегда помнит о вас. Надеюсь,<lb/>
+                    скоро увидимся, пока.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters from the front</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_prima"/>
+                <opener>
+                    <dateline>
+                        <date>1-6-1916</date>
+                    </dateline>
+                    <salute>
+                    	<presentation>
+                        	<recipient>Mrs. Boscelli Celeste via Antonio Stoppani n 7 Lambrate Milan</recipient>
+                        	<address><persName ref="Creator">Michele villa</persName>, Private, Reg 112, Company 11</address>
+                        	Dear sister <persName ref="Celeste_Boscelli">Celeste</persName>
+                    	</presentation>
+                    </salute>
+                </opener>
+                <p>     
+                	I am in good health and so I hope for you and your dear husband and family. I received your dear letter on the 31st and I answer with my news saying that I am near 
+                    <placeName ref="Cittadella">Cittadella</placeName> in the province of <placeName ref="Padova">Padova</placeName> to go on the Trentino front but I don’t know the position, 
+                    I hope that it will be better than where I was it was very dangerous.
+                    For now I salute you with all my heart and my salutes to <persName ref="Luigi_Bosetta">Luigi Bosetta</persName> and <persName ref="Angelo">Angelo</persName>.
+                </p>
+                <closer>
+                    Goodbye Sincere Goodbyes a thousand kisses and salutes your brother <persName ref="Creator">Michele</persName> that always remembers you I hope to see you soon.
+                    <signed></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+</teiCorpus>

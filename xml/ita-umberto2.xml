@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+<author xml:lang="it">Umberto Lombardo Radice</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice written while he was on the front near il Monte Nero fighting against the Austrians</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+ Written in green ink on white paper without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Umberto Lombardo Radice</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="M" xml:id="Paoluio">
+
+    <persName>Paoluio</persName>
+    
+    <note>Brother in law of the creator</note>
+    
+    </person>
+
+    -<person role="relative" age="adult" sex="F" xml:id="Lucia">
+
+        <persName>Lucia</persName>
+        
+        <note>Sister of the creator</note>
+        
+        </person>
+
+-<person role="relative" age="adult" sex="M" xml:id="Giuseppe_Lombardo_Radice">
+
+<persName>Giuseppe Lombardo Radice</persName>
+
+<note>Brother of the creator.</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="F" xml:id="Gemma">
+
+    <persName>Gemma</persName>
+    
+    <note>Wife of Giuseppe Lombardo Radice</note>
+    
+    </person>
+
+
+
+    -<person role="relative" age="adult" sex="F" xml:id="Mother">
+
+        <persName>Mamma</persName>
+        
+        <note>Mother of Umberto Lombardo Radice</note>
+        
+        </person>
+
+    
+
+        -<person role="relative" age="adult" sex="M" xml:id="Nino">
+
+            <persName>Nino</persName>
+            
+            <note>A relative of Umberto Lombardo Radice</note>
+            
+            </person>
+
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+    <place xml:id="Catania">
+        <placeName type="State Capital">Catania</placeName>
+        <note>State Capital in Sicily</note>
+        <location>
+            <geo>37.502669, 15.087269</geo>
+        </location>
+    </place>
+    
+    <place xml:id="Somalia">
+        <placeName type="Nation">Somalia</placeName>
+        <note>State in Eastern Africa</note>
+        <location>
+            <geo>6°, 47°</geo>
+        </location>
+    </place>
+    
+    <place xml:id="Eritrea">
+        <placeName type="Nation">Eritrea</placeName>
+        <note>State in Northern Africa</note>
+        <location>
+            <geo>15.483333, 38.25</geo>
+        </location>
+    </place>
+    
+    <place xml:id="batteria Montegallo">
+        <placeName type="thing">Batteria Montegallo</placeName>
+        <note>Artillery stronghold in Messina</note>
+        <location>
+            <geo>45.9352, 13.6193</geo>
+        </location>
+    </place>
+
+    <place xml:id="Messina">
+        <placeName type="State Capital">Messina</placeName>
+        <note>State Capital in Sicily.</note>
+        <location>
+            <geo>38.193611, 15.554167</geo>
+        </location>
+    </place>
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Giuseppe_Lombardo_Radice" tei:ref="#Giuseppe_Lombardo_Radice">
+
+<rdfs:label xml:lang="it">Giuseppe Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Gemma_Lombardo_Radice" tei:ref="#Gemma_Lombardo_Radice">
+
+<rdfs:label xml:lang="it">Gemma Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Paoluio" tei:ref="#Paoluio">
+
+<rdfs:label xml:lang="it">Paoluio</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Lucia_Lombardo_Radice" tei:ref="#Lucia_Lombardo_Radice">
+
+<rdfs:label xml:lang="it">Lucia Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Umberto_Lombardo_Radice" tei:ref="#Creator">
+
+<rdfs:label xml:lang="it">Umberto Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Madre_Umberto_Lombardo_Radice" tei:ref="#Mother">
+
+<rdfs:label xml:lang="it">Mamma</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Madre_Umberto_Lombardo_Radice" tei:ref="#Nino">
+
+<rdfs:label xml:lang="it">Nino</rdfs:label>
+
+</foaf:Person>
+
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Messina" tei:ref="#Messina">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Messina</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Somalia" tei:ref="#Somalia">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Somalia</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Eritrea" tei:ref="#Eritrea">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Eritrea</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Batteria_Montegallo" tei:ref="#Batteria_Montegallo">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Thing"/>
+
+<rdfs:label xml:lang="it">Batteria Montegallo</rdfs:label>
+
+</rdf:Description>
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Catania" tei:ref="#Catania">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Catania</rdfs:label>
+
+</rdf:Description>
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Umberto_1" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Umberto_secondo"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>1 – 10 – 916</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+Arch. G.L.R, M. GI., 1916  1
+</presentation>
+
+Caro <persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>
+</salute>
+
+</opener>
+
+<p>
+    Sono ancora a <placeName ref="Catania">Catania</placeName>, con 45 giorni di licenza, dei <lb/>
+    quali 15 già andati e 30 da servire.  IL piacere di stare in casa è stato <lb/>
+    però, avvelenato, dalla grande disgra<lb/>
+    zia toccata a mio cognato <persName ref="Paoluio">Paoluio</persName>, <lb/>
+    il quale ha subito l’amputazione – del braccio destro. Figurati <persName ref="Lucia_Lombardo_Radice">Lucia</persName>! <lb/>
+    Oggi ho letto che è chiamata per <lb/>
+    la visita anche la tua classe. <lb/>
+    <persName ref="Giuseppe_Lombardo_Radice">Tu</persName> come professore d’Università andresti soggetto oppure  godresti <lb/>
+    di esenzione? Scrivilo anche <lb/>
+    per far sapere qualche cosa di <lb/>
+    preciso alla <persName ref="Mother">mamma</persName>.<lb/>
+     Io ho chiesto, (per dare finalmente) <lb/>
+    un esito aspetto alla mia domanda<lb/>
+    di essere trasferito <lb/>
+    in <placeName ref="Somalia">Somalia</placeName> o in <placeName ref="Eritrea">Eritrea</placeName><lb/>
+    Ma non avendo avuto risposta <lb/>
+    suppongo con molta fondatezza <lb/>
+    che ci sia bisogno di una qual<lb/>
+    che raccomandazione al Ministro  <lb/>
+    della guerra. Puoi far<lb/>
+    mela <persName ref="Giuseppe_Lombardo_Radice">tu?</persName> Si capisce che non <lb/>
+    è per imbarcarmi ( o imbaracarsi). Sarebbe ridi<lb/>
+    colo andare in <placeName ref="Somalia">Somalia</placeName> per im<lb/>
+    barcarmi. Ma il momento è pro<lb/>
+    pizio perché possono anche andare gli ufficiali di complemento <lb/>
+    che fino a poco tempo fa ne <lb/>
+    erano esclusi.
+    Anche di ciò fammi sapere <lb/>
+    qualche cosa: anzi, poiché <lb/>
+    non sono sicuro dell’esatto <lb/>
+    tuo indirizzo voglio raccomandare <lb/>
+    la presente. <lb/>
+    E <persName ref="Gemma_Lombardo_Radice">Gemma</persName> con i bimbi, come <lb/>
+    stanno? Durerà ancora a <lb/>
+    lungo la vostra villeggiatura?
+    </p>
+    
+
+
+<closer>
+ 
+Ti saluto affettuosamente
+Tuo <persName ref="Creator">Umberto</persName> .
+    
+
+<signed>
+Tuo <persName ref="Creator">Umberto</persName> .
+
+</signed>
+
+<postScriptum>
+
+    Ps Forse Martedì il Mu<lb/>
+    nicipio pagherà i denari: alme<lb/>
+    no questo ha promesso a me <lb/> il Sindaco.
+    <persName ref="Nino">Nino</persName> è stato destinato alla <lb/>
+    <placeName ref="Batteria_Montegallo">batteria Montegallo</placeName>  <lb/>
+    vicino <placeName ref="Messina">Messina</placeName>.
+
+</postScriptum>
+
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо Умберто Ломбардо Радиче его брату Джузеппе Ломбардо Радиче</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_secondo"/>
+                <opener>
+                    <dateline>
+                        <date>1 – 10 – 916</date>
+                    </dateline>
+                    <salute>
+                        <presentation>Арх. Г.Л.Р. М. Гл., 1916 1</presentation>
+                        Дорогой<persName ref="Giuseppe_Lombardo_Radice">Пеппино</persName>
+                    </salute>
+                </opener>
+                <p>Я все еще в <placeName ref="Catania">Катании</placeName>, мы должны были уехать через 45 дней,
+                   15 из них прошли, осталось 30. Какое довольствие побыть дома – правда, испорченное большим 
+                   несчастьем, которое случилось с моим шурином <persName ref="Paoluio">Паолуйо</persName>,
+                   которому ампутировали его правую руку. Только представь себе 
+                   <persName ref="Lucia_Lombardo_Radice">Лучию</persName>! Сегодня я прочитал, что ваш класс 
+                   тоже позвали к ней в гости. <persName ref="Giuseppe_Lombardo_Radice">Ты</persName> 
+                   как преподаватель университета, будешь участвовать или получишь освобождение? Запиши все, 
+                   чтобы <persName ref="Mother">мама</persName>узнала подробности.
+                </p>
+                <p>Я просил перевести меня в конце концов в <placeName ref="Somalia">Сомали</placeName> 
+                   или в <placeName ref="Eritrea">Эритрею</placeName>и жду результата этой просьбы, но все еще 
+                   не получил ответа, скорее всего для этого нужна рекомендация военного министра. Может 
+                   <persName ref="Giuseppe_Lombardo_Radice">ты </persName>и дашь мне ее? Естественно, это не для 
+                   того, чтобы сесть на корабль. Было бы нелепо отправиться в <placeName ref="Somalia">Сомали</placeName>
+                   для этого. Но это благоприятный момент, потому что офицеры запаса, те, кто до недавнего 
+                   времени, были исключены и него, тоже могут отправиться туда.
+                </p>
+                <p>И также дай мне знать об этом, потому что я не уверен, что твой адрес, который я хочу 
+                   рекомендовать, настоящий. Кстати, как там <persName ref="Gemma_Lombardo_Radice">Джемма</persName>
+                   с детьми? Каникулы продлятся долго? 
+                </p>
+                <closer>Шлю пламенный привет,
+                    <signed>Tuo <persName ref="Creator">Umberto</persName>.</signed>
+                    <postScriptum>P.S. Может во вторник мэрия наконец заплатит: по крайней мере мэр обещал мне. 
+                                  <persName ref="Nino">Нино</persName>отправили на 
+                                  <placeName ref="Batteria_Montegallo">батарею Монтегалло </placeName>
+                                  возле <placeName ref="Messina">Мессины</placeName>.
+                    </postScriptum>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Umberto Lombardo Radice'nin kardeşi Giuseppe Lombardo Radice'ye mektupları</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_secondo"/>
+                <opener>
+                    <dateline>
+                        <date>1 – 10 – 916</date>
+                    </dateline>
+                    <salute>
+                    <presentation>
+                    Mimar G.L.R, M. GI., 1916  1
+                    </presentation>
+
+					Sevgili <persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>
+                    </salute>
+                        
+                    </opener>
+                        
+                    <p>
+                	 Hala <placeName ref="Catania">Catania</placeName>’dayım, 45 günüm vardı, 15 şimdiden bitti ve 30 günlük hizmetim kaldı. Evde kalmanın keyfi başkaydı ancak sağ kolu kesilen kayınbiraderim <persName ref="Paoluio">Paoluio</persName>'nun başına gelen büyük talihsizlik yüzünden mahvoldu. Düşünsene <persName ref="Lucia_Lombardo_Radice">Lucia</persName>! Bugün okuduğuma göre sizin sınıf da ziyarete çağırılmış. Bir üniversite profesörü olarak <persName ref="Giuseppe_Lombardo_Radice">sen</persName> tabi olur muydun yoksa muafiyetten yararlanır mıydın? Ayrıca lütfen <persName ref="Mother">annenin</persName> belirli bir şeyi bilmesi için yaz.<lb/>
+                        
+                    Bir sonuç sordum, (sonunda verebilmek için), <placeName ref="Somalia">Somali</placeName> veya <placeName ref="Eritrea">Eritrea</placeName>’ya transferim için isteğimin sonucunu bekliyorum. Ama bir cevap alamadığımı gözönüne alırsak, Savaş Bakanından bir referans almam gerektiği düşüncesi oldukça meşru duruyor. <persName ref="Giuseppe_Lombardo_Radice">Sen</persName> ve benim için yapabilir misiniz? Gemiye binmemeyi (veya binmeyi) anlamak kolay. <placeName ref="Somalia">Somali</placeName>’ye gidip gemiye binmek saçmalık olurdu. Ancak şu an uygun bir an, çünkü yakın zamana kadar dışlanan yedek subaylar da gidebiliyor.<lb/>
+                        
+			        Bir de bana şunu da söyle, bir şey: aynen öyle, adresini kesin olarak bilmediğim için, güncel olanı kaydettirmek istiyorum. <persName ref="Gemma_Lombardo_Radice">Gemma</persName> çocuklarla ilgili olarak, nasıllar? Tatillerinin yine uzun sürecek mi?<lb/>
+                    </p>
+                            
+                        
+                        
+                    <closer>    
+				    Sizleri sevgiyle selamlıyorum
+                        
+			        <signed>
+                        
+	                <persName ref="Creator">Umberto</persName>'nuz.
+                    </signed>
+                    <postScriptum>
+					Not: Belki Salı günü Belediye parayı ödeyecek: en azından Belediye Başkanı'nın bana söz verdiği şey bu.<lb/>
+                    
+                    <persName ref="Nino">Nino</persName> <placeName ref="Batteria_Montegallo">Montegallo bataryasına</placeName> atandı <placeName ref="Messina">Messina</placeName> yakınlarında.<lb/>
+                    
+                    
+                    </postScriptum>
+                    
+                    
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_secondo"/>
+                <opener>
+                    <dateline>
+                        <date>1 – 10 – 916</date>
+                    </dateline>
+                    <salute>
+                    	<presentation>Arch. G.L.R, M. GI., 1916 – 1</presentation>
+						Dear <persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>
+                    </salute>  
+                </opener>  
+                <p>
+					I'm still in <placeName ref="Catania">Catania</placeName>, with 45 days of leave, of which 15 have already gone and 30 to serve.<lb/> 
+					The pleasure of staying at home was however, poisoned by the great misfortune befalling my brother-in-law<lb/>
+					<persName ref="Paoluio">Paoluio</persName>who underwent the amputation - of his right arm.<lb/>
+					Imagine <persName ref="Lucia_Lombardo_Radice">Lucy</persName>! Today I read that your class is also called to visit.<lb/>
+					Would<persName ref="Giuseppe_Lombardo_Radice">you</persName>, as a university professor, be subject or would you enjoy exemption?<lb/>
+					Also write it down to let <persName ref="Mother">mom</persName> know something specific.<lb/>             
+                    I asked, (to finally give) - an outcome, I am waiting for my transfer request- to <placeName ref="Somalia">Somalia</placeName> or <lb/> 
+                    <placeName ref="Eritrea">Eritrea</placeName> but having not received an answer. I suppose with great justification<lb/> 
+                    that there is a need for some recommendation from the Minister of War. Can <persName ref="Giuseppe_Lombardo_Radice">you</persName><lb/> 
+                    and make one for me? It’s easy to understand that it is not to embark (or embark). It would be ridiculous to go to<lb/>  
+                    <placeName ref="Somalia">Somalia</placeName> to embark. But the moment is propitious because reserve officers can also go<lb/> 
+                    who until recently were excluded from it.<lb/>
+			        Also let me know about this something: indeed, since I'm not sure of the exact your address I want to register the present.
+			        And <persName ref="Gemma_Lombardo_Radice">Gemma</persName> with the children, how are they? Will your holidays still lastlong?<lb/>
+                </p>
+                <closer>    
+				    I greet you warmly    
+			        <signed>
+	                	Your<persName ref="Creator">Umberto</persName>.
+                    </signed>
+                    <postScriptum>
+						Ps: Maybe on Tuesday the Town Hall will pay the money: at least this is what the Mayor has promised me.<lb/>
+                    	<persName ref="Nino">Nino</persName> was destined for the <placeName ref="Batteria_Montegallo">Montegallo battery</placeName> near <placeName ref="Messina">Messina</placeName>.<lb/>
+                    </postScriptum>    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+</teiCorpus>

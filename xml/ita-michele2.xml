@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+<author xml:lang="it">Michele Villa</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Michele Villa to his sister from the trentin front during the first world war</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere dal fronte</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2014-03-02</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+Written in black ink on a postcard without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Michele Villa</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+
+-<person role="relative" age="adult" sex="F" xml:id="Delfina_Villa">
+
+<persName>Delfina Villa</persName>
+
+<note>Sister of the creator.</note>
+
+</person>
+
+-<person role="relative" age="adult" sex="F" xml:id="Mother">
+
+    <persName>Mamma</persName>
+    
+    <note>Mother of the creator</note>
+    
+    </person>
+
+    -<person role="relative" age="adult" sex="M-F" xml:id="Kids">
+
+        <persName>Fanciulli</persName>
+        
+        <note>Refers generically to the children of Delfina Villa</note>
+        
+        </person>
+    
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+    <place xml:id="Torre Del Marghero">
+        <placeName type="Country">Torre del Marghero</placeName>
+        <note>City in Parma</note>
+        <location>
+        </location>
+    </place>
+
+    <place xml:id="Parma">
+        <placeName type="Country">Parma</placeName>
+        <note>State Capital</note>
+        <location>
+            <geo>44.801472, 10.328
+            </geo>
+        </location>
+    </place>
+    
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Michele_Villa" tei:ref="#Creator">
+
+<rdfs:label xml:lang="it">Michele Villa</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Delfina_Villa" tei:ref="#Delfina_Villa">
+
+<rdfs:label xml:lang="it">Delfina Villa</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Madre_Michele_Villa" tei:ref="#Mother">
+
+<rdfs:label xml:lang="it">Mother</rdfs:label>
+
+</foaf:Person>
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Fanciulli_Delfina_Villa" tei:ref="#Kids">
+
+<rdfs:label xml:lang="it">Fanciulli</rdfs:label>
+
+</foaf:Person>
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Torre_Del_Marghera" tei:ref="#Torre_Del_Marghero">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Torre del Marghera</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Parma" tei:ref="#Parma">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Parma</rdfs:label>
+
+</rdf:Description>
+
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Michele_2" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Michele_seconda"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>10-12-1915</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+    <recipient>La signora <persName ref="Delfina_Villa">Longhi Delfina Borgarello</persName>, <placeName ref="Torre_del_Marghero">Torre del Marghero Parma</placeName><br/></recipient>
+    Carissima sorella <persName ref="Celeste_Boscelli">Delfina</persName>
+</presentation>
+
+
+</salute>
+
+</opener>
+
+<p> 
+    10/12/1915
+    Carissima sorella <persName ref="Delfina_Villa">Delfina</persName> <br/> ho saputo che la <persName ref="Mother">mamma</persName> si trova <br/> (a) casa tua quindi ti scrivo <br/> a te <persName ref="Delfina_Villa">Delfina</persName>, io sto bene cosi spero <br/> con molto piacere di te  e la <br/> cara <persName ref="Mother">mamma</persName> e dei tuoi cari <br/><persName ref="Kids">fanciulli</persName> <persName ref="Delfina_Villa">Delfina</persName> digli alla <persName ref="Mother">mamma</persName> <br/> (intelligible) e che mangia senza malinconia <br/> che io al presente pericoli <br/> non corro. 
+    <persName ref="Creator">Villa Michele</persName>, Soldato, 112 Fanteria, Compagnia 11<br/>
+
+</p>
+   
+    
+
+
+<closer>
+    Per ora ricevi i miei <br/>affettuosi saluti a <persName ref="Delfina_Villa">te</persName> e la cara <br/> <persName ref="Mother">mamma</persName> e mille baci ai <br/> tuoi cari <persName ref="Fanciulli">bambini</persName>. Da stretta di mano e un <br/> bacio di tutto cuore. Villa Michele
+
+<signed>
+
+</signed>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cepheden Mektuplar</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_seconda"/>
+                <opener>
+                    <dateline>
+                        <date>10-12-1915</date>
+                    </dateline>
+                    <salute>
+                    
+                    <presentation>
+                        <recipient>Bayan <persName ref="Celeste_Boscelli">Longhi Delfina</persName> Borgarello’ya, <placeName ref="Torre_Del_MArghero">Torre del Marghero, Parma</placeName><br/></recipient>
+                        Canım kardeşim <persName ref="Celeste_Boscelli"> Delfina</persName>
+                    </presentation>
+                    </salute>
+                    </opener>
+                    <p> 
+                        <persName ref="Mother">annemin</persName> sizin evde olduğunu öğrendim o yüzden sana yazıyorum <persName ref="Delfina_Villa">Delfina</persName>, ben iyiyim umarım sen ve canımız <persName ref="Mother">annemiz</persName> ve senin güzel <persName ref="Kids">çocukların</persName> da iyidir <persName ref="Delfina_Villa">Delfina</persName> <persName ref="Mother">anneme</persName> söyle () ve üzülmeden yemek yesin çünkü bu aralar tehlikede olmayacağım. <br/>
+                        <persName ref="Creator">Villa Michele</persName>, Özel, 112 Piyade, Kumpanya 11
+                    </p>
+                    <closer>
+                        Şimdilik sevgi dolu selamlarımı <persName ref="Delfina_Villa">sana</persName> ve <persName ref="Mother">annemize</persName> yolluyor güzel <persName ref="Kids">çocuklarını</persName> da çok öpüyorum. <br/>
+                        <persName ref="Creator">Villa Michele</persName>
+                    <signed>
+                    </signed>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо с фронта</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_seconda"/>
+                <opener>
+                    <dateline>
+                        <date>10-12-1915</date>
+                    </dateline>
+                    <salute>
+                        <presentation>
+                            <recipient>Госпоже Лонги Делфине Боргарелло, <placeName ref="Torre_Del_Marghero">Торре дель Маргера, Парма</placeName><br/></recipient>
+                            Дражайшая сестра<persName ref="Celeste_Boscelli"> Дельфина</persName>,
+                        </presentation>
+                    </salute>
+                </opener>
+                <p>я слышал, что <persName ref="Mother">мама</persName>сейчас у<br/> 
+                   тебя дома, так что я пишу вам <br/>
+                   сюда, <persName ref="Delfina_Villa">Дельфина</persName>, я в порядке,<br/>
+                   чего желаю и тебе,<br/>
+                   нашей дорогой<persName ref="Mother">маме</persName>и твоим дорогим<br/>
+                   <persName ref="Kids">детям</persName>. <persName ref="Delfina_Villa">Дельфина</persName>, скажи<persName ref="Mother">маме</persName><br/> 
+                   чтобы ела хорошо и не переживала,<br/>
+                   что я сейчас в опасности,<br/> 
+                   все хорошо.  <persName ref="Creator">Микеле Вилла</persName>, солдат, 112 полк, рота 11
+                </p>
+                <closer>
+                    Шлю<br/>
+                    пламенный привет<persName ref="Delfina_Villa">тебе</persName>и дорогой<br/>
+                    <persName ref="Mother">маме</persName> и тысячи поцелуев<br/>
+                    твоим дорогим<persName ref="Kids">детям</persName>. Жму тебе руку и<br/>
+                    целую в самое сердце. <persName ref="Creator">Микеле Вилла</persName>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters From the Front</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2014-03-02</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms 
+                    and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_14001</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Michele_seconda"/>
+                <opener>
+                    <dateline>
+                        <date>10-12-1915</date>
+                    </dateline>
+                    <salute>
+                    	<presentation> 
+                        	<recipient>Mrs. <persName ref="Celeste_Boscelli">Longhi Delfina Borgarello</persName>, <placeName ref="Torre_Del_Marghero">Torre del Marghero, Parma</placeName><br/></recipient>
+                        	Dearest sister <persName ref="Celeste_Boscelli">Delfina</persName>
+                    	</presentation>
+                    </salute>
+                </opener>
+                <p> 
+                    I came to know that <persName ref="Mother">mom</persName> is at your house so I write you  
+                    <persName ref="Delfina_Villa">Delfina</persName>,  am fine and so I hope for you and our dear 
+                    <persName ref="Mother">mom</persName> and your dear <persName ref="Kids">children</persName> 
+                    <persName ref="Delfina_Villa">Delfina</persName> tell <persName ref="Mother">mom</persName> söyle () 
+                    and that she eats without malincony <br/> since at the present I wont run into danger. <br/>
+                    <persName ref="Creator">Villa Michele</persName>, Private, 112 Infantry, Company 11
+                </p>
+                <closer>
+                    For now receive my affectionate regards to <persName ref="Delfina_Villa">you</persName> and our dear <persName ref="Mother">mom</persName> and a thousand kisses to your dear <persName ref="Kids">children</persName>. <br/>
+                    <persName ref="Creator">Villa Michele</persName>
+                    <signed></signed>
+            	</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+</teiCorpus>

@@ -1,0 +1,531 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:geo="https://www.geonames.org/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mehmet Dursun'un Harp Hatıralarını Anlatan Mektubu</title>
+            <author xml:lang="tur">Teğmen Mehmet Dursun</author>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name>Çanakkale Kızılay Ağadere Museum</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation by</resp>
+               <name>Irem Atmar</name>
+               <name>Rana Coskun</name>
+               <name>Salvatore Di Marzo</name>
+               <name>Evgeniia Vdovichenko</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+               <name>Irem Atmar</name>
+               <name>Rana Coskun</name>
+               <name>Salvatore Di Marzo</name>
+               <name>Evgeniia Vdovichenko</name>
+            </respStmt>
+            <respStmt>
+               <resp>Scientific and technical curation by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <sourceDesc>
+            <p>A letter written by Lieutenant Mehmet Dursun describing his war memories during WW1 in Gallipoli</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Mehmet Dursun'un Harp Hatıralarını Anlatan Mektubu</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Rana Coskun</name>
+               </respStmt>
+                <respStmt>
+                  <resp>Digital manuscript</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+               </respStmt>
+            </titleStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Çanakkale</settlement>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="tur">Turkish</language>
+            </langUsage>
+            <particDesc>
+               <listPerson>
+                  <person xml:id="mehmet" sex="M" age="adult" role="creator">
+                     <persName>Mehmet Dursun</persName>
+                     <note>Creator of the document, a lieutenant in Gallipoli Campaign.</note>
+                  </person>
+                  <person xml:id="ismail" sex="M" age="adult" role="commander">
+                     <persName>İsmail Hakkı Bey</persName>
+                     <note>A Lieutenant colonel in Gallipoli Campaign.</note>
+                  </person>
+                  <person xml:id="god" sex="intersex" role="god">
+                     <persName>Hakkın</persName>
+                     <note>The god.</note>
+                  </person>
+               </listPerson>
+            </particDesc>
+			<settingDesc>
+               <listPlace>
+                  <place xml:id="akbas">
+                     <placeName>
+                        <settlement type="harbor">Akbaş Limanı</settlement>
+                        <note>A harbor in Canakkale, Akbas region.</note>
+                     </placeName>
+                     <location>
+                        <geo>40.234585364742706, 26.439660041100527</geo>
+                     </location>
+                  </place>
+                  <place xml:id="maydos">
+                     <placeName>
+                        <settlement type="town">Maydos</settlement>
+                        <note>Eceabat, formerly Maydos, is a town in Canakkale, located on the eastern shore of the Gallipoli.</note>
+                     </placeName>
+                     <location>
+                        <geo>40.18462870608505, 26.358966732898292</geo>
+                     </location>
+                  </place> 
+                  <place xml:id="soganlidere">
+                     <placeName>
+                        <settlement type="town">Soğanlı Dere</settlement>
+                        <note>A town in Canakkale, located on the northern part of the Gallipoli.</note>
+                     </placeName>
+                     <location>
+                        <geo>40.11755071790984, 26.308894319347246</geo>
+                     </location>
+                  </place>
+                  <place xml:id="certik">
+                     <placeName>
+                        <settlement type="hill">Çertik Tepesi</settlement>
+                     </placeName>
+                  </place>
+                  <place xml:id="kilitbahir">
+                     <placeName>
+                        <settlement type="hospital">Kilitbahir Hastanesi</settlement>
+                        <note>A hospital where health services were provided to the Turkish Army during the Gallipoli Campaign.</note>
+                     </placeName>
+                     <location>
+                        <geo>40.14830776067351, 26.381570528991126</geo>
+                     </location>
+                  </place>
+                  <place xml:id="istanbul">
+                     <placeName>
+                        <settlement type="city">İstanbul</settlement>
+                        <note>A city located in Turkey, the capital of the Ottoman Empire during WW1.</note>
+                     </placeName>
+                     <location>
+                        <geo>41.00998491980062, 28.97098072240285</geo>
+                     </location>
+                  </place>   
+                  <place xml:id="uskudar">
+                     <placeName>
+                        <settlement type="district">Üsküdar</settlement>
+                        <note>A district located on the Asian side of the Bosphorus, Istanbul.</note>
+                     </placeName>
+                     <location>
+                        <geo>41.032735696965574, 29.03299577222305</geo>
+                     </location>
+                  </place>
+                  <place xml:id="zeynepkamil">
+                     <placeName>
+                        <settlement type="hospital">Zeynep Kâmil Hastanesi</settlement>
+                        <note>A hospital located in Uskudar, Istanbul.</note>
+                     </placeName>
+                     <location>
+                        <geo>41.015870447909805, 29.027017075578662</geo>
+                     </location>
+                  </place> 
+                  <place xml:id="moda">
+                     <placeName>
+                        <settlement type="quarter">Moda</settlement>
+                        <note>A quarter in Kadıkoy district of Istanbul</note>
+                     </placeName>
+                     <location>
+                        <geo>40.98070376285159, 29.02377483750743</geo>
+                     </location>
+                  </place> 
+                  <place xml:id="vitalikosku">
+                     <placeName>
+                        <settlement type="rehab center">Vitali Köşkü Subay Rehabilitasyon Merkezi</settlement>
+                        <note>A rehabilitation center located in Istanbul during WW1.</note>
+                     </placeName>
+                  </place>                                                                      
+               </listPlace>
+               <xenoData>
+               <rdf:RDF>
+                    <!--  people:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                    dbo:mehmet a foaf:Person;
+                     rdfs:label "mehmet"@tur.   
+                    -->
+                    <rdf:Description tei:ref="#mehmet" rdf:about="https://w3id.org/voicesofwar/Mehmet_Dursun">
+                        <rdfs:label xml:lang="en">Mehmet Dursun</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#ismail" rdf:about="https://w3id.org/voicesofwar/Ismail_Hakki">
+                        <rdfs:label xml:lang="en">İsmail Hakkı Bey</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#sukru" rdf:about="https://w3id.org/voicesofwar/Miralay_Sukru">
+                        <rdfs:label xml:lang="en">Miralay Şükrü Bey</rdfs:label>
+                    </rdf:Description>
+                    <!--  places:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    dbo:Austria a dbo:Place;
+                       rdfs:label "İstanbul"@en.
+                    -->
+                    <rdf:Description tei:ref="#akbas" rdf:about="https://www.geonames.org/325013/akbas">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Akbas Limani</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#maydos" rdf:about="https://www.geonames.org/304745/maydos">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Maydos</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#soganlidere" rdf:about="https://www.geonames.org/12339333/soganli-dere">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Soganli Dere</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#certik" rdf:about="https://w3id.org/voicesofwar/certik">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Certik Tepesi</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#kilitbahir" rdf:about="https://w3id.org/voicesofwar/kilitbahir">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Kilitbahir Hastanesi</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#istanbul" rdf:about="https://www.geonames.org/745044/istanbul">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Istanbul</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#uskudar" rdf:about="https://www.geonames.org/7732589/ueskuedar">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Uskudar</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#zeynepkamil" rdf:about="https://w3id.org/voicesofwar/zeynepkamil">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Zeynep Kamil Hastanesi</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#moda" rdf:about="https://www.geonames.org/10876204/moda">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Moda</rdfs:label>
+                    </rdf:Description>  
+                    <rdf:Description tei:ref="#vitalikosku" rdf:about="https://w3id.org/voicesofwar/vitalikosku">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">Vitali Kosku Subay Rehabilitasyon Merkezi</rdfs:label>
+                    </rdf:Description>  
+               </rdf:RDF>
+            </xenoData> 
+            </settingDesc>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="letter">
+               <p>45’inci alayın 8’inci bölük 2’nci takım komutanı idim. <date when="1915-04-17">17 Nisan 
+                  1915’te</date> alayımızla <placeName ref="#akbas">Akbaş Limanı’na</placeName> çıkmıştık. 
+                  <date when="1915-04-18">18 Nisan'ı</date> <placeName ref="#maydos">Maydos</placeName> 
+                  civarındaki zeytinlikte geçirdik. <date when="1915-04-02">2 Nisan’da</date> bütün tumen 
+                  <placeName ref="#soganlidere">Soğanlı Dere’de</placeName> toplandı. O gün saat 
+                  <time when="07:00:00">07:00'da</time> Tümen Komutanı <persName ref="#sukru">Miralay Şükrü Bey
+                  </persName>, alay komutanları ile tabur komutanlarını yanına çağırarak gerekli emirleri verdi. 
+                  Tabur komutanımız <persName ref="#ismail">İsmail Hakkı Bey</persName> de bize iki günden beri 
+                  yapılan ateşlerden düşmanın kuvveti kırılmış olduğu cihetle bu gece düşmana taarruz edilerek 
+                  <persName ref="#god">Hakkın</persName> desteğiyle denize döküleceğini, alaylar yanyana, 
+                  taburlar bölük kuvvetleri ile derin kol nizamında hareket edeceğini, mümkün olduğu kadar toplu
+                  bir vaziyette silahlar doldurulmamış ve çantalar çıkarılmış olduğu halde gidileceğini, 
+                  emir verildiği zaman süngü takılarak ilerideki avcı hattı ile birleşip 
+                  düşmana hücum edeceğimizi tebliğ etti. Askerleri bu emir gereği hazırlayarak, 
+                  saat  <time when="09:00:00">09:00'da</time> ileri hareket ettik. Ufak bir mertek gerisine 
+                  geldiğimiz zaman kurşun ve şarapnel taneleri mevcudiyetini hissettirmeğe başlamıştı. 
+                  Düşman <placeName ref="#certik">Çertik Tepesi’ni</placeName> oldukça şiddetli bir topçu ateşi 
+                  altına almıştı. “Yere yat” emri verildi. O aralık tabur komutanı gelerek, süngü takıp 
+                  ilerideki avcı hattı ile birleştikten sonra hücum edeceğimizi söyledi. 
+                  1’inci Takım öne çıktı. Ben 2’nci Takım’la onu takip ediyordum. Her 
+                  sıçrayışta birçok düşman maktülleri çiğneyerek cephemizde iki mevzi siper 
+                  atladık. Nihayet son defa askerlere mevzi aldırdığım zaman cinsini tayin edemediğim 
+                  bir topçu mermisi kolumun aşağı kısmına isabet ederek ağır surette beni yaraladı. 
+                  Takım’ı çavuşuma teslim ettim. İki asil kalpli asker beni kolları arasında 
+                  sargı mahalline götürdü. <placeName ref="#soganlidere">Soğanlı Dere’de</placeName> kanın 
+                  durdurulması için kolum sarıldıktan sonra hemen <placeName ref="#kilitbahir">Kilitbahir 
+                  Hastanesine</placeName> gönderildim. Gözümü açtığım vakit kendimi yatakta kolsuz olarak buldum.
+                  Vatan için bu hale geldiğimi düşünerek teselli oldum. Oradan <placeName ref="#istanbul">
+                  İstanbul’a</placeName> gönderildim. <placeName ref="#uskudar">Üsküdardaki</placeName> 
+                  <placeName ref="#zeynepkamil">Zeynep Kâmil Hastanesinde</placeName>, <placeName ref="#moda">
+                  Moda</placeName> ve <placeName ref="#vitalikosku">Vitali Köşkü Subay Rehabilitasyon Merkezinde
+                  </placeName> itina ve şefkâtle tedavi edildim. Vücudumda eski kuvveti hissettiğim zaman boş 
+                  durmamayı vicdanım emretti. Bir hizmete tayinimi istedim. Genelkurmay Başkanlığı Yaverliği 
+                  refaketine tayin olundum. Şimdi orada bulunuyorum. Yüce Türk Milletim ve mukaddes vatanım 
+                  için feda olan koluma acımıyorum.
+               </p>
+               <closer>
+               	<signed>15’inci Tümen 45’inci Alay</signed>
+               	<signed>2’nci Tabur 8’inci Bölük</signed>
+               	<signed>Teğmen <persName ref="#mehmet">Mehmet Dursun</persName></signed>
+               </closer>
+            </div>   
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+   <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memoir Letters of Mehmet Dursun on the Battle of Canakkale</title>
+				<respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Rana Coskun</name>
+               </respStmt>
+                <respStmt>
+                  <resp>Digital manuscript</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+               </respStmt>
+            </titleStmt>
+            <sourceDesc>
+            	<p>A letter written by Lieutenant Mehmet Dursun describing his war memories during WW1 in Gallipoli</p>
+         	</sourceDesc>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Çanakkale</settlement>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+			   <p> I was the 2nd squad commander of the 8th company of the 45th regiment. On 
+               <date when="1915-04-17"> April 17, 1915 </date> we went to <placeName ref="#akbas">Akbaş Port</placeName>
+               with our regiment. We spent <date when="1915-04-18"> April 18 </date> in the olive
+               grove around <placeName ref="#maydos">Maydos</placeName>. On <date when="1915-04-02">April 2</date>,
+               the whole division gathered in <placeName ref="#soganlidere">Soğanlı Creek</placeName>.
+               At <time when="07:00:00">07:00</time> that day, Division Commander <persName ref="#sukru">Miralay
+               Şükrü Bey</persName> called the regiment commanders and battalion commanders to his side and gave
+               the necessary orders. Our battalion commander <persName ref="#ismail">İsmail Hakkı Bey</persName>
+               told us that the enemy's strength has been broken by the fires that have been made since two days,
+               the enemy will be attacked with the support of <persName ref="#god">Allah</persName> tonight, 
+				   the regiments will act side by side and the battalions will act in deep arm order, the weapons will
+               not be loaded and the bags will be taken out, when the order is given, we will attach the bayonet
+               and unite with the hunter line ahead and attack the enemy. Having prepared the soldiers in 
+               accordance with this order, we moved forward at <time when="09:00:00">09:00</time>. When we came
+               behind a small rafter, lead and shrapnel grains began to make their presence felt. The enemy had 
+               taken <placeName ref="#certik">Certik Hill</placeName> under heavy artillery fire. The order to 
+               "get down" was given. At that interval, the battalion commander came and said that we would 
+               attack after attaching bayonets and merging with the fighter line ahead. 1st team stepped forward.
+               I was following them with the 2nd team. We took two trenches on our front, trampling many enemy 
+               victims in each leap. Finally, when I had the soldiers take positions for the last time, an 
+               artillery shell, whose type I could not identify, hit the lower part of my arm, seriously 
+               injuring me. I handed the team over to my sergeant. Two noble-hearted soldiers took me in their 
+               arms to the place of bandaging. I was immediately sent to <placeName ref="#kilitbahir">Kilitbahir
+               Hospital</placeName> after my arm was bandaged to stop the bleeding in 
+               <placeName ref="#soganlidere">Soğanlı creek</placeName>. When I opened my eyes, I found myself in
+               bed without an arm. I was consoled by thinking that I had become this way for the country. From 
+               there I was sent to <placeName ref="#istanbul">Istanbul</placeName>. I was treated with care and 
+               compassion at <placeName ref="#zeynepkamil">Zeynep Kamil Hospital</placeName> in 
+               <placeName ref="#uskudar">Üsküdar</placeName>, at <placeName ref="#moda">Moda</placeName> and 
+               <placeName ref="#vitalikosku">Vitali Mansion Officer Rehabilitation Center</placeName>. 
+				   When I felt the old strength in my body, my conscience ordered me not to be idle. I asked for my 
+               appointment to a service. I was appointed to the aide of the Chief of the General Staff. I am 
+               there now. I do not feel pity for my arm, which was sacrificed for my great Turkish Nation and 
+               my holy homeland.
+            </p>	   
+				<closer>
+					<signed>15th Division 45th Regiment</signed>
+					<signed>2nd Battalion, 8th Company</signed>
+					<signed>Lieutenant Mehmet Dursun</signed>
+            </closer>
+         </div>
+        </body>
+    </text>
+</TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Воспоминания лейтенанта Мехмета Дурсуна о битве под Канаккале</title>
+				<respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+            </respStmt>
+               <respStmt>
+                  <resp>Encoding and translation by</resp>
+                  <name>Rana Coskun</name>
+                  <name>Evgeniia Vdovichenko</name>
+               </respStmt>
+                <respStmt>
+                  <resp>Digital manuscript</resp>
+                  <name>Çanakkale Kızılay Ağadere Museum</name>
+               </respStmt>
+            </titleStmt>
+            <sourceDesc>
+            	<p>A letter written by Lieutenant Mehmet Dursun describing his war memories during WW1 in Gallipoli</p>
+         	</sourceDesc>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Çanakkale</settlement>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+               <p>Я был командиром 2-го отделения 8-й роты 45-го полка. <date when="1915-04-17"> 17 апреля 1915
+                  года </date> мы с полком отправились в порт <placeName ref="#akbas">Акбаш</placeName>. 
+                  <date when="1915-04-18"> 18 апреля  </date> мы провели в оливковой роще в окрестностях 
+                  <placeName ref="#maydos">Майдоса</placeName>. <date when="1915-04-02">2 апреля</date>вся 
+                  дивизия собралась в долине реки <placeName ref="#soganlidere">Соанлы</placeName>. В
+                  <time when="07:00:00">7 утра </time> того же дня командир дивизии <persName ref="#sukru">Миралай Шюкрю Бей </persName> 
+                  призвал командиров полков и батальонов на свою сторону, чтобы отдать все необходимые приказы. 
+                  <persName ref="#ismail">Исмаил Хакки-бей</persName> командир нашего батальона, сказал нам, что враг истощен из-за пожаров, 
+                  которые случились в последние пару дней, и что с помощью <persName ref="#god">Аллаха 
+                  </persName> сегодня вечером, враг будет атакован, сначала полки и батальоны будут продвигаться
+                  бок о бок с незаряженным оружием, а когда будет дан приказ, мы оголим штыки,  объединимся с 
+                  нападающими спереди и атакуем врага. Мы подготовили солдат по этому приказу и в 
+                  <time when="09:00:00">9 утра </time>двинулись вперёд. Когда мы подошли к небольшой балке, то 
+                  увидели свинцовые осколки снарядов. Это противник обстрелял вершину  <placeName ref="#certik">
+                  Сертик</placeName>. Нам приказали спуститься с холма. Тогда же пришел командир батальона и 
+                  сказал, что мы нападем после того, как прикрепим штыки к винтовкам и объединимся с передней 
+                  линией фронта. 1-я команда вышла вперед. Я шел следом со 2-й командой. Мы прошли две траншеи, 
+                  на каждом шагу продвигаясь по телам жертв нашего противника. Наконец, когда я в последний раз 
+                  заставил солдат занять позиции, артиллерийский снаряд, тип которого я не смог опознать, попал 
+                  мне в руку, снизу, рана была серьезная. Я передал командование сержанту. Двое бравых солдат 
+                  отвели меня к медикам сделать перевязку. А после меня сразу же отправили в 
+                  <placeName ref="#kilitbahir">госпиталь Килитбахира</placeName>, чтобы остановить кровотечение.
+                  Когда я открыл глаза, я лежал в постели без руки. Меня утешало только, что я принес эту жертву
+                  для моей страны. Меня отправили в <placeName ref="#istanbul">Стамбул</placeName>. В 
+                  <placeName ref="#zeynepkamil">больнице Зейнеп Камиль </placeName> в <placeName ref="#uskudar">
+                  Ускюдаре</placeName>, а точнее в реабилитационном центре  <placeName ref="#moda">Мода
+                  </placeName> и <placeName ref="#vitalikosku">Витали для офицеров</placeName>, со мной 
+                  обращались с осторожностью и состраданием. Когда я почувствовал в своем теле прежнюю силу, 
+                  моя совесть приказала мне не сидеть сложа руки. Я попросил назначить мне службу. Так я стал 
+                  помощником начальника Генерального штаба. Сейчас я там. И мне не жаль руки, которую я принес в
+                  жертву великой турецкой нации и моей святой родине.
+               </p>
+				   <closer>
+					   <signed>15-я дивизия 45-й полк</signed>
+					   <signed>2-й батальон, 8-я рота</signed>
+					   <signed>Лейтенант Мехмет Дурсун</signed>
+               </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mehmet Dursun'un Harp Hatıralarını Anlatan Mektubu</title>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name>Çanakkale Kızılay Ağadere Museum</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding and translation by</resp>
+               <name>Rana Coskun</name>
+               <name>Salvatore Di Marzo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digital manuscript</resp>
+               <name>Çanakkale Kızılay Ağadere Museum</name>
+            </respStmt>
+         </titleStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Çanakkale</settlement>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="tur">Turkish</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+        <text>
+            <body>
+                <div type="letter">
+                    <p>Ero il 2° comandante di squadra dell'8° compagnia del 45° reggimento. Il <date when="1915-04-17">17 aprile 1915</date> andammo al porto di <placeName ref="#akbas">Akbaş</placeName> con il nostro reggimento.
+                    Abbiamo trascorso il <date when="1915-04-18">18 aprile</date> nell'oliveto intorno a <placeName ref="#maydos">Maydos</placeName>. Il <date when="1915-04-02">2 aprile</date> l'intera divisione si è riunita a <placeName ref="#soganlidere">Soğanlı Creek</placeName>.
+                    Alle <time when="07:00:00">07:00</time> di quel giorno, il comandante di divisione <persName ref="#sukru">Miralay Şükrü Bey</persName> chiamò al suo fianco i comandanti di reggimento e di battaglione e diede gli ordini necessari.
+                    Il nostro comandante di battaglione <persName ref="#ismail">İsmail Hakkı Bey</persName> ci ha detto che la forza del nemico è stata spezzata dagli incendi che sono stati accesi da due giorni, il nemico verrà attaccato con il sostegno di Allah stasera, i reggimenti agiranno fianco a fianco e i battaglioni agiranno in ordine di armi profonde,
+                    le armi non verranno caricate e le borse verranno estratte, quando verrà dato l'ordine, attaccheremo la baionetta e ci uniremo alla linea di cacciatori avanti e attaccheremo il nemico.
+                    Dopo aver preparato i soldati secondo quest'ordine, siamo andati avanti alle <time when="09:00:00">09:00</time>. Quando arrivammo dietro una piccola trave, grani di piombo e schegge cominciarono a farsi sentire.
+                    Il nemico aveva preso <placeName ref="#certik">Certik Hill</placeName> sotto il fuoco dell'artiglieria pesante. Fu dato l'ordine di "scendere". In quell'intervallo, il comandante del battaglione venne e disse che avremmo attaccato dopo aver attaccato le baionette ed esserci uniti alla linea di caccia davanti.
+                    La prima squadra si fece avanti. Li stavo seguendo con la seconda squadra. Abbiamo preso due trincee sul nostro fronte, calpestando molte vittime nemiche ad ogni balzo.
+                    Infine, quando ho fatto prendere posizione ai soldati per l'ultima volta, un proiettile di artiglieria, di cui non sono riuscito a identificare il tipo, ha colpito la parte inferiore del mio braccio, ferendomi gravemente.
+                    Ho consegnato la squadra al mio sergente. Due soldati dal cuore nobile mi portarono in braccio al luogo della fasciatura.
+                    Sono stato immediatamente mandato all'ospedale di <placeName ref="#kilitbahir">Kilitbahir</placeName> dopo che il mio braccio è stato fasciato per fermare l'emorragia nel torrente <placeName ref="#soganlidere">Soğanlı</placeName>. Quando ho aperto gli occhi, mi sono ritrovato a letto senza un braccio.
+                    Mi consolavo pensando che ero diventato così per il Paese. Da lì sono stato mandato a <placeName ref="#istanbul">Istanbul</placeName>. Sono stato trattato con cura e compassione allo <placeName ref="#zeynepkamil">Zeynep Kamil Hospital</placeName> di <placeName ref="#uskudar">Üsküdar</placeName>, al <placeName ref="#moda">Moda</placeName> e al <placeName ref="#vitalikosku">Vitali Mansion Officer Rehabilitation Center</placeName>.
+                    Quando ho sentito la vecchia forza nel mio corpo, la mia coscienza mi ha ordinato di non essere inattivo. Ho chiesto il mio appuntamento per un servizio. Fui nominato assistente del Capo di Stato Maggiore Generale. Sono lì adesso.
+                    Non provo pietà per il mio braccio, che è stato sacrificato per la mia grande nazione turca e la mia santa patria.</p>
+                    <closer>
+                        <signed>15° Divisione 45° Reggimento</signed>
+                        <signed>2° Battaglione, 8° Compagnia</signed>
+                        <signed>Il tenente <persName ref="#mehmet">Mehmet Dursun</persName></signed>
+                    </closer>
+                </div>   
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

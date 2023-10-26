@@ -1,0 +1,428 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ŞEHİT MUALLİM HASAN ETHEM EFENDİ’NİN VALİDESİNE SON MEKTUBU</title>
+            <author xml:lang="tur">Hasan Ethem Efendi</author>!!!!!!!
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name>Uludağ University</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation by</resp>
+               <name>Irem Atmar</name>
+               <name>Rana Coskun</name>
+               <name>Salvatore Di Marzo</name>
+               <name>Evgeniia Vdovichenko</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+               <name>Irem Atmar</name>
+               <name>Rana Coskun</name>
+               <name>Salvatore Di Marzo</name>
+               <name>Evgeniia Vdovichenko</name>
+            </respStmt>
+            <respStmt>
+               <resp>Scientific and technical curation by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt> publisher date / availablity ???? according to what? </publicationStmt> 
+         <sourceDesc>
+            <p>The letter was written by a Turkish school teacher and an officer soldier to his mother.</p>
+            <p>It was given to us by Uludağ University in Turkey.</p> 
+            <p>As a project, the letter was also translated to English, Russian and Italian. </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>ŞEHİT MUALLİM HASAN ETHEM EFENDİ’NİN VALİDESİNE SON MEKTUBU</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Uludağ University</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Irem Atmar</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital Images</resp>
+                  <name>Uludağ University Archive</name>
+               </respStmt>
+            </titleStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Bursa</settlement>
+                     <repository>Uludağ University Archive</repository>
+                 </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper: Written in black ink on white paper without lining.</material></p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="tur">Turkish</language>
+            </langUsage>
+            <particDesc>
+               <listPerson>
+                  <person xml:id="mother" sex="F" age="adult" role="relative">
+                     <note>Mother of the creator of the document.</note>
+                  </person>
+                  <person xml:id="Hasan Ethem" sex="M" age="adult" role="creator">
+                     <persName>Hasan Ethem</persName>
+                     <note>Creator of the document. A school teacher and an officer soldier.</note>
+                  </person>
+                  <person xml:id="Halit" sex="M" age="adult" role="relative">
+                     <persName>Halit</persName>
+                     <note>Brother of the creator of the document.</note>
+                  </person>
+                  <person xml:id="Şevket" sex="M" age="adult" role="relative">
+                     <persName>Şevket</persName>
+                     <note>Brother of the creator of the document.</note>
+                  </person>
+                  <person xml:id="Hilmi" sex="M" age="adult" role="relative">
+                     <persName>Hilmi</persName>
+                     <note>Brother of the creator of the document.</note>
+                  </person>
+                  <person xml:id="Kadir" sex="M" age="adult">
+                     <persName>Kadir</persName>
+                     <note>We don't have enough information on who he is.</note>
+                  </person>
+               </listPerson>
+            </particDesc>
+            <settingDesc>
+               <listPlace>
+                  <place xml:id="Divrin">
+                     <placeName>
+                        <settlement type="meadow">Divrin Ovası</settlement>
+                        <note>Hasan Ethem writes that, he has read the letter of his mother in Divrin meadow. He talks about how the meadow is giving peace to him.</note>
+                     </placeName>
+                     <location>
+                        <geo>38°10′35″K 34°40′27″D </geo>
+                     </location>
+                  </place>
+               </listPlace> 
+            </settingDesc>
+         </profileDesc>
+         <xenoData>
+            <rdf:RDF>
+               <!--  persons:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                    dbo:Hasan Ethem a foaf:Person;
+                      rdfs:label "Hasan_Ethem"@tur.
+                 -->
+               <rdf:Description tei:ref="#Hasan_Ethem" rdf:about="https://w3id.org/voicesofwar/Hasan_Ethem">
+                  <rdfs:label xml:lang="tur">Hasan Ethem</rdfs:label>
+               </rdf:Description>
+               <rdf:Description tei:ref="#mother" rdf:about="https://w3id.org/voicesofwar/mother_of_Hasan">
+                  <rdfs:label xml:lang="tur">Mother of Hasan</rdfs:label> 
+               </rdf:Description>
+               <rdf:Description tei:ref="#brother_Sevket" rdf:about="https://w3id.org/voicesofwar/Sevket">
+                  <rdfs:label xml:lang="tur">Şevket</rdfs:label>  
+               </rdf:Description>
+               <rdf:Description tei:ref="#brother_Halit" rdf:about="https://w3id.org/voicesofwar/Halit">
+                  <rdfs:label xml:lang="tur">Halit</rdfs:label> 
+               </rdf:Description>
+               <rdf:Description tei:ref="#brother_Hilmi" rdf:about="https://w3id.org/voicesofwar/Hilmi">
+                  <rdfs:label xml:lang="tur">Hilmi</rdfs:label> 
+               </rdf:Description>
+               <rdf:Description tei:ref="#Kadir" rdf:about="https://w3id.org/voicesofwar/Kadir">
+                  <rdfs:label xml:lang="tur">Kadir</rdfs:label> 
+               </rdf:Description>
+               <!--  places:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    dbo:Divrin a dbo:Place;
+                      rdfs:label "Divrin"@tur.
+                 -->
+               <rdf:Description tei:ref="#Divrin" rdf:about="https://w3id.org/voicesofwar/Divrin">
+                  <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                  <rdfs:label xml:lang="tur">Divrin</rdfs:label>
+               </rdf:Description>
+            </rdf:RDF>
+         </xenoData>
+      </teiHeader>
+      <facsimile>
+         <surface type="tur">
+            <graphic xml:id="hasan_ethem" url=""/> <!-- we would like to add a normal photo--> 
+         </surface>
+      </facsimile>
+      <text>
+         <body>
+            <div type="letter">
+               <pb facs="#hasan_ethem"/>
+               <opener>
+                  <dateline><date>17 Nisan 1915</date></dateline>
+                  <salute><persName ref="#mother">Valideciğim,</persName> Dört asker doğurmakla müftehir şanlı Türk annesi!</salute>
+               </opener>
+               <p>Nasihatimiz mektubunu, <placeName ref="#Divrin">Divrin ovası</placeName> gibi güzel, yeşillik bir ovacığın ortasından geçen derenin kenarındaki armut ağacının sayesinde otururken aldım. Tabiatın yeşillikleri içinde mest olmuş ruhu¬mu bir kat daha takviye etti. Okudum, okudukça büyük büyük dersler aldım. Tekrar okudum. Şöyle güzel ve mukaddes bir vazifenin içinde bulunduğumdan sevindim. Gözlerimi açtım. Uzaklara doğru baktım. Yeşil yeşil ekinlerin rüzgâra mukavemet edemeyerek eğilmesi bana, annemden gelen mek¬tubu selamlıyor gibi geldi. Hepsi benden tarafa doğru eğilip kalkıyordu ve beni, <persName ref="#mother">annemden</persName> mektub geldi diyerek tebrik ediyordu.<lb/>
+               Gözlerimi biraz sağa çevirdim; güzel bir yamacın eteklerindeki muhteşem çam ağaçları kendilerine mahsus bir seda ile beni tebşir ediyorlardı. Nazarlarımı sola çevirdim; ağıl ağıl akan dere, bana <persName ref="#mother">validemden</persName>  gelen mektubdan dolayı gülüyor, oynuyor, köpürüyordu... Başımı kaldırdım, gölgesinde istirahat ettiğim ağacın yapraklarına baktım; hepsi benim sevincime iştirak ettiğini, yaptıkları rakslarla anlatmak istiyordu. Diğer bir dalma baktım; güzel bir bülbül, tatlı sedayla beni tebşir ediyor ve hissiyatıma iştirak ettiğini ince gagalarını açarak göstermek istiyordu.<lb/> 
+               İşte bu geçen dakikalar anında hizmetçi:
+               -Efendim, çayınız, buyurun, içiniz, dedi.
+               -Pekâlâ, dedim. Aldım baktım, sütlü çay...
+               -Mustafa, bu sütü nereden aldın? Dedim.
+               -Efendim, şu derenin kenarına yayıla yayıla giden sürü yok mu?
+               -Evet, ne kadar güzel.
+               -İşte onun çobanından 10 paraya aldım.<lb/>
+               <persName ref="#mother">Vâlideciğim,</persName>
+               10 paraya 100 dirhem süt, hem de su katılmamış. Koyundan şimdi sağılmış, aldım ve içtim.<lb/>
+               Fakat bu sırada düşünüyorum… Ben <persName ref="#mother">vâlidemin</persName> sayesinde, onun gönderdiği para ile böyle süt içeyim de, <persName ref="#mother">annem</persName> içmesin, olur mu? <persName ref="#brother_Sevket">Şevket</persName> neden içmiyor? dedim. <lb/>
+               Fakat yukarıdaki bülbül bağırıyordu: “<persName ref="#mother">Vâliden</persName> kaderine küssün, ne yapalım. O da erkek olsaydı; bu çiçeklerden koklayacak, bu sütten içecek, bu ekinlerin secdelerini görecek ve derenin âheste akışını tetkik edecek ve çıkardığı sesleri duyacak idi.”<lb/>
+               <persName ref="#brother_Sevket">Şevket</persName> merak etmesin; o görür, belki de daha güzellerini görür. <lb/>
+               Fakat <persName ref="#mother">vâlideciğim</persName>, sen yine müteessir olma. Ben seni, evet seni mutlaka buralara getireceğim. Ve şu tabiî manzarayı göstereceğim. <persName ref="#brother_Sevket">Şevket</persName>, <persName ref="#brother_Hilmi">Hilmi</persName> de senin sayende görecektir.O güzel çayırın koyu yeşil bir tarafında, çamaşır yıkayan askerlerim saf saf dizilmişler. Gayet güzel sesli biri ezan okuyordu.<lb/>
+               Ey <rs type="deity">Allah</rs>'ım, bu ovada onun sesi ne kadar güzeldi. Bülbül bile sustu, ekinler bile hareketten kesildi, dere bile sesini çıkarmıyordu. Herkes, her şey, bütün mevcudat onu, o mukaddes sesi dinliyordu. Ezan bitti. O dereden ben de bir abdest aldım. Cemaatle namazı kıldık. O güzel çayırın üzerine diz çöktüm. Bütün dünyanın dağdağa debdebelerini unuttum. Ellerimi kaldırdım, gözümü yukarı diktim, ağzımı açtım ve dedim:<lb/>
+               "Ey Türklerin ulu <rs type="deity">tanrısı</rs>! Ey şu öten kuşun, şu gezen ve meleyen koyunun, şu secde eden yeşil ekin ve otları, şu heybetli dağların Hâlık'ı! Sen bütün bunları Türklere verdin. Yine Türklerde bırak; Çün¬kü böyle güzel yerler, seni takdis eden ve ulu tanıyan Türklere mahsustur. "Ey benim Rabbim! Şu kahraman askerlerin bütün dilekleri, ism-i Celâl'ini İngilizlere ve Fransızlara tanıtmaktır. Sen bu şerefli dileği ihsan eyle ve huzurunda titreyerek böyle güzel ve sakin bir yer¬de sana dua eden biz askerlerin süngülerini keskin, düşmanlarını zaten kahrettin ya, bütün bütün mahv eyle!" diyerek bir dua ettim ve kalktım. Artık benim kadar mesud, benim kadar mesrur bir kimse tasavvur edilemezdi.<lb/>
+               <persName ref="#mother">Anneciğim</persName>, oğlun <persName ref="#brother_Halit">Halit</persName> de benim gibi güzel yerlerdedir. Dünyanın en güzel yerleri burası imiş. Yalnız bu memleketlerde düğün olmuyor. İnşallah düşman asker çıkarır da bizi de götürürler, bir düğün yaparız, olmaz mı? <persName ref="#Kadir">Kadir</persName>'e mektub yazdım.<lb/>
+               <persName ref="#mother">Valideciğim</persName>, evdeki senet vasâireyi kimselere katiyen vermeyin ve sorarlarsa, biz bilmiyoruz deyin. Çantayı al, sandığa koy. Ben sana vaktiyle anlatmış idim, bu dünya böyledir; fakat sen merak etme. O parayı vermese adliyedeki adam vermezdi. Hani nasıl aldık; yalnız, zaman ister. <persName ref="#mother">Valideciğim</persName>, çamaşır falan istemem; paralarım duruyor. <rs type="deity">Allah</rs> razı olsun.
+               <lb/> </p>  
+               <closer>
+                  <signed>Oğlun <persName ref="#Hasan Ethem">Hasan Ethem </persName></signed>
+               </closer>
+            </div>   
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters of the Martyr Teacher Hasan Ethem Efendi</title>
+				<respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Uludağ University</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Irem Atmar</name>
+               </respStmt>
+                <respStmt>
+                  <resp>Digital manuscript</resp>
+                  <name>Uludağ University</name>
+               </respStmt>
+            </titleStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Niğde</settlement>
+                 </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            	<pb facs="#hasan ethem"/>
+            	<opener>
+                  <dateline><date>April 17, 1915</date></dateline>
+                  <salute>Dear <persName ref="#mother">Mother,</persName> Glorious Turkish mother who gave birth to four soldiers!</salute>
+                </opener>
+				<p>I received your letter of advice while sitting by the pear tree, by the stream that runs through a beautiful green plain like the plain of <placeName ref="#Divrin">Divrin</placeName>. It reinforced my soul, which was enchanted in the greenery of nature, once again. I read, I learned great lessons as I read. I read it again. I am glad to be in such a beautiful and sacred duty. I opened my eyes. I looked into the distance. The bowing of the green crops, unable to resist the wind, seemed to me to greet the letter from my mother. All of them were leaning towards me and congratulating me saying I received a letter from my <persName ref="#mother">mother</persName>.<lb/>
+
+				I looked right a little; magnificent pine trees at the foot of a beautiful slope were giving me good news with a voice peculiar to them. I turned my eyes to the left; The creek, which was flowing, was laughing, playing, foaming because of the letter I received from my <persName ref="#mother">mother</persName>... I raised my head, looked at the leaves of the tree in which I was resting; they all wanted to tell me that they were participating in my joy with their dances. I looked at another branch; A beautiful nightingale was giving me good news sweetly and wanted to show its sympathy by opening its thin beaks.<lb/> 
+
+				At this moment the maid said:
+				-“Sir, your tea, here, drink it”.
+				-“All right,” I said. I took it and looked, tea with milk...
+				-“Mustafa, where did you get this milk from?” I said.
+				-“Sir, there is a flock that scurries to the side of the stream”.
+				-“Yeah, how beautiful”.
+				-“Here I bought it from its shepherd for 10 coins”.<lb/>
+
+				Dear <persName ref="#mother">Mother</persName>, 
+				100 dirhams of milk without water for 10 coins. The sheep is just milked, I bought it and drank it.<lb/>
+				But at the same time, I'm thinking… Thanks to my <persName ref="#mother">mother</persName>, I am able to drink milk like this with the money she sent, but my <persName ref="#mother">mother</persName> is not going to drink it? Why doesn't <persName ref="#brother_Sevket">Şevket</persName> drink, I said.<lb/>
+				But the nightingale above was shouting: “Your <persName ref="#mother">mother</persName> should curse to her fate, what should we do? If he was a man too; she would smell these flowers, drink this milk, see the prostrations of these crops, examine the quiet flow of the stream and hear the sounds it makes.”<lb/>
+				<persName ref="#brother_Sevket">Şevket</persName> shouldn’t worry; he will see, maybe he will see better ones.<lb/> 
+				But <persName ref="#mother">mommy</persName>, don't be upset. I will definitely bring you here, yes. And I will show you this natural view. <persName ref="#brother_Sevket">Şevket</persName>, <persName ref="#brother_Hilmi">Hilmi</persName> will see, thanks to you.<lb/>
+				On a dark green side of that beautiful meadow, my soldiers doing the laundry lined up in rows. Someone with a good voice was reciting the azan.
+				Oh my <rs type="deity">God</rs>, how beautiful was his voice in this plain. Even the nightingale was silent, even the crops stopped moving, even the stream was silent. Everyone, everything, all beings were listening to him, that holy voice. Azan was over. I also performed an ablution from that stream. We prayed in congregation. I knelt on that beautiful meadow. I forgot the messy pomp of the whole world. I raised my hands, stared up, opened my mouth and said:<lb/>
+				"O great <rs type="deity">God</rs> of the Turks! O you, this bird who sings, that wandering and bleating sheep, that prostrate green crop and grass, those majestic mountains! You gave all these to the Turks. Leave it to the Turks again; Because such beautiful places, is reserved for the Turks who bless and recognize the greatness of you.”<lb/>
+				"O my Lord! All the wishes of these heroic soldiers are to introduce your name to the British and the French. Grant this honorable wish and sharpen the bayonets of us soldiers who pray to you in such a beautiful and quiet place, trembling in your presence. You have already destroyed our enemies, destroy them completely!” I prayed and stood up. A person as happy as me, as proud as me could not be imagined.<lb/>
+				<persName ref="#mother">Mommy</persName>, your son <persName ref="#brother_Halit">Halit</persName> is in beautiful places like me. This is the most beautiful place in the world. Only thing is, weddings do not happen in these countries. I hope the enemy will come with soldiers and they will take us away, we'll have a wedding, won't we? I wrote a letter to <persName ref="#Kadir">Kadir</persName>.<lb/>
+				<persName ref="#mother">Mommy</persName>, never give people things like bills in the house. And if they ask, say we don't know. Take the bag, put it in the chest. I told you once, this is the world; but don't worry. If the man at the court house didn’t want to give the money, he wouldn’t have. You know how we got it; it takes time. Dear <persName ref="#mother">mother</persName>, I don’t want clothes or anything; I have money. <rs type="deity">God</rs> bless you.<lb/> 
+				</p>  
+                <closer>
+                  <signed>Your son <persName ref="#Hasan Ethem">Hasan Ethem </persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>ПОСЛЕДНЕЕ ПИСЬМО УЧИТЕЛЯ МАРТЫРА ХАСАНА ЭТЕМ ЭФЭНДИ ЕГО МАТЕРИ</title>
+                  <respStmt>
+                     <resp>Transcription by</resp>
+                     <name>Uludağ University</name>
+                  </respStmt>
+                  <respStmt>
+                     <resp>Transcription, encoding and translation by</resp>
+                     <name>Irem Atmar</name>
+                     <name>Evgeniia Vdovichenko</name>
+                  </respStmt>
+                  <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Uludağ University</name>
+                  </respStmt>
+            </titleStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Niğde</settlement>
+                  </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                        </objectDesc>
+                     </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="letter">
+            	<pb facs="#hasan ethem"/>
+            	<opener>
+                  <dateline><date>April 17, 1915</date></dateline>
+                  <salute>Дорогая <persName ref="#mother">мамочка</persName>, Славная турецкая мама, что дала жизнь четырем солдатам!</salute>
+               </opener>
+				<p>Я получил твое письмо с советами, сидя под грушевым деревом, у реки, которая течет через прекрасную зеленую равнину, похожую на равнину <placeName ref="#Divrin">Диврин</placeName>. Это еще больше укрепило мой дух, очарованный природой. Я прочитал и, читая, получил хороший урок. И я прочитал снова. Как я рад, что у меня есть прекрасный и священный долг. Я открыл глаза, посмотрел вперед. Зеленые ростки, которые извивались под порывами ветра, которому не могли противиться, казалось, приветствовали твое письмо. Они склонились ко мне как будто поздравляли с тем, что я получил письмо от <persName ref="#mother">мамы</persName>.<lb/>
+
+				Я посмотрел направо; величественные сосны у подножья живописного склона передавали мне хорошие новости своим особенным голосом. Я посмотрел налево; протекающий мимо ручей пенился, как будто играл, смеялся, потому что я получил письмо от<persName ref="#mother">мамы</persName>... Я взглянул вверх, на листья дерева, под которым я отдыхал, они тоже как будто хотели сказать мне, что танцуют от радости за меня. Я перевел взгляд на другую ветку; прекрасный соловей нежно передавал мне хорошие новости и приветствовал меня, открыв клюв. <lb/> 
+
+				Подошел слуга:
+				-“Ваш чай готов, господин”.
+				-“Хорошо,” Ответил я и взял чашку, чай был с молоком…
+				-“Мустафа, откуда ты взял это молоко?” Спросил я.
+				-“Здесь неподалеку, на берегу, пасется стадо, господин”.
+				-“Замечательно”.
+				-“Я купил молоко у пастуха за 10 монет”.<lb/>
+
+				Дорогая <persName ref="#mother">мама</persName>, 
+				100 дирхам молока без воды за 10 монет. Овец только что подоили, я купил молоко и сразу же выпил.<lb/>
+				Но в то же время я думаю… Спасибо <persName ref="#mother">маме </persName>, за то, что она отправила мне деньги, и я могу купить молока, но ведь <persName ref="#mother">она</persName> не сможет выпить его? Почему  <persName ref="#brother_Sevket">Шевкет</persName> пьет? – сказал я.<lb/>
+				Но соловей сверху прокричал: «Твоей <persName ref="#mother">матери </persName> следует проклинать судьбу, а нам что делать? Если бы она тоже была мужчиной, она бы могла вдыхать аромат этих цветов, пить это молоко, видеть, как склоняются под ветром эти ростки, исследовать спокойное течение ручья и слушать его журчание».<lb/>
+				<persName ref="#brother_Sevket">Шевкету</persName> не нужно волноваться, он увидит, может даже больше.<lb/> 
+				<persName ref="#mother">Мама</persName>, не грусти. Я обязательно привезу тебя сюда. И покажу тебе эти пейзажи. Благодаря тебе <persName ref="#brother_Sevket">Шевкет</persName>, увидит <persName ref="#brother_Hilmi">Хилми</persName>.<lb/>
+				На стороне поляны, что была в тени, солдаты выстроились в ряд и стирали белье. Один, с хорошим голосом, читал молитву. 
+				О боже, его голос так разносился по всей равнине. Даже соловей затих, побеги перестали шевелиться, и ручей замолчал. Все и всё, все живые существа слушали этот святой голос. Но вот молитва закончена. Я омыл ноги в ручье вместе со всеми. Мы помолились вместе. Я преклонил колени на этом прекрасном лугу и забыл о беспорядке и роскоши этого мира. Подняв руки, я обратил взор наверх и сказал:<lb/>
+				«Боже! Эта поющая птица, блуждающие и блеющие овцы, распростертая зелень и травы, эти чудесные горы! Ты дал все это туркам! Верни это нам назад, потому что такие красивые места должны достаться тем, кто славит тебя и признает твое величие.»<lb/>
+				«Господи! Все, что хотят наши героические солдаты, это донести твое имя до британцев и французов. Исполнить это почетное желание и наточить штыки наших солдат, которые молятся тебе в этом красивом и тихом месте, трепеща в твоем присутствии. Ты уже поразил наших врагов, уничтожь их полностью!» - я закончил молиться и поднялся на ноги. Не было человека более гордого и счастливого, чем я в тот момент.<lb/>
+				<persName ref="#mother">Мама</persName>, твой сын  <persName ref="#brother_Halit">Халит</persName> тоже в красивом месте сейчас. Это самое лучшее место на земле. Только вот свадеб здесь не проводят. Я надеюсь, что враг придет с солдатами и они заберут нас отсюда туда, где мы сможем сыграть свадьбу. Я написал об этом <persName ref="#Kadir">Кадиру</persName>.<lb/>
+				<persName ref="#mother">Мама</persName>, не отдавай людям счета за дом. И если они спросят, скажи, что мы ничего не знаем. Возьми сумку и храни ее на груди. Я уже говорил это тебе, так устроен мир, главное, не волнуйся. Если мужчина в суде не захотел вернуть тебе деньги, он их не получит. Знаешь, чтобы получить деньги, нужно время. И<persName ref="#mother"> мама</persName>, мне не нужна ни одежда, ни что-то еще, деньги есть. Да хранит тебя <rs type="deity">Бог</rs>.<lb/> 
+				</p>  
+               <closer>
+                  <signed>Твой сын <persName ref="#Hasan Ethem">Хасан Этем</persName></signed>
+               </closer>
+            </div>
+        </body>
+      </text>  
+   </TEI>
+   <TEI>
+    <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ULTIMA LETTERA DEL MAESTRO MARTIRE HASAN ETHEM EFENDİ A SUA MADRE</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Uludağ University</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Transcription, encoding and translation by</resp>
+                  <name>Irem Atmar</name>
+                  <name>Salvatore Di Marzo</name>
+               </respStmt>
+               <respStmt>
+                     <resp>Digital images</resp>
+                     <name>Uludağ University</name>
+               </respStmt>
+         </titleStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Niğde</settlement>
+               </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                     </objectDesc>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="it">Italian</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+        <body>
+            <div type="letter">
+                <opener>
+                <dateline><date>17 Aprile 1915</date></dateline>
+                <salute><persName ref="#mother">Cara madre,</persName>Gloriosa madre turca che ha dato alla luce quattro soldati!</salute>
+                </opener>
+                    <p> Ho ricevuto la tua lettera di consigli mentre ero seduto vicino al pero, vicino ad un ruscello che scorre in una bella pianura verde come la <placeName ref="#Divrin">piana di Divrin</placeName>. Ha rinforzato la mia anima, che era incantata nel verde della natura, ancora una volta. Ho letto, ho imparato grandi lezioni mentre leggevo. L'ho letto di nuovo. Sono felice di avere un dovere così bello e sacro. Ho aperto gli occhi. Ho guardato in lontananza. L'incurvarsi dei verdi raccolti, incapaci di resistere al vento, mi parve salutare la lettera di mia <persName ref="#mother">madre</persName>. Tutti loro si sporgevano verso di me e si congratulavano con me dicendo che avevo ricevuto una lettera da mia <persName ref="#mother">madre</persName>.<lb/>
+                    Mi sono girato a destra'; magnifici pini ai piedi di un bel pendio mi davano buone notizie con una loro peculiare voce. Ho girato il mio guardo a sinistra; Il torrente, che scorreva, rideva, giocava, schiumava per la lettera che ricevevo da mia <persName ref="#mother">madre</persName>... Alzai la testa, guardai le foglie dell'albero su cui riposavo; tutti volevano dirmi che partecipavano alla mia gioia con le loro danze. Ho guardato un altro ramo; Un bellissimo usignolo mi dava dolcemente buone notizie e voleva manifestare la sua simpatia aprendo i suoi becchi sottili.<lb/>
+                    In quel momento la cameriera disse:
+                    -“Signore, il suo tè, ecco, lo beva”.
+                    -"Va bene", dissi. L'ho preso e ho guardato, tè con latte...
+                    -“Mustafa, da dove hai preso questo latte?” Ho detto.
+                    -“Signore, c'è un gregge che corre al lato del torrente”.
+                    -“Sì, che bello”.
+                    -“Qui l'ho comprato dal suo pastore per 10 denari”.<lb/>
+                    Cara <persName ref="#mother">madre</persName>,
+                    100 dirham di latte senza acqua per 10 monete. La pecora è appena munta, l'ho comprata e l'ho bevuto.<lb/>
+                    Ma allo stesso tempo, sto pensando... Grazie a mia <persName ref="#mother">madre</persName>, posso bere il latte così con i soldi che ha mandato, ma mia <persName ref="#mother">madre</persName> non lo berrà? Perché <persName ref="#brother_Sevket">Şevket</persName> non beve, ho detto.<lb/>
+                    Ma l'usignolo sopra gridava: “Tua <persName ref="#mother">madre</persName> dovrebbe maledire il suo destino, cosa dovremmo fare? Se anche lui era un uomo; annuserebbe questi fiori, berrebbe questo latte, vedrebbe le prostrazioni di questi raccolti, esaminerebbe il flusso silenzioso del ruscello e ascolterebbe i suoni che fa.<lb/>
+                    <persName ref="#brother_Sevket">Şevket</persName> non dovrebbe preoccuparsi; vedrà, forse ne vedrà di migliori.<lb/>
+                    Ma <persName ref="#mother">mamma</persName>, non essere arrabbiata. Ti porterò sicuramente qui, sì. E ti mostrerò questa vista naturale. <persName ref="#brother_Sevket">Şevket</persName>, <persName ref="#brother_Hilmi">Hilmi</persName> vedrà, grazie a te.<lb/>
+                    Su un lato verde scuro di quel bellissimo prato, i miei soldati che fanno il bucato si sono allineati in fila. Qualcuno con una buona voce stava recitando l'azan.<lb/>
+                    Oh mio <rs type="deity">Dio</rs>, com'era bella la sua voce in questa pianura. Anche l'usignolo taceva, anche i raccolti si fermavano, anche il ruscello taceva. Tutti, tutto, tutti gli esseri lo stavano ascoltando, quella voce santa. Azan era finito. Ho anche eseguito un'abluzione da quel flusso. Abbiamo pregato in congregazione. Mi sono inginocchiato su quel bel prato. Ho dimenticato il flusso disordinato di tutto il mondo. Ho alzato le mani, ho guardato in alto, ho aperto la bocca e ho detto:<lb/>
+                    "O grande <rs type="deity">Dio</rs> dei turchi! O tu, questo uccello che canta, quella pecora errante e belante, quel raccolto verde prostrato e l'erba, quelle montagne maestose! Hai dato tutto questo ai turchi. Lascialo di nuovo ai turchi; Perché tali bei posti, sono riservato ai turchi che ti benedicono e riconoscono la grandezza.”<lb/>
+                    "O mio Signore! Tutti i desideri di questi eroici soldati sono di presentare il tuo nome agli inglesi e ai francesi. Esaudisci questo onorevole desiderio e affila le baionette di noi soldati che ti preghiamo in un luogo così bello e tranquillo, tremando nella tua presenza. Hai già distrutto i nostri nemici, distruggili completamente! Pregai e mi alzai: una persona felice come me, orgogliosa come me non si poteva immaginare.<lb/>
+                    <persName ref="#mother">Mamma</persName>, tuo figlio <persName ref="#brother_Halit">Halit</persName> è in posti bellissimi come me. Questo è il posto più bello del mondo. L'unica cosa è che i matrimoni non avvengono in questi paesi. Spero che il nemico venga con i soldati e ci porti via, ci sposeremo, no? Ho scritto una lettera a <persName ref="#Kadir">Kadir</persName>.<lb/>
+                    <persName ref="#mother">Mamma</persName>, non dare mai alla gente cose come le bollette in casa. E se te lo chiedono, rispondi che non lo sappiamo. Prendi la borsa, mettila nel baule. Te l'ho detto una volta, questo è il mondo; ma non preoccuparti. Se l'uomo in tribunale non avesse voluto dare i soldi, non l'avrebbe fatto. Sai come l'abbiamo ottenuto; richiede tempo. Cara <persName ref="#mother">madre</persName>, non voglio vestiti o altro; Ho denaro. <rs type="deity">Dio</rs> vi benedica.<lb/></p>
+                    <closer>
+                    <signed>Tuo figlio <persName ref="#Hasan_Ethem">Hasan Ethem </persName></signed>
+                    </closer>
+            </div>   
+        </body>
+    </text>  
+</TEI>   
+</teiCorpus>

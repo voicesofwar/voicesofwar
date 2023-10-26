@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jānis Fārts Petrogradā 1918.gadā</title>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>Evgeniia Vdovichenko</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Irem Atmar</name>
+                    <name>Rana Coskun</name>
+                    <name>Salvatore Di Marzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+                    <name>Evgeniia Vdovichenko</name>
+                    <name>Irem Atmar</name>
+                    <name>Rana Coskun</name>
+                    <name>Salvatore Di Marzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Scientific and technical curation by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2019-09-11T08:49:36.721Z           
+                     2020-02-25T08:59:25.241Z
+                     2016-11-14 10:14:25 UTC</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a 
+                        Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Handwritten letter of the soldier Jānis Fārts to his mother Ieva Fārta, 
+                   where Jānis has mentioned his brother George. Written in the camp for the war prisoners</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Jānis Fārts Petrogradā 1918.gadā</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Europeana 1914-1918</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Europeana 1914-1918</publisher>
+                    <date>2019-09-11T08:49:36.721Z           
+                     2020-02-25T08:59:25.241Z
+                     2016-11-14 10:14:25 UTC</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a 
+                        Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Riga</settlement>
+                            <repository>National State Archive of Latvia</repository>
+                            <idno type="Identifier">https://1914-1918.europeana.eu/contributions/21163/attachments/241607</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <p><material>Paper</material>: Written in black ink on white paper without lining.</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="1">1 page of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <additional>
+                            <listBibl>
+                                <bibl>DatasetName "2020601_Ag_ErsterWeltkrieg_EU"</bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+                <particDesc>
+                    <listPerson>
+                        <person xml:id="mother" sex="F" age="adult" role="relative">
+                            <persName>Ieva Fārta</persName>
+                            <note>Mother of the creator of the document. Speaks Russian and Latvian.</note>
+                        </person>
+                        <person xml:id="Ivan_Farts" sex="M" age="adult" role="creator">
+                            <persName>Jānis Fārts</persName>
+                            <note>Creator of the document. Speaks Russian and Latvian.</note>
+                        </person>
+                        <person xml:id="uncle" sex="M" age="adult" role="relative">
+                            <persName>Яковъ</persName>
+                            <note>Uncle of the creator of the document.</note>
+                        </person>
+                        <person xml:id="brother_nikolay" sex="M" age="adult" role="relative">
+                            <persName>Николай</persName>
+                            <note>Brother of the creator of the document.</note>
+                        </person>
+                        <person xml:id="brother_georgy" sex="M" age="adult" role="relative">
+                            <persName>Георгiй</persName>
+                            <note>Brother of the creator of the document.</note>
+                        </person>    
+                    </listPerson>
+                </particDesc>
+                <settingDesc>
+                    <listPlace>
+                        <place xml:id="camp">
+                            <placeName>
+                                <settlement type="prison">POW camp</settlement>
+                                <note>POW camp, officer division at Spratzern bei St.Polten lower Austria (Nieder-Ostrreich)n.</note>
+                            </placeName>
+                            <location>
+                                <geo>48.177815097171155, 15.623077150128514</geo>
+                            </location>
+                        </place> 
+                    </listPlace> 
+                </settingDesc> 
+            </profileDesc>
+            <xenoData>
+                <rdf:RDF>
+                    <!--  people:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                    dbo:Ivan_Farts a foaf:Person;
+                      rdfs:label "Ivan_Farts"@en.
+                    -->
+                    <rdf:Description tei:ref="#Ivan_Farts" rdf:about="https://w3id.org/voicesofwar/Ivan_Farts">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/> 
+                        <rdfs:label xml:lang="lv">Janis Farts</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#mother" rdf:about="https://w3id.org/voicesofwar/Ieva_Fārta">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/> 
+                        <rdfs:label xml:lang="lv">Ieva Farta</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#uncle" rdf:about="https://w3id.org/voicesofwar/Jacob">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/> 
+                        <rdfs:label xml:lang="en">Jacob</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#brother_nikolay" rdf:about="https://w3id.org/voicesofwar/Nikolay">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/> 
+                        <rdfs:label xml:lang="en">Nikolay</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#brother_georgy" rdf:about="https://w3id.org/voicesofwar/Georgy">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/> 
+                        <rdfs:label xml:lang="en">Georgy</rdfs:label>
+                    </rdf:Description>
+                    <!--  places:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    dbo:Austria a dbo:Place;
+                      rdfs:label "Austria"@en.
+                    -->
+                    <rdf:Description tei:ref="#camp" rdf:about="https://w3id.org/voicesofwar/camp">
+                       <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                       <rdfs:label xml:lang="en">POW camp</rdfs:label>
+                    </rdf:Description>
+               </rdf:RDF>
+            </xenoData>
+        </teiHeader>
+        <facsimile>
+            <graphic xml:id="farts_2" url="https://1914-1918.europeana.eu/contributions/21163/attachments/241607"/>
+        </facsimile>
+        <text>
+            <body>
+                <div type="letter">
+                <pb facs="#farts_2"/>
+                <opener>
+                    <salute>Дорогая <persName ref="#mother">мама</persName>!</salute>
+               </opener>
+               <p>Давно не получаю писемъ отъ Те-<lb/>
+                  бя, и очень  беспокоюсь. Недавно по-<lb/>
+                  лучилъ деньги, которыѣ послалъ<lb/>
+                  дядя <persName ref="#uncle">Яковъ</persName>. Другихъ извѣстий<lb/>
+                  никакихъ нятъ и я даже не<lb/>
+                  знаю, куда адресовать письма.<lb/>
+                  Я живу попрежнему въ томъ<lb/>
+                  же<placeName ref="#camp">лагерiъ</placeName> при техъ же усло-<lb/>
+                  вяхъ жизни. Приходится тя-<lb/>
+                  жело, но я вооружился терпѣ-<lb/>
+                  ниямъ. Здоровье удовлетворитель-<lb/>
+                  ное. Новаго ничего. От брать-<lb/>
+                  ев <persName ref="#brother_nikolay">Николая</persName> и <persName ref="#brother_georgy">Георгiя</persName> тоже<lb/>
+                  не получаю извѣстий и не знаю<lb/>
+                  гдѣ и какъ они проживаются.</p>
+               <closer>
+                    <signed>Твой сынъ<persName ref="#Ivan_Farts">Иванъ</persName></signed>
+               </closer>
+               </div>   
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>JĀNIS FARTS, PETROGRAD, 1918 ITEM 1</title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Europeana 1914-1918</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher><name>Europeana 1914-1918</name></publisher>
+                    <date>2019-09-11T08:49:36.721Z           
+                     2020-02-25T08:59:25.241Z
+                     2016-11-14 10:14:25 UTC</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a 
+                        Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Riga</settlement>
+                            <repository>National State Archive of Latvia</repository>
+                            <idno type="Identifier">https://1914-1918.europeana.eu/contributions/21163/attachments/241607</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="1">1 page of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="letter">
+                <pb facs="#farts_2"/>
+                <opener>
+                    <salute>Dear<persName ref="#mother">mother</persName>!</salute>
+               </opener>
+               <p>For a long time I didn't received letters from You, and I am really worried. 
+                  Recently I received the money from uncle <persName ref="#uncle">Jacob</persName>. 
+                  There are no other news and I don't know where to send letters. I still live in the same
+                  <placeName ref="#camp">camp</placeName> with the same conditions of life. 
+                  It's hard, but I'm armed with my patience. I am well. Nothing new. 
+                  From brothers <persName ref="#brother_nikolay">Nikolay</persName>and
+                  <persName ref="#brother_georgy">Georgiy</persName> I also haven't any news and 
+                  I don't know where and how they live.
+                </p>
+               <closer>
+                    <signed>Your son<persName ref="#Ivan_Farts">Ivan</persName></signed>
+               </closer>
+               </div>   
+            </body>
+        </text>
+    </TEI>
+    
+     <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>JĀNIS FARTS, PETROGRAD, 1918 METİN 1</title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                        <name>Irem Atmar</name>
+                        <name>Rana Coskun</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Europeana 1914-1918</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher><name>Europeana 1914-1918</name></publisher>
+                    <date>2019-09-11T08:49:36.721Z           
+                     2020-02-25T08:59:25.241Z
+                     2016-11-14 10:14:25 UTC</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a 
+                        Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Riga</settlement>
+                            <repository>National State Archive of Latvia</repository>
+                            <idno type="Identifier">https://1914-1918.europeana.eu/contributions/21163/attachments/241607</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="1">1 page of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="letter">
+                <pb facs="#farts_2"/>
+                <opener>
+                    <salute>Sevgili<persName ref="#mother">anneciğim</persName>!</salute>
+                </opener>
+                <p>Uzun zamandır sizden mektup alamadım ve gerçekten endişeleniyorum. 
+                   Geçenlerde <persName ref="#uncle">Jacob</persName> amcamdan parayı aldım. 
+                   Başka haber yok ve nereye mektup göndereceğimi bilmiyorum. Hâlâ aynı <placeName ref="#camp">
+                   kampta</placeName> aynı yaşam koşullarında yaşıyorum. Zor ama sabrımla silahlanmış durumdayım.
+                   Ben iyiyim. Herşey aynı. <persName ref="#brother_nikolay">Nikolay</persName> ve 
+                   <persName ref="#brother_georgy">Georgiy</persName> kardeşlerden de hiçbir haberim yok ve 
+                   nerede ve nasıl yaşadıklarını bilmiyorum.
+                </p>
+                <closer>
+                    <signed>Oğlun<persName ref="#Ivan_Farts">Ivan</persName></signed>
+                </closer>
+                </div>   
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>JĀNIS FARTS, Pietrogrado, 1918 TESTO 1</title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                        <name>Salvatore Di Marzo</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Europeana 1914-1918</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher><name>Europeana 1914-1918</name></publisher>
+                    <date>2019-09-11T08:49:36.721Z           
+                     2020-02-25T08:59:25.241Z
+                     2016-11-14 10:14:25 UTC</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a 
+                        Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Riga</settlement>
+                            <repository>National State Archive of Latvia</repository>
+                            <idno type="Identifier">https://1914-1918.europeana.eu/contributions/21163/attachments/241607</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="1">1 page of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="letter">
+                <pb facs="#farts_2"/>
+                <opener>
+                    <salute>Cara<persName ref="#mother">Madre</persName>!</salute>
+                </opener>
+                <p> Per molto tempo non ho ricevuto lettere da te e sono molto preoccupato.
+                   Di recente ho ricevuto i soldi dallo zio <persName ref="#uncle">Jacob</persName>. 
+                   Non ci sono altre notizie e non so dove spedire le lettere.
+                   Vivo ancora nello stesso <placeName ref="#camp">campo</placeName> con le stesse condizioni di
+                   vita. È difficile, ma sono armato della mia pazienza. Sto bene. Niente di nuovo. Anche dei 
+                   fratelli <persName ref="#brother_nikolay">Nikolay</persName> e 
+                   <persName ref="#brother_georgiy">Georgiy</persName> non ho notizie e non so dove e come 
+                   vivano.
+                </p>
+                <closer>
+                    <signed>Tuo figlio<persName ref="#Ivan_Farts">Ivan</persName></signed>
+                </closer>
+               </div>   
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

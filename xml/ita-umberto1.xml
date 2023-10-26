@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+<author xml:lang="it">Umberto Lombardo Radice</author>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Translation by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+
+<name>Irem Atmar</name>
+
+<name>Rana Coskun</name>
+
+<name>Salvatore Di Marzo</name>
+
+<name>Evgeniia Vdovichenko</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Scientific and technical curation by</resp>
+
+<name>Tiziana Mancinelli</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+<p>Letters of Umberto Lombardo Radice to his brother Giuseppe Lombardo Radice written while he was on the front near il Monte Nero fighting against the Austrians</p>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+-<TEI xmlns:dbo="http://dbpedia.org/ontology/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+<title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+
+
+-<respStmt>
+
+<resp>Transcription by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Encoding by</resp>
+
+<name>Salvatore Di Marzo</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Digital manuscript</resp>
+
+<name>Europeana 1914-1918</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<publicationStmt>
+
+<publisher>Europeana 1914-1918</publisher>
+
+<date>2018-09-11</date>
+
+
+-<availability>
+
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under Terms and Policies of Europeana</licence>
+
+</availability>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<msDesc>
+
+
+-<msIdentifier>
+
+<settlement>Europe</settlement>
+
+<repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+
+<idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+
+</msIdentifier>
+
+
+-<physDesc>
+
+
+-<objectDesc>
+
+
+-<p>
+
+<material>Paper</material>
+: Written in green ink on white paper without lining.
+</p>
+
+</objectDesc>
+
+</physDesc>
+
+</msDesc>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="it">Italian</language>
+
+</langUsage>
+
+
+-<particDesc>
+
+
+-<listPerson>
+
+
+-<person role="creator" age="adult" sex="M" xml:id="Creator">
+
+<persName>Umberto Lombardo Radice</persName>
+
+<note>Creator of the letters writing from the front</note>
+
+</person>
+
+
+-<person role="relative" age="adult" sex="M" xml:id="Giuseppe_Lombardo_Radice">
+
+<persName>Giuseppe Lombardo Radice</persName>
+
+<note>Brother of the creator.</note>
+
+</person>
+
+</listPerson>
+
+</particDesc>
+
+
+-<settingDesc>
+
+
+-<listPlace>
+
+
+    <place xml:id="Trieste">
+        <placeName type="Capital city">Trieste</placeName>
+        <note>Capital City of Friuli Venezia Giulia.</note>
+        <location>
+            <geo>45.649526, 13.776818</geo>
+        </location>
+    </place>
+    
+    <place xml:id="Monte_Nero">
+        <placeName type="Mountain">Monte Nero</placeName>
+        <note>Mountain in Slovenia very close to the Italian border, famous for the fighting that occurred on it during the First World War</note>
+        <location>
+            <geo>46.2661, 13.6589</geo>
+        </location>
+    </place>
+    
+    <place xml:id="Carso">
+        <placeName type="Mountain">Carso</placeName>
+        <note>Rocky Limestone plateau near the Italian border with Slovenia, famous for the fighting that occurred on it during the First World War</note>
+        <location>
+            <geo>45.45, 13.46</geo>
+        </location>
+    </place>
+    
+    <place xml:id="Gorizia">
+        <placeName type="city">Gorizia</placeName>
+        <note>City in Friuli Venezia Giulia.</note>
+        <location>
+            <geo>45.9352, 13.6193</geo>
+        </location>
+    </place>
+    
+
+</listPlace>
+
+</settingDesc>
+
+</profileDesc>
+
+
+-<xenoData>
+
+
+-<rdf:RDF>
+
+<!-- persons:@PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.@PREFIX dbo: <http://dbpedia.org/ontology/>.@PREFIX foaf: <http://xmlns.com/foaf/0.1/>.dbo:Ivan_Farts a foaf:Person;rdfs:label "Ivan_Farts"@lv. -->
+
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Giuseppe_Lombardo_Radice" tei:ref="#Giuseppe_Lombardo_Radice">
+
+<rdfs:label xml:lang="it">Giuseppe Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+
+-<foaf:Person rdf:about="http://dbpedia.org/resource/Umberto_Lombardo_Radice" tei:ref="#creator">
+
+<rdfs:label xml:lang="it">Umberto Lombardo Radice</rdfs:label>
+
+</foaf:Person>
+
+
+
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Trieste" tei:ref="#Trieste">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Trieste</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Gorizia" tei:ref="#Gorizia">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+
+<rdfs:label xml:lang="it">Gorizia</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Monte_Nero" tei:ref="#Monte_Nero">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Thing"/>
+
+<rdfs:label xml:lang="it">Monte Nero</rdfs:label>
+
+</rdf:Description>
+
+-<rdf:Description rdf:about="http://dbpedia.org/resource/Carso" tei:ref="#Carso">
+
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Thing"/>
+
+<rdfs:label xml:lang="it">Carso</rdfs:label>
+
+</rdf:Description>
+
+</rdf:RDF>
+
+</xenoData>
+
+</teiHeader>
+
+
+-<facsimile>
+
+
+-<surface type="it">
+
+<graphic xml:id="Umberto_1" url="https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749"/>
+
+</surface>
+
+</facsimile>
+
+
+-<text>
+
+
+-<body>
+
+
+-<div type="postcard">
+
+<pb facs="#Umberto_primo"/>
+
+
+-<opener>
+
+
+-<dateline>
+
+<date>M. 29-6-1915</date>
+
+</dateline>
+
+
+<salute>
+
+<presentation>
+Architetto. G.L.R Giugno., 1915
+</presentation>
+
+Caro <persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>, dagli <placeName ref="Trieste">avamposti</placeName>
+</salute>
+
+</opener>
+
+<p>
+    Ho fatto leggere<lb/>
+    a tutti la tua lettera con la quale<lb/>
+    mi dicevi le belle cose che fa<lb/>
+    il nostro paese per rimediare ai mali<lb/>
+    della guerra. Sei diventato popolare<lb/>
+    al 2 Granatieri, 7 divisione 8 compagnia (compagnie gemelle)<lb/>
+    a <placeName ref="Trieste">Trieste</placeName>? Io penso che passeranno<lb/>
+    lunghi mesi prima di giungervi. Per ora gli austriaci sono in condizioni<lb/>
+    di superiorità, perché loro tengono i<lb/>
+    monti con difese accessorie formidabili<lb/>
+    (reticolati, trincee, mine, bocche da lupo,<lb/>
+    allagamenti, incendi etc…) mentre noi<lb/>
+    teniamo appena appena la pianura<lb/>
+    e qualche ultimo contrafforte, il piano<lb/>
+    basso, della <placeName ref="Carso">catena Carsica</placeName>.<lb/>
+    Ma <placeName ref="Gorizia">Gorizia</placeName> già vien occupata dai<lb/>
+    nostri ed io non ci passerò, il <placeName ref="Monte_Nero">Monte 
+    nero</placeName><lb/>
+    è la chiave per far cadere, ad<lb/>
+    una ad una, tutte le colline al sud<lb/>
+    fino a noi. Ogni collina è una<lb/>
+    fortezza, ben armata e ben difesa. <lb/>
+    Ma la forza entusiasta nostra tutto<lb/>
+    vincerà. Gli austriaci debbano essere<lb/>
+    stanchi, perchè ad ogni momento<untranscribed>(tre parole mancanti)</untranscribed><lb/>
+    vengono a costituirsi per<lb/>
+    fame e perché sono stufi. Troviamo<lb/>
+    quindi un nemico scoraggiato, la<lb/>
+    cui sola resistenza consiste nella<lb/>
+    difesa passiva dei reticolati etc… - <lb/>
+    In compenso hanno una pratica<lb/>
+    maggiore e ci insegnano le<lb/>
+    astuzie.    <lb/>
+    </p>
+
+
+<closer>
+ 
+Tanti baci a te.  
+Tuo 
+    
+
+<signed>
+Umberto 
+<persName ref="#Creator">Umberto Lombardo Radice</persName>
+
+</signed>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Письмо Умберто Ломбардо Радиче его брату Джузеппе Ломбардо Радиче</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under 
+                    Terms and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_primo"/>
+                <opener>
+                    <dateline>
+                        <date>M. 29-6-1915</date>
+                    </dateline>
+                    <salute>
+                        <presentation>Архитектор Г.Л.Р. Июнь, 1915</presentation>
+                        Дорогой<persName ref="Giuseppe_Lombardo_Radice">Пеппино</persName>, 
+                        пишу тебе из <placeName ref="Trieste">укреплений</placeName>.
+                    </salute>
+                </opener>
+                <p>Я дал всем прочитать письмо, где ты рассказал мне все то хорошее, что делает наша страна, 
+                   чтобы остановить зло войны. Ты стал популярен в 2 гренадерских полках, 7 дивизиях и 8 ротах 
+                   (двойные роты) в <placeName ref="Trieste">Trieste</placeName>? Я думаю, пройдет не один месяц,
+                   пока я доберусь туда. Сейчас австрийцы в лучших условиях, потому что они заняли горы с 
+                   внушительными орудиями защиты (заграждения, траншеи, мины, ловушки, - защитные огни и 
+                   наводнения), в то время как мы кое-как удерживаем равнину и немного последних земляных 
+                   укреплений, которые опираются на <placeName ref="Carso">карстовые горы</placeName>.
+                </p>   
+                <p>Мы уже заняли <placeName ref="Gorizia">Горицию</placeName>, и туда я не пойду, и 
+                   <placeName ref="Monte_Nero">Монте Неро</placeName> – ключ, чтобы занять все холмы на юге, 
+                   один за одним. Каждый холм — это крепость, хорошо вооруженная и защищенная. 
+                </p>   
+                <p>Но наш энтузиазм победит. Австрийцы должно быть уже устали, потому что все время 
+                   <untranscribed>(три слова неразборчиво)</untranscribed> они приходят, чтобы сдаться из-за голода и вообще потому что они 
+                   сыты этим по горло. Таким образом, нам остался обескураженный враг, чье единственное 
+                   сопротивление – это пассивная оборона колючей проволоки и т.д...</p>
+                <p>С другой стороны, у них большой опыт и нам есть, чему у них поучиться.</p>
+            <closer>Tanti baci a te. Tuo 
+                <signed>Umberto<persName ref="#Creator">Umberto Lombardo Radice</persName></signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Umberto Lombardo Radice'nin kardeşi Giuseppe Lombardo Radice'ye mektupları</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under 
+                    Terms and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_primo"/>
+                <opener>
+                    <dateline>
+                        <date>M. 29-6-1915</date>
+                    </dateline>
+                    <salute>
+                        <presentation>Mimar G.L.R Giugno., 1915</presentation>
+                        Canım <persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>,  <placeName ref="Trieste">uzak karakoldan                                 </placeName>
+                    </salute>
+                </opener>
+                <p>
+Bana, ülkemizin savaşın kötülüklerini gidermek için yaptığı iyi şeyleri anlattığın mektubunu herkese okutuyorum. Trieste'de 2 bombacı, 7 tümen, 8 bölük (ikiz bölük) arasında popüler oldunuz mu? Sanıyorum ki benim oraya gelmem aylar sürecek. Şu anda Avusturyalılar üstün durumda çünkü biz <placeName ref="Carso">Carsica zincirinin</placeName> düzlüğünü (ilk pafta sonu) ve bazı son payandaları, alt ovaları zar zor tutarken onlar dağları zorlu şekilde yardımcı savunmalarla tutuyorlar - (çitler, hendekler, mayınlar, kurt ağızları, sel, yangınlar, vb…)
+
+Ama <placeName ref="Gorizia">Gorizia</placeName> zaten bizimkiler tarafından işgal edilmiş durumda ve ben oradan geçmeyeceğim. <placeName ref="Monte_Nero">Montenero</placeName>, güneydeki tüm tepeleri birer birer bize düşürmenin anahtarı. Her tepe, iyi silahlanmış ve iyi savunulmuş bir kaledir.
+
+Fakat bizim çoşkulu gücümüz herkesi yenecek. Avusturyalılar yorulmuş olmalı, çünkü her an <untranscribed>(üç okunamayan kelime) </untranscribed> açlık ve pes ediş sebebiyle teslim olurlar. Bu sebeple, umutsuz ve tek direnci dikenli tel vb.’nin getirisi pasif savunma olan bir düşmanla karşı karşıyayız. 
+Öte yandan bizden çok daha tecrübeliler ve bize birçok 	numara öğretiyorlar. 
+</p>
+<closer>
+ 
+Çok öpüyorum.  
+
+<signed>
+Umberto'nuz
+<persName ref="#Creator">Umberto Lombardo Radice</persName>
+
+</signed>
+            </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettere di Umberto Lombardo Radice al fratello Giuseppe Lombardo Radice</title>
+                <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Salvatore Di Marzo</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Europeana 1914-1918</publisher>
+                <date>2018-09-11</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under 
+                    Terms and Policies of Europeana</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Europe</settlement>
+                        <repository source="collection">2020601_Ag_ErsterWeltkrieg_EU</repository>
+                        <idno type="URI">https://www.europeana.eu/it/item/2020601/https___1914_1918_europeana_eu_contributions_21749</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <pb facs="#Umberto_primo"/>
+                <opener>
+                    <dateline>
+                        <date>M. 29-6-1915</date>
+                    </dateline>
+                    <salute>
+                        <presentation>Architect. G.L.R Giugno., 1915</presentation>
+                        Dear<persName ref="Giuseppe_Lombardo_Radice">Peppino</persName>, 
+                        from the <placeName ref="Trieste">outposts</placeName>.
+                    </salute>
+                </opener>
+                <p>I let everyone read your letter in which you told me the good things that our country does to remedy the evils of war.
+				   Have you become popular at 2 Grenadiers, 7 division 8 company (twin companies) -------- in 
+				   <placeName ref="Trieste">Trieste</placeName>?I think it will be long months before I get there.
+				   For now the Austrians are in conditions - of superiority, because they hold the 
+				   mountains with formidable accessory defenses (fences, trenches, mines, wolf's mouths, - floods, fires, etc…)
+                   while we barely hold the plain (end first sheet) and some last buttresses,
+                   the lower plains, of the <placeName ref="Carso">Karst chain</placeName>.
+                </p>   
+                <p>But <placeName ref="Gorizia">Gorizia</placeName>is already being occupied by - ours and I won't
+                   pass there, the <placeName ref="Monte_Nero">Monte - nero</placeName> is the key to making all the hills in the south, 
+                   one by one, fall to us. Every hill is a fortress, well-armed and well defended.
+                </p>   
+                <p>But the enthusiastic force of ours all will win. The Austrians must be tired, because at any moment <untranscribed>(three unclear words) </untranscribed>
+                they come to turn themselves in for hunger and because they are fed up. We find therefore a discouraged enemy, 
+                whose only resistance consists in the passive defense of the barbed wire etc…</p>
+                <p>On the other hand they have a greater experience and teach us many tricks.</p>
+            	<closer>Many kisses to you. Name and name
+                	<signed>Your Umberto<persName ref="#Creator">Umberto Lombardo Radice</persName></signed>
+            	</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+</teiCorpus>

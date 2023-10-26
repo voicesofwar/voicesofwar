@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Записи старшего унтер-офицера команды разведчиков 253 пехотного Перекопского полка 
+                       Ивана Васильевича Кучеренко "Первый день мобилизации и за 5 месяцев пребывания на войне"</title>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>Evgeniia Vdovichenko</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Irem Atmar</name>
+                    <name>Rana Coskun</name>
+                    <name>Salvatore Di Marzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding of the Russian, English, Turkish and Italian versions by</resp>
+                    <name>Evgeniia Vdovichenko</name>
+                    <name>Irem Atmar</name>
+                    <name>Rana Coskun</name>
+                    <name>Salvatore Di Marzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Scientific and technical curation by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Boris Yeltsin Presidential Library</publisher>
+                <date>2001</date>
+                <availability>
+                    <licence target="http://www.nilc.ru/?p=rpk11">Distributed under the Russian Cataloging Rules</licence>
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Documentary materials of the period of World War I and the Provisional Government 
+                   (Collection of documents obtained from the USSR Academy of Sciences).</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Записи старшего унтер-офицера команды разведчиков 253 пехотного Перекопского полка 
+                           Ивана Васильевича Кучеренко "Первый день мобилизации и за 5 месяцев пребывания 
+                           на войне"</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Boris Yeltsin Presidential Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Boris Yeltsin Presidential Library</publisher>
+                    <date>2001</date>
+                    <availability>
+                        <licence target="http://www.nilc.ru/?p=rpk11">Distributed under the Russian Cataloging Rules</licence>
+                        <p>In the public domain</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Saint Petersburg</settlement>
+                            <repository>Boris Yeltsin Presidential Library</repository>
+                            <idno type="Identifier">'aa0e49a4-ae67-48d6-97fa-db1389da6d8c'</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <p><material>Paper</material>: A notebook with a violet cover and handwritten text.</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="7">7 pages of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+                <particDesc>
+                    <listPerson>
+                        <person xml:id="ivan_Kucherenko" sex="M" age="adult" role="creator">
+                            <persName>Иванъ Кучеренко</persName>
+                            <note>Creator of the document. Ukrainian peasant who voluntarily went to the front 
+                                  after the beginning of the First World War. Speaks Russian.</note>
+                        </person>
+                        <person xml:id="tsar" sex="M" age="adult" role="historical character">
+                            <persName>Tsar</persName>
+                            <note>Nicholas II, the last Emperor of Russia, ruling from 1 November 1894 until 
+                            his abdication on 15 March 1917.</note>
+                        </person>
+                        <person xml:id="village_chief" sex="M" age="adult" role="character of the text">
+                            <persName>Староста</persName>
+                            <note>Chief of the village where lived the author of the document.</note>
+                        </person>
+                        <person xml:id="germans" role="nation">
+                           <persName>Нiъмцы</persName>
+                           <note>German people at the beginning of the XX century.</note>
+                        </person>
+                        <person xml:id="aleshka" sex="M" age="adult" role="character of the text">
+                            <persName>Алешка</persName>
+                            <note>County military chief of the village where lived the author of the document.</note>
+                        </person>
+                        <person xml:id="daughter" sex="F" age="child" role="character of the text">
+                            <persName>Диточка</persName>
+                            <note>The daughter of the author of the document.</note>
+                        </person>
+                        <person xml:id="father" sex="M" age="adult" role="character of the text">
+                            <persName>Отецъ</persName>
+                            <note>The father of the author of the document.</note>
+                        </person>
+                        <person xml:id="mother" sex="F" age="adult" role="character of the text">
+                            <persName>Мать</persName>
+                            <note>The mother of the author of the document.</note>
+                        </person>
+                        <person xml:id="wife" sex="F" age="adult" role="character of the text">
+                            <persName>Жена</persName>
+                            <note>The wife of the author of the document.</note>
+                        </person>
+                        <person xml:id="grandfather" sex="M" age="adult" role="character of the text">
+                            <persName>Дедъ</persName>
+                            <note>The grandfather of the author of the document.</note>
+                        </person>
+                    </listPerson>
+                </particDesc>
+                <settingDesc>
+                    <listPlace>
+                        <place xml:id="village">
+                           <placeName>
+                               <settlement type="village">Дiъревня</settlement>
+                               <note>The village in Ukraine where lived the author of the text.</note>
+                           </placeName>
+                        </place>
+                        <place xml:id="Russia">
+                            <placeName>Россия</placeName>
+                                <location>
+                                    <geo>62.4084467773895, 92.80468710485395</geo>
+                                </location>
+                        </place>
+                        <place xml:id="Germany">
+                            <placeName>Германiя</placeName>
+                                <location>
+                                    <geo>51.7444463052284, 8.224502007997515</geo>
+                                </location>
+                        </place>
+                    </listPlace> 
+                </settingDesc> 
+            </profileDesc>
+            <xenoData>
+                <rdf:RDF>
+                    <!--  persons:
+                        @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                        @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                        @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                        dbo:ivan_Kucherenko a foaf:Person;
+                        rdfs:label "ivan_Kucherenko"@en.
+                    -->
+                    <rdf:Description tei:ref="#ivan_Kucherenko" rdf:about="https://w3id.org/voicesofwar/ivan_Kucherenko">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Ivan Kucherenko</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#tsar" rdf:about="https://dbpedia.org/page/Nicholas_II_of_Russia">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Tsar</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#village_chief" rdf:about="https://w3id.org/voicesofwar/village_chief">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Village chief</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#germans" rdf:about="https://dbpedia.org/page/Germans">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/#term_Group"/>
+                        <rdfs:label xml:lang="en">Germans</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#aleshka" rdf:about="https://w3id.org/voicesofwar/aleshka">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Aleshka</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#daughter" rdf:about="https://w3id.org/voicesofwar/daughter">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Daughter</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#father" rdf:about="https://w3id.org/voicesofwar/father">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Father</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#mother" rdf:about="https://w3id.org/voicesofwar/mother">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Мать</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#wife" rdf:about="https://w3id.org/voicesofwar/wife">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Wife</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#grandfather" rdf:about="https://w3id.org/voicesofwar/grandfather">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdfs:label xml:lang="en">Grandfather</rdfs:label>
+                    </rdf:Description>
+                    <!--  places:
+                        @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                        @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                        dbo:village a dbo:Place;
+                         rdfs:label "village"@en.
+                    -->
+                    <rdf:Description tei:ref="#village" rdf:about="https://w3id.org/voicesofwar/village">
+                        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                        <rdfs:label xml:lang="en">Village</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#Russia" rdf:about="https://dbpedia.org/page/Russian_Empire">
+                        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                        <rdfs:label xml:lang="en">Russia</rdfs:label>
+                    </rdf:Description>
+                    <rdf:Description tei:ref="#Germany" rdf:about="https://dbpedia.org/page/German_Reich">
+                        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+                        <rdfs:label xml:lang="en">Germany</rdfs:label>
+                    </rdf:Description>
+                </rdf:RDF>
+            </xenoData>
+        </teiHeader>
+        <facsimile>
+            <graphic xml:id="kucherenko" url="https://www.prlib.ru/item/331487?mode=full"/>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#kucherenko-1" n="1"/>
+                <head type="main">Записки старшего <lb/>
+                                  унтер-офицера команды <lb/>
+                                  разведчиков 253 пехотного <lb/>
+                                  Перекопского полка <lb/>
+                                  Васильевича Кучеренко "Первый день <lb/>
+                                  мобилизации и за 5 месяцев <lb/>
+                                  пребывания на войне"</head>
+                <head><date when="1914">[1914]</date></head>
+            </front>
+            <body>
+                <pb facs="#kucherenko-2" n="2"/>
+                    <head>Первый день мобилизации и за 5 месяцев пребывания на войнъ.</head>
+                    <p>Въ <placeName ref="#village">дiъревни</placeName> все тихо и спокойно, но кто <lb/>
+                       жъ думалъ, что вскоромъ времъни разразится <lb/>
+                       гроза, гроза надъ всимъ миромъ, и что кажд-<lb/>
+                       иму изъ  насъ прiйдется оставить на время<lb/>
+                       а иному и навсигда, свой родной домъ,<lb/>
+                       Отца Матиръ, а иному жену и<lb/>
+                       дитий, и гордо статьсоружieмъ върукахъ для защиты<lb/>
+                       <persName ref="#tsar">ЦАРЯ</persName> и <placeName ref="#Russia">Родины</placeName>.</p>
+                    <p>Но въ <placeName ref="#village">дiъревни</placeName> таки шла работа как и всигда,<lb/>
+                       кто рожъ возил со стiъпи, а кто уже,<lb/>
+                       а кто уже успiъл смолотит ь, возилъ зерно для<lb/>
+                       продажи въ ближайшее местечко,<lb/>
+                       въ поля, въ дерiъвни началася нiъбывалая<lb/>
+                       суматоха, дiъсятники то и дiъло бегали<lb/>
+                       со двора въ двор съзывая въсихъ къ управiъ,<lb/>
+                       пришелъ и <persName ref="#ivan_Kucherenko">я</persName>,:</p>
+                    <p>да въчемъ дiъло? спрашивали крестьянiъ<lb/>
+                       другъ въ други, но нiъкто нiъ чиво нiъ отвечалъ,<lb/>
+                       ибо нiъкто нiъ знал о случевшимся, да откуда<lb/>
+                       могли мы знать, если наше село обхватило<lb/>
+                       какъ пожаромъ.</p>
+                    <pb facs="#kucherenko-3" n="3"/>
+                    <p>Въдругъ виходитъ на крильцо сельской<lb/>
+                       <persName ref="#village_chief">Староста</persName>, и указалъ знакъ рукой замолчать,</p>
+                    <p>все утихли, насторочивъ свои уши<lb/>
+                       точно желая выслушать речь своего<lb/>
+                       <persName ref="#village_chief">Старосты</persName>, который в свою очередь<lb/>
+                       нiъ заставил сiъбя долго ждать<lb/>
+                       и проговорилъ.</p>
+                    <p>Вотъ что ребята! нашелся <persName ref="#germans">врагъ</persName>,<lb/>
+                       которой въновъ нападает на нашу<lb/>
+                       <placeName ref="#Russia">Матушку Россию</placeName> и нашему <persName ref="#tsar">Батюшкiъ<lb/>
+                       ЦАРЮ</persName> нужна наша помощъ, врагомъ<lb/>
+                       нашимъ является пока <placeName ref="#Germany">Германiя</placeName>.<lb/>
+                       Это <persName ref="#germans">нiъмцы</persName>: разносилося по<lb/>
+                       толпе, ахъ они окаяные еще мало<lb/>
+                       имъ смотри какими благами пользовались<lb/>
+                       в <placeName ref="#Russia">Россiи</placeName>. Где первая земля все занимаютъ<lb/>
+                       <persName ref="#germans">нiъмцы</persName>, а еще и воевать вздумали.<lb/>
+                       Да оно всигда такъ: приговорилъ черно<lb/>
+                       бородатый мужикъ,</p>
+                    <p>Пусти свинью за столъ то она и 
+                       <pb facs="#kucherenko-4" n="4"/>
+                        лапки положет на столъ, так и<lb/>
+                        <persName ref="#germans">Нiъмцы</persName>, тутъ живетъ Хлибъ соль утiъбя<lb/>
+                        есть,  а тiъбя во всякое время готовъ<lb/>
+                        утопить въ ложкiъ воды.
+                    </p>
+                    <p>Тиши! Тише! Раздался голосъ <persName ref="#village_chief">старосты</persName><lb/>
+                       да вотъ что ребята,  для чтобы нитирiърять<lb/>
+                       времiъни со списками, кто чувствуетъ<lb/>
+                       сiъбя здоровым и годится послужить на<lb/>
+                       пользу нашему <placeName ref="#Russia">Отъчеству</placeName>, то все Вы<lb/>
+                       должны явится къ 2м часамъ дня 18го июля<lb/>
+                       в присутствии <persName ref="#aleshka">Уiъздного Воинского Начальника<lb/>
+                       Г. Алешки</persName>, и --- совiътую<lb/>
+                       захватитi 2 пары бiълья а остальное<lb/>
+                       все тамъ Вам дадутъ, только скорей<lb/>
+                       а я побеспокоюсь нащетъ подводъ</p>
+                    <p>Нiънужно <persName ref="#village_chief">Иван Васильевич</persName>, мы на своих<lb/>
+                       пойдимъ, ответiъла уходящая толпа народа.</p>
+                    <p>Все забыли о своихъ полiъвыхъ работахъ,<lb/>
+                       во всехъ избахъ горели лампады предъ
+                       Святыми Угодниками.</p>
+                       <pb facs="#kucherenko-5" n="5"/>
+                    <p>Божямой сколько слезъ пролитыхъ<lb/>
+                       при уходи насъ. Моя пяти лiътняя<lb/>
+                       <persName ref="#daughter">дiъвочка</persName> сидела на рукахъ у меня и прижалась<lb/>
+                       комнiъ говорила.</p>
+                       <p><persName ref="#ivan_Kucherenko">Тятя</persName>, зачемъ ты уходишь на ково ты<lb/>
+                          оставляешь насъ, кто нам будет зараба<lb/>
+                          тывать деньги и покупать намъ хлебъ,<lb/>
+                          и своими тонiънькими ручками обхватила<lb/>
+                          мнiъ шею, и крепко крепко прижалась<lb/>
+                          ко мнiъ,</p>   
+                    <p>Я слышалъ стукъ iъа младiънчискаго<lb/>
+                       сердца, и своими губками начала целовать<lb/>
+                       мнiъ щеку.</p>   
+                    <p>На вопросы ей я ничево нiъ могъ отвiътить<lb/>
+                       и отъ слезъ нiъ могъ удержатся, лишь<lb/>
+                       ответилъ.</p> 
+                    <p><persName ref="#daughter">Диточка</persName> я скоро прiъду.</p>  
+                    <p>По всеi деревни тольки и слышно<lb/>
+                       прощанья да проклятiе нiслось<lb/>
+                       на <persName ref="#germans">нiъмцевъ</persName>.</p> 
+                    <p>Въ это время пришли мои родитiъли
+                       <pb facs="#kucherenko-6" n="6"/> 
+                       <persName ref="#father">Отецъ</persName> мъня благословилъ крестомъ<lb/>
+                       который наделъ мнiъ на шею, и <persName ref="#mother">мать</persName><lb/>
+                       в свою очередь обливаясь слезами говорила:<lb/> 
+                       <persName ref="#ivan_Kucherenko">Милый мой сын</persName>, идишь ты на смертое<lb/>
+                       дiъло, да спасутъ тiъбя отъ вражьей<lb/>
+                       пули мои матiъринскiе слезы,</p>    
+                    <p>Я больше ничево нiъ слышалъ и что дилал<lb/>
+                       нiъзнаю, Сердце как то съ жалось, и я<lb/>
+                       торопился скорей уiъхать, чтобы неслышать<lb/>
+                       бабьих рыданий. </p> 
+                    <p>Лошади стояли запряжены, <persName ref="#wife">жена</persName> торопилась<lb/>
+                       и укладывали въ корзинку нъ обходимы для мъня<lb/>
+                       въщи, но вдругъ двери отворилися и<lb/>
+                       въ избу вошел мой <persName ref="#grandfather">дет</persName> которому отроду<lb/>
+                       было 97 летъ.</p>  
+                    <p>Бог помочь дорогiе дитки, проговорилъ<lb/>
+                       <persName ref="#grandfather">дедъ</persName>, кряхтя садясь около мiъня рядом.<lb/>
+                       Ачто, <persName ref="#ivan_Kucherenko">Иванъ</persName>, уходишъ?</p> 
+                    <p>Да <persName ref="#grandfather">дедушка</persName> ухожу, пойдем проклятых<lb/>
+                       <persName ref="#germans">нiъмцевъ</persName> бить, </p>  
+                    <p>да… дiъло нiъплохое нiъмешалобы</p>  
+                    <p><pb facs="#kucherenko-7" n="7"/>
+                       проклятымъ <persName ref="#germans">идоламъ</persName> по отрубить<lb/>
+                       нiъмного крылья, а то они ужъ больно<lb/>
+                       широко их распустили. И <persName ref="#grandfather">дедъ</persName> взгялнул<lb/>
+                       на <persName ref="#daughter">дiъвочку</persName>, которая все время сидела<lb/>
+                       у меня на руках, и что то<lb/>
+                       шептала.</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Notes of the senior non-commissioned officer of the reconnaissance team 
+                           of the 253 Infantry Regiment of Perekop Ivan Kucherenko "First day of mobilization 
+                           and five months in the war"
+                    </title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Boris Yeltsin Presidential Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Boris Yeltsin Presidential Library</publisher>
+                    <date>2001</date>
+                    <availability>
+                        <licence target="http://www.nilc.ru/?p=rpk11">Distributed under the Russian Cataloging Rules</licence>
+                        <p>In the public domain</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Saint Petersburg</settlement>
+                            <repository>Boris Yeltsin Presidential Library</repository>
+                            <idno type="Identifier">'aa0e49a4-ae67-48d6-97fa-db1389da6d8c'</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="7">7 pages of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="en">English</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+          <front>
+                <pb facs="#kucherenko-1" n="1"/>
+                <head type="main">Notes of the senior non-commissioned officer of the reconnaissance team 
+                                  of the 253 Infantry Regiment of Perekop Ivan Kucherenko "First day of 
+                                  mobilization and five months in the war"
+                </head>
+                <head><date when="1914">[1914]</date></head>
+            </front>
+            <body>
+                <pb facs="#kucherenko-2" n="2"/>
+                    <head>First day of mobilization and five months in the war.</head>
+                    <p>All is quiet and calm in the<placeName ref="#village">village</placeName> 
+                       but who could think that so soon there would be a storm, a thunderstorm over all the world,
+                       and that each of us would have to leave for a while or even forever his own house, father,
+                       mother and for some a wife and a child, and proudly stand with the gun in the hands to 
+                       protect the<persName ref="#tsar">Tsar</persName>and our<placeName ref="#Russia">Homeland</placeName>.</p>
+                    <p>But work in the<placeName ref="#village">village</placeName> was in progress, 
+                       someone was bringing the rye from the fields. That person had already threshed the grain,
+                       transported it to the nearest place to sell, and in the fields and in the countryside 
+                       started an extraordinary commotion: foremen were running from the yard to the yard, 
+                       gathering all together to our village government, also 
+                       <persName ref="#ivan_Kucherenko">I</persName>have come:</p>
+                    <p>“What's up??” Peasants were asking each other, but nobody answered, because nobody knew 
+                        what had happened, how could we have known, it seemed as if our village had been set on 
+                        fire.</p>
+                    <pb facs="#kucherenko-3" n="3"/>
+                    <p>Then the<persName ref="#village_chief">village chief</persName>, came out to the porch and 
+                       signaled with his hand that we should be silent. We all have fallen silent, opened our ears to 
+                       hear the speech of our<persName ref="#village_chief">chief</persName>, who in his turn did 
+                       not make us wait a long time and started to speak.</p>
+                    <p>“Here's the thing, guys! An<persName ref="#germans">enemy</persName>,has been found, who is 
+                        attacking now our<placeName ref="#Russia">Mother Russia</placeName>and our  
+                        <persName ref="#tsar">Father Tsar</persName>, who need our help. Now 
+                        <placeName ref="#Germany">Germany</placeName>is our enemy. The 
+                        <persName ref="#germans">Germans</persName>: resounded through the crowd, damn them, it's never 
+                        enough for them, look, how they benefited in<placeName ref="#Russia">Russia</placeName>! 
+                        Where there is a land, it is always occupied by 
+                       <persName ref="#germans">Germans</persName>, and now they want to fight”. “Yes, it is always like 
+                        this”, - the black bearded man said,</p>
+                    <p>“When you let a pig sit at the table,
+                       <pb facs="#kucherenko-4" n="4"/>
+                        it will lay its hooves on that table. As well as <persName ref="#germans">Germans
+                        </persName>, they are living here, have it all, but they are always ready to drown us 
+                        in the spoon of water”.
+                    </p>
+                    <p>“Hush! Hush up!” - there was a voice of the<persName ref="#village_chief">сhief</persName>
+                       - “So, guys, not to waste any time for making lists, all of you, who feel healthy and fit to 
+                       serve our <placeName ref="#Russia">Homeland</placeName>must come at 2 pm on 18th of July to 
+                       the presence of the <persName ref="#aleshka">Military Chief Mr. Aleshka</persName>, I would give 
+                       you an advice to take 2 pairs of underwear and the rest will be given to you, but do it as soon 
+                       as possible, and I will organize carriages for you”.</p>
+                    <p>“No need,<persName ref="#village_chief">Ivan Vasilyevich</persName>we will come on our feet”, - 
+                       the crowd of people responded, diverging.</p>
+                    <p>They all forgot their field work, and lamps were flashing in all their houses in front of 
+                       the icon of saints.</p>
+                       <pb facs="#kucherenko-5" n="5"/>
+                    <p>Good Lord, how many tears were shed when we were leaving. My five-year-old
+                       <persName ref="#daughter">daughter</persName>was in my arms cuddling me and she said:</p>
+                       <p>"<persName ref="#ivan_Kucherenko">Daddy</persName>, why are you going to leave us, who 
+                          will make money for us to buy bread", - and she grasped my neck with her thin arms and
+                          tucked in my side.</p>   
+                    <p>I heard the sound of her young heart, and she began to kiss my cheek.</p>   
+                    <p>I could not answer with anything to her questions, but also I could not stop the tears.</p> 
+                    <p><persName ref="#daughter">Baby</persName>I’ll be back soon”.</p>  
+                    <p>In all yards words of farewell and curses to <persName ref="#germans">Germans</persName>
+                       were just heard.</p> 
+                    <p>At that time my parents came.
+                       <pb facs="#kucherenko-6" n="6"/> 
+                       My<persName ref="#father">father</persName>blessed me with a cross, which he put upon 
+                       my neck, and my<persName ref="#mother">mother</persName>said to me, crying with tears: 
+                       “<persName ref="#ivan_Kucherenko">My dear son</persName>, you go to death, I hope that my mother’s 
+                       tears will save you from the enemy’s bullets”.</p>    
+                    <p>I heard nothing else, and I cannot remember what I have done, because my heart sank, and I hurried up 
+                       to go away just not to hear women crying.</p> 
+                    <p>The horses were harnessed, my<persName ref="#wife">wife</persName> was in a hurry to put all my stuff 
+                       in the basket, but the other door was opened and my<persName ref="#grandfather">grandfather</persName>,
+                       who was 97 years old entered.</p>  
+                    <p>“God bless you, dear children”, - said my 
+                       <persName ref="#grandfather">grandfather</persName>,and groaning, sat beside me, - “Well, 
+                       <persName ref="#ivan_Kucherenko">Ivan</persName>, are you leaving?”</p> 
+                    <p>“Yes,<persName ref="#grandfather">granny</persName>, I go to beat these goddamned 
+                       <persName ref="#germans">Germans</persName>”.</p>  
+                    <p>“Yes... It’s good, would do well to</p>  
+                    <p><pb facs="#kucherenko-7" n="7"/>
+                       cut off the wings of these<persName ref="#germans">cursed tyrants</persName> otherwise they 
+                       would stretch them too wide”. And the <persName ref="#grandfather">grandfather</persName> 
+                       looked at the <persName ref="#daughter">girl</persName>, which was sitting in my arms 
+                       all that time and whispered something.</p>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Perekop Ivan Kucherenko'nun 253 Piyade Alayı keşif ekibinin kıdemli astsubayının 
+                           notları "Seferberliğin ilk günü ve savaşta beş ay"
+                    </title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                        <name>Irem Atmar</name>
+                        <name>Rana Coskun</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Boris Yeltsin Presidential Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Boris Yeltsin Presidential Library</publisher>
+                    <date>2001</date>
+                    <availability>
+                        <licence target="http://www.nilc.ru/?p=rpk11">Distributed under the Russian Cataloging Rules</licence>
+                        <p>In the public domain</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Saint Petersburg</settlement>
+                            <repository>Boris Yeltsin Presidential Library</repository>
+                            <idno type="Identifier">'aa0e49a4-ae67-48d6-97fa-db1389da6d8c'</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="7">7 pages of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="tur">Turkish</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+          <front>
+                <pb facs="#kucherenko-1" n="1"/>
+                <head type="main">Perekop Ivan Kucherenko'nun 253 Piyade Alayı keşif ekibinin kıdemli astsubayının notları
+                                "Seferberliğin ilk günü ve savaşta beş ay"
+                </head>
+                <head><date when="1914">[1914]</date></head>
+            </front>
+            <body>
+                <pb facs="#kucherenko-2" n="2"/>
+                    <head>Seferberliğin ilk günü ve savaşın beşinci ayı.</head>
+                    <p><placeName ref="#village">Köyde</placeName> her şey yolunda ve sakindi. Kim bilebilirdi 
+                       ki yakında bir fırtınanın çıkacağını… Bir fırtına ki tüm dünyayı etkileyecek; herbirimizi
+                       evinden, babasından, anasından ve bazılarımızı karısından ve çocuğundan, bir süreliğine 
+                       hatta sonsuza kadar ayrı düşürecek ve elimizde silahımızla, gururla 
+                       <persName ref="#tsar">Çarı</persName> ve <placeName ref="#Russia">Anavatanımızı
+                       </placeName> korumamızı sağlayacak.
+                    </p>
+                    <p>Ama <placeName ref="#village">köydeki</placeName> işler devam ediyordu, birisi 
+                       tarlalardan çavdar getiriyordu. O kişi tahılı harmanlamış, satmak için en yakın yere 
+                       götürmüştü. Tarlalarda ve kırlarda olağanüstü bir kargaşa başlamıştı: ustabaşılar avludan
+                       avluya koşuyor, hep birlikte köy muhtarlığına gidiyorlardı, 
+                       <persName ref="#ivan_Kucherenko">ben</persName> de gittim.
+                    </p>
+                    <p>“Neler oluyor?” Köylüler birbirlerine soruyorlardı. Ama kimse cevap vermedi çünkü kimse 
+                       neler olduğunu bilmiyordu. Köyümüz sanki ateşe verilmiş gibiydi.
+                    </p>
+                    <pb facs="#kucherenko-3" n="3"/>
+                    <p>Ardından <persName ref="#village_chief">köyün muhtarı</persName> öne çıktı ve eliyle 
+                       susmamızı işaret etti. Hepimiz sessizliğe bürünüp kulağımızı 
+                       <persName ref="#village_chief">muhtarımıza</persName> verdik, kendisi de bunun 
+                       karşılığında bizi daha fazla bekletmedi ve konuşmaya başladı. 
+                    </p>
+                    <p>“İşte çocuklar, durum bu! Ortada bir <persName ref="#germans">düşman</persName> var, bu 
+                       düşman <placeName ref="#Russia">Anavatanımıza</placeName> ve <persName ref="#tsar">
+                       Babamız Çar</persName>’a saldırıyor. Yardımımıza ihtiyaç var. <placeName ref="#Germany">
+                       Almanya</placeName> artık düşmanımız. <persName ref="#germans">Almanlar</persName>: 
+                       kalabalıktan güç alıyorlar, onlara lanet olsun, onlar için hiçbir şey yeterli değil. 
+                       Bakın, <placeName ref="#Russia">Rusya</placeName>’dan nasıl da nemalandılar! Nerede bir 
+                       toprak varsa, orayı <persName ref="#germans">Almanlar</persName> işgal ediyor, şimdi de 
+                       savaşmak istiyorlar”.
+                    </p> 
+                    <p>“Evet, bu hep böyleydi”, dedi kara sakallı adam, “Eğer bir domuzun masana oturmasına izin
+                        verirsen,
+                        <pb facs="#kucherenko-4" n="4"/> 
+                        o domuz toynaklarını masaya koyar. <persName ref="#germans">Almanlar</persName> da öyle. 
+                        Burada yaşıyorlar, her şeyleri var, ama daima bizi bir kaşık suda boğmaya hazırlar”.
+                    </p>
+                    <p>“Susun! Susun, tamam!” dedi <persName ref="#village_chief">muhtar</persName>. “Listeler 
+                       yaparak vakit kaybetmemeliyiz çocuklar. <placeName ref="#Russia">Anavatınımıza</placeName> 
+                       hizmet edecek kadar sağlıklı hisseden herkes 18 Temmuz saat 2’de <persName ref="#aleshka">
+                       Amir Bay Aleshka</persName>’nın huzuruna gelsin. Size tavsiyem, yanınıza 2 çift iç çamaşırı
+                       alın, geri kalanlar size verilecek. Ama elinizi çabuk tutun, ben de sizin için araba 
+                       ayarlayacağım”. 
+                    </p>
+                    <p>“Lüzumu yok, <persName ref="#village_chief">Ivan Vasilyevich</persName>, yürüyerek geliriz”
+                       dedi kalabalık, farklı cevaplar da vardı.
+                    </p>
+                     <p>Herkes tarla işini arkada bıraktı, evlerindeki Aziz ikonlarının önünde ışıklar yanıyordu.</p>
+                    <pb facs="#kucherenko-5" n="5"/>
+                    <p>Yüce Tanrım, biz giderken ne çok gözyaşı döküldü. Beş yaşındaki <persName ref="#daughter">
+                       kızım</persName> kollarımda bana sarılırken “<persName ref="#ivan_Kucherenko">Babacığım
+                       </persName>, neden bizi bırakıp gidiyorsun, eve kim ekmek getirecek” dedi ve yanıma yanaşıp
+                       ince kollarıyla boynuma sarıldı.
+                    </p>
+                    <p> Küçük kalbinin atışını duyabiliyordum, yanaklarımı öpmeye başladı.</p>   
+                    <p>Sorularına hiçbir cevap veremediğim gibi gözyaşlarını da durduramıyordum.</p> 
+                    <p>“<persName ref="#daughter">Bebeğim</persName>, yakında döneceğim”.</p>  
+                    <p>Tarlaların hepsinden vedalaşma sesleri ve <persName ref="#germans">Almanlara</persName> 
+                       okunan lanetler duyuluyordu.
+                    </p>
+                    <p>O sırada annemle babam geldi.
+                       <pb facs="#kucherenko-6" n="6"/>  
+                       <persName ref="#father">Babam</persName> boynuma taktığı haç ile beni kutsadı.
+                       <persName ref="#mother">Annem</persName> de ağlayarak: “<persName ref="#ivan_Kucherenko">
+                       Canım oğlum</persName>, ölüme gidiyorsun, umarım annemin gözyaşları seni düşman 
+                       kurşunlarından korur” dedi.
+                    </p>    
+                    <p>Başka hiçbir şey duymuyordum. Ne yaptığımı hatırlamıyorum çünkü yüreğim sızlıyordu. 
+                       Kadınların ağlamasını duymamak için acele ediyordum.
+                    </p> 
+                    <p>Atlar koşulmultu, <persName ref="#wife">karım</persName> her şeyimi sepete koymak için 
+                       acele ediyordu. Ama diğer kapı açıldı ve 97 yaşında olan <persName ref="#grandfather">
+                       büyükbabam</persName> içeri girdi.
+                    </p>  
+                    <p>“Tanrı size kutsasın sevgili çocuklar”dedi <persName ref="#grandfather">büyükbabam
+                       </persName> ve bir iniltiyle yanıma oturdu, “<persName ref="#ivan_Kucherenko">Ivan
+                       </persName>, gidiyor musun?”
+                    </p> 
+                    <p>“Evet, <persName ref="#grandfather">büyükbaba</persName>, o lanet olası 
+                       <persName ref="#germans">Almanları</persName> yenmeye gidiyorum”.
+                    </p>  
+                    <p>“Evet... Bu iyi bir şey,
+                       <pb facs="#kucherenko-7" n="7"/> 
+                       bu <persName ref="#germans">lanet olası tiranların
+                       </persName> kanatlarını kesmek iyi olur, aksi halde kanatlarını çok açarlar”. 
+                       <persName ref="#grandfather">Büyükbabam</persName> o sırada kollarımdaki 
+                       <persName ref="#daughter">kıza</persName> baktı ve bir şeyler fısıldadı.
+                    </p>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Appunti dell'alto sottufficiale della squadra di ricognizione del reggimento di fanteria 253 di Perekop Ivan Kucherenko
+                        Primo giorno di mobilitazione e cinque mesi di guerra
+                    </title>
+                    <respStmt>
+                        <resp>Transcription, encoding and translation by</resp>
+                        <name>Evgeniia Vdovichenko</name>
+                        <name>Salvatore Di Marzo</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Boris Yeltsin Presidential Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Boris Yeltsin Presidential Library</publisher>
+                    <date>2001</date>
+                    <availability>
+                        <licence target="http://www.nilc.ru/?p=rpk11">Distributed under the Russian Cataloging Rules</licence>
+                        <p>In the public domain</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Saint Petersburg</settlement>
+                            <repository>Boris Yeltsin Presidential Library</repository>
+                            <idno type="Identifier">'aa0e49a4-ae67-48d6-97fa-db1389da6d8c'</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="7">7 pages of source material</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#kucherenko-1" n="1"/>
+                <head type="main">Appunti dell'alto sottufficiale della squadra di ricognizione del reggimento di fanteria 253 di Perekop Ivan Kucherenko
+                    Primo giorno di mobilitazione e cinque mesi di guerra
+                </head>
+                <head><date when="1914">[1914]</date></head>
+            </front>
+            <body>
+                <pb facs="#kucherenko-2" n="2"/>
+                <head>Primo giorno di mobilitazione e cinque mesi di guerra</head>
+                <p>Tutto è tranquillo e calmo nel <placeName ref="#village">villaggio</placeName>, ma chi 
+                   potrebbe pensare che a breve ci sarà una tempesta, un temporale su tutto il mondo, e che 
+                   ognuno di noi dovrebbe lasciare per un po' o anche per sempre la propria casa, padre,
+                   madre e per alcuni una moglie e un figlio, e con orgoglio si ergerà con la pistola in mano 
+                   per proteggere lo <persName ref="#tsar">Zar</persName> e la nostra <placeName ref="#Russia">
+                   Patria</placeName>.
+                </p>
+                <p>Ma in <placeName ref="#village">paese</placeName> si lavorava, qualcuno portava la segale dai
+                   campi. Quella persona aveva già trebbiato il grano, lo aveva trasportato nel luogo più vicino
+                   per venderlo, ma nei campi e nelle campagne iniziò un trambusto straordinario: i caposquadra 
+                   correvano di aia in aia, radunandosi tutti insieme al governo del nostro villaggio, anche 
+                   <persName ref="#ivan_Kucherenko">io</persName> andai.
+                </p>
+                <p>"Che cosa succede??" I contadini si interrogavano, ma nessuno rispondeva, perché nessuno 
+                    sapeva cosa fosse successo, come potevamo saperlo, sembrava che il nostro paese fosse stato
+                    incendiato.
+                </p>
+                <pb facs="#kucherenko-3" n="3"/>
+                <p>Poi il <persName ref="#village_chief">capo del villaggio</persName> uscì sul portico e fece 
+                   segno con la mano che dovevamo stare zitti. Tutti noi rimanemmo in silenzio, abbiamo aperto 
+                   le orecchie per ascoltare il discorso del nostro <persName ref="#village_chief">capo
+                   </persName>, che a sua volta non ci ha fatto aspettare molto e si è messo a parlare.
+                </p>
+                <p>“Ecco il punto, ragazzi! È stato trovato un <persName ref="#germans">nemico</persName>, che 
+                    sta attaccando ora la nostra Madre <placeName ref="#Russia">Russia</placeName> e il nostro 
+                    <persName ref="#tsar">Padre Zar</persName>, che hanno bisogno del nostro aiuto. Ora la 
+                    <placeName ref="#Germany">Germania</placeName> è il nostro nemico”. “I <persName ref="#germans">
+                    tedeschi</persName>”: risuonò tra la folla,” dannazione a loro, non è mai abbastanza per loro,
+                    guarda, come hanno beneficiato in <placeName ref="#Russia">Russia</placeName>!
+                    Dove c'è una terra, è sempre occupata dai <persName ref="#germans">tedeschi</persName>, e adesso
+                    vogliono combattere”.
+                </p>
+                <p>“Sì, è sempre così”, - disse l'uomo con la barba nera, - “Quando fai sedere un maiale a 
+                   tavola, metterà gli zoccoli su quella tavola.
+                </p>
+                <pb facs="#kucherenko-4" n="4"/>
+                <p>Come i <persName ref="#germans">tedeschi</persName>, vivono qui, hanno tutto, ma sono sempre 
+                   pronti ad annegarci nel cucchiaio d'acqua”.
+                </p>
+                <p>"Silenzio! Zitti!" – fece la voce del <persName ref="#village_chief">сapo</persName>,
+                    - “Allora, ragazzi, per non perdere tempo a fare liste, tutti voi, che vi sentite sani e 
+                    idonei a servire la nostra <placeName ref="#Russia">Patria</placeName>,
+                    dovete venire alle 14 del 18 luglio alla presenza del capo militare 
+                    <persName ref="#aleshka">Mr. Aleshka</persName>. Io vi consiglierei di prendere 2 paia di 
+                    mutande e il resto vi sarà dato, ma fatelo al più presto possibile e vi organizzerò le 
+                    carrozze”.
+                </p>
+                <p>"Non c'è bisogno, <persName ref="#village_chief">Ivan Vasilyevich</persName>, verremo a 
+                   piedi", - rispose la folla di persone, divergendo. Tutti dimenticarono il lavoro nei campi e 
+                   le lampade lampeggiavano in tutte le loro case davanti all'icona dei santi.
+                </p>
+                <pb facs="#kucherenko-5" n="5"/>
+                <p>Buon Dio, quante lacrime sono state versate quando siamo partiti. Mia 
+                   <persName ref="#daughter">figlia</persName> di cinque anni era tra le mie braccia che mi 
+                   coccolava e mi ha detto:
+                </p>
+                <p>"<persName ref="#ivan_Kucherenko">Papà</persName>, perché ci lasci, chi ci farà i soldi per 
+                   comprare il pane", - e mi ha afferrato il collo con le sue braccia magre e nascosto nel mio 
+                   fianco.
+                </p>
+                <p>Ho sentito il suono del suo giovane cuore e lei ha cominciato a baciarmi la guancia.</p>
+                <p>Non potevo rispondere con niente alle sue domande, ma nemmeno potevo fermare le lacrime.</p>
+                <p>"<persName ref="#daughter">Tesoro</persName>, tornerò presto".</p>
+                <p>In tutti i cortili si udivano solo parole di addio e imprecazioni ai <persName ref="#germans">
+                   tedeschi</persName>.
+                </p>
+                <p>In quel momento vennero i miei genitori.</p>
+                <pb facs="#kucherenko-6" n="6"/> 
+                <p>Mio <persName ref="#father">padre</persName> mi benedisse con una croce, che mi mise al collo,
+                   e mia <persName ref="#mother">madre</persName> mi disse piangendo: 
+                   “<persName ref="#ivan_Kucherenko">Mio caro figlio</persName>, vai verso la morte, spero che 
+                   le lacrime di mia madre ti salvino dalle pallottole del nemico”.
+                </p>
+                <p>Non ho sentito altro, e non ricordo cosa ho fatto, perché il mio cuore è sprofondato,
+                   e mi sono affrettato ad andarmene solo per non sentire le donne piangere.
+                </p>
+                <p>I cavalli sono stati bardati, mia <persName ref="#wife">moglie</persName> aveva fretta di 
+                   mettere tutta la mia roba nella cesta, ma l'altra porta si è aperta ed è entrato mio 
+                   <persName ref="#grandfather">nonno</persName>, che aveva 97 anni.
+                </p>
+                <p>"Dio vi benedica, cari figli", - disse mio <persName ref="#grandfather">nonno</persName> 
+                   e gemendo, si sedette accanto a me, - "Ebbene, <persName ref="#ivan_Kucherenko">Ivan
+                   </persName>, te ne vai?" “Sì, <persName ref="#grandfather">nonno</persName>, vado a 
+                   sconfiggere questi dannati <persName ref="#germans">tedeschi</persName>”.
+                </p>
+                <p>“Sì... Va bene, farebbe bene</p>
+                <p><pb facs="#kucherenko-7" n="7"/>
+                   mozzare le ali a questi <persName ref="#germans">maledetti tiranni</persName>, altrimenti le
+                   allargherebbero troppo”. E il <persName ref="#grandfather">nonno</persName> ha guardato la 
+                   <persName ref="#daughter">ragazza</persName> che era rimasta seduta tra le mie braccia per 
+                   tutto quel tempo e ha sussurrato qualcosa.
+                </p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
